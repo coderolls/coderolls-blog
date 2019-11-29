@@ -1,0 +1,63 @@
+# Site
+name: "codeRolls"
+title: "codeRolls"
+description: "Start codeing today!"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+google_analytics: 'UA-12293213-1'
+disqus: gauravkukade
+mailchimp-list: 'https://coderolls.us4.list-manage.com/subscribe/post?u=91e4893f731db2a4807928752&amp;id=76d82df79a'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  gaurav:
+    name: Gaurav Kukade
+    display_name: Gaurav Kukade
+    gravatar: 4cb49146376b1ef2b46181f2388655ca
+    email: gaurav@coderolls.com
+    web: https://www.linkedin.com/in/gauravkukade/
+    twitter: https://twitter.com/gdkukade
+    description: "Hi 👋🏼 I'm Gaurav Kukade, a software developer. I write tutorials for Java programming language and related technologies."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
