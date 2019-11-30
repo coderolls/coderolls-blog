@@ -102,13 +102,12 @@ Compairing character sequence of thirdString (Butter) to the character sequence 
 Compairing character sequence of fourthString (Cheese) to the character sequence of firstString (Paneer) returns: -13
 ```
 Explanation:
-1. In first case, compareTo() method returns zero since firstString and secondString are same.
-2. In second case, compareTo() method returns 14 since secondString follows thirdString by 14 characters. The pictorial explanation for this case is given below.
-
+1. In first case,`compareTo()` method returns zero since firstString and secondString are same.
+2. In second case, `compareTo()` method returns 14 since secondString follows thirdString by 14 characters. The pictorial explanation for this case is given below.
 ![An explanation for the second case of the java program for `compareTo()` method](/assets/images/2019-11-30/comapreto-method-secondstring-compareto-thirdstring.png)
 
-3. In third case, compareTo() method returns -1 since thirdString precedes fourthString by 1 character.
-4. In last case, compareTo() method returns -13 since fourthString precedes firstString by 13 characters. The pictorial explanation for this case is given below.
+3. In third case, `compareTo()` method returns -1 since thirdString precedes fourthString by 1 character.
+4. In last case, `compareTo()` method returns -13 since fourthString precedes firstString by 13 characters. The pictorial explanation for this case is given below.
 
 ![An explanation for the fourth case of the java program for `compareTo()` method](/assets/images/2019-11-30/comapreto-method-fourthString-compareto-firstString.png)
 
@@ -123,8 +122,8 @@ First, we will see the logic, how can we build the logic for our user-defined me
 2. Apply while loop for condition `k`<`lim` where k is integer variable initiated with 0.
 
 3. Apply if condition to check if the character at an index k of both the strings is not similar; if the condition returns the difference between these two characters.
-
-We will cast the difference as integer value so that the difference between the Unicode value of character will be return.
+  
+   We will cast the difference as integer value so that the difference between the Unicode value of character will be return.
 
 4. If the if condition is false, the while loop will continue for the rest of the iterations until condition is true i.e `k`<`lim`.
 
@@ -201,12 +200,12 @@ Compairing firstString (Paneer) to the fifthString (PaneerButter) returns: -6
 ```
 ## Conclusion
 We have seen how to compare two strings lexicographically in Java. As per the articles, there are two ways to do the same
-1. Using the Java compareTo() method
+1. Using the Java `compareTo()` method
 2. By creating a user-defined method
 
-In a first way, I am using the compareTo() method of the Java and in the second way I have created the user-defined method compareToString().
+In a first way, I am using the `compareTo()` method of the Java and in the second way I have created the user-defined method `compareToString()`.
 
-Most noteworthy, In compareTo() method of the Java, the comparison is based on the Unicode value of each character in the strings.
+Most noteworthy, In `compareTo()` method of the Java, the comparison is based on the Unicode value of each character in the strings.
 
 If you found this article worth, please [Give me a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
 
