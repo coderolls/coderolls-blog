@@ -3,9 +3,10 @@ layout: post
 title:  "Introduction to Java Technology (Language and Platform)"
 author: gaurav
 categories: [ Java, Core Java ]
-image: assets/images/4.jpg
+image: assets/images/2019-11-29/java-introduction.png
 description: "Java is a general purpose computer programming language. Let's get introduce to an amazing programming language."
 featured: true
+comments: true
 hidden: true
 ---
 
@@ -28,6 +29,8 @@ Let’s understand Java as a programming language.
 ## Java As a Programming Language
 
 Java is a high-level programming language. It is a concurrent, class-based, object-oriented programming language.
+
+![Java Language Feature](/assets/images/2019-11-29/java-language-feature.png)
 
 We will understand Java by the following simple terms, let’s discuss one by one,
 
@@ -135,6 +138,8 @@ In Java, the source code is written in a file with a .java extension.
 When we compile this file with the javac compiler, the .class file will be generated. The .class file contains the bytecode, the bytecode can run on the Virtual Machine.
 
 Refer the following diagram,
+
+![How Java Code Works](/assets/images/2019-11-29/how-java-code-works.png)
 
 What was your experience when you started learning Java, share with us in the comment section.
 

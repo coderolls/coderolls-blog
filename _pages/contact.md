@@ -7,6 +7,7 @@ comments: false
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
+
 <p>Hi👋🏼, I am Gaurav here! Author at codeRolls.</p>
 
 <p>Get in touch with us at <span class="spoiler">hello@coderolls.com</span></p>
@@ -15,8 +16,8 @@ comments: false
 
 <p>Head over to our <a href="https://github.com/coderolls/coderolls.github.io">Github repository</a>!</p>
 
-<p><a href="/">Visit Home</a></p>
 </div>
+
 
 <div class="col-md-4">
 

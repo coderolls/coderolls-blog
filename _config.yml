@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-12293213-1'
-disqus: gauravkukade
+disqus: 'gauravkukade'
 mailchimp-list: 'https://coderolls.us4.list-manage.com/subscribe/post?u=91e4893f731db2a4807928752&amp;id=76d82df79a'
 include: ["_pages"]
 permalink: /:title/
