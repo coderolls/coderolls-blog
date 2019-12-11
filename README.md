@@ -1,5 +1,5 @@
 <p align="center">
-![coderolls GitHub Repo](github-repo-social-preview.png)
+  <img src="github-repo-social-preview.png">
 </p>
 
 <center> <h1>codeRolls blog</h1> </center>
