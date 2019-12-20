@@ -202,7 +202,7 @@ When we create string using the  `new`  operator, a new string object is created
 
 `compareTo()`  method compares the character sequence of the argument string with the character sequence of the specified string.
 
-![Showing argument string and specified string.](https://coderolls.com/wp-content/uploads/2019/08/showing-argument-string-and-specified-string.png)
+![Showing argument string and specified string.](/assets/images/2019-12-10/showing-argument-string-and-specified-string.png)
 
 Showing argument string and a specified string.
 
