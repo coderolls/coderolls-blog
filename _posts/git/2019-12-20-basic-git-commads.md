@@ -116,8 +116,6 @@ The followig gif shows the `git commit` command
 
 It is the simple way to write the commit message but there is a more in-depth way to write a commit message with title and description. We will see that in a separate blogpost.
 
-![GIF showing git commit]
-
 ## 5. `git status`
 
 `git status` shows the status of the changes as untracked, modified or staged.
