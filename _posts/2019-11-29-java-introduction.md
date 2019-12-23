@@ -3,11 +3,8 @@ layout: post
 title:  "Introduction to Java Technology (Language and Platform)"
 author: gaurav
 categories: [ Java, Core Java ]
-image: assets/images/2019-11-29/java-introduction.png
 description: "Java is a general purpose computer programming language. Let's get introduce to an amazing programming language."
-featured: true
-comments: true
-hidden: true
+featured: false
 ---
 
 Java is a general purpose computer programming language. Let's get introduce to an amazing programming language.
