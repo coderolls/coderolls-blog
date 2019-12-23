@@ -2,12 +2,9 @@
 layout: post
 title: "How To Reverse A String In Java (5 ways)"
 author: gaurav
-image: assets/images/2019-12-02/alex-radelich.jpg
 categories: [ Java, Core Java, String]
 description: "In this article, we will learn how to reverse strings in Java. I have write down 5 diffrent ways to reverse strings. Have a look!"
-featured: true
-comments: true
-hidden: true
+featured: false
 ---
 
 In this article, we will learn how to reverse strings in Java. I have write down 5 diffrent ways to reverse strings. Have a look!
