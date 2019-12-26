@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Difference Between `StringBuffer` and `StringBuilder` class"
 author: gaurav
