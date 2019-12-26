@@ -50,6 +50,7 @@ Now you can learn the difference, the `StringBuffer` class is synchronized while
 
 But this is the main difference. We will discuss a few more differences which came into the existence because of this main difference.
 
+{:class="table table-bordered"}
 | Feature | `StringBuffer` | `StringBuilder`|
 | --- | --- |---|
 | Synchronization| `StringBuffer` is synchronized. That means all the methods of the `StringBuffer` class are synchronized.| `StringBuilder` is not synchronized. That is none of the methods of the `StringBuilder` class  is synchronized.|
