@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Compare Two Strings Lexicographically In Java"
 author: gaurav
