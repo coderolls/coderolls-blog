@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Learn About Java String Pool And `intern()` Method
+title: Learn About Java String Pool And intern() Method
 author: gaurav
 categories: [ Java, Core Java, String]
 description: String is an important class in Java. In this article I am explaining one of the most important concepts of String class i.e. the concept of Java String Pool and the `intern()` method. Read this article to understand this concept completely. 
