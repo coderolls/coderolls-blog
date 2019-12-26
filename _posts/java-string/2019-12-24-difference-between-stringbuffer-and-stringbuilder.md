@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Difference Between `StringBuffer` and `StringBuilder` class"
+title: "Difference Between StringBuffer and StringBuilder class"
 author: gaurav
 image: assets/images/2019-12-24-difference-between-stringbuffer-and-stringbuilder/blog-cover.jpg
 categories: [ Java, Core Java, String]
