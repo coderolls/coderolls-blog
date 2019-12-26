@@ -5,7 +5,8 @@ author: gaurav
 image: assets/images/2019-12-24-difference-between-stringbuffer-and-stringbuilder/blog-cover.jpg
 categories: [ Java, Core Java, String]
 description: "In this article, we are going to discuss the differences between the `StringBuffer` and `StringBuilder` class. And we will see why it `StringBuilder` is preferable to `StringBuffer` class."
-
+featured: true;
+hidden: true;
 ---
 In this article, we are going to discuss the differences between the `StringBuffer` and `StringBuilder` class. And we will see why it `StringBuilder` is preferable to `StringBuffer` class."
 
