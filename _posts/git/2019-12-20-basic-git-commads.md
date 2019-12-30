@@ -38,7 +38,7 @@ $
 
 You are hitting `git init` means you want to initialize the current directory as GIT repository.
  
-The following gif files show initializing a new repository and a hidden subfolder containing all data structure required for version control. 
+The following GIF show initializing a new repository and a hidden subfolder containing all data structure required for version control. 
 
 ![GIF showing git init command](/assets/images/2019-12-20-basic-git-commands/git-init.gif)
  
@@ -65,7 +65,7 @@ $
 
 You can clone any public repository from the platforms like GitHub,  BitBucket, GitLab, and other GIT hosting platforms.
 
-The followig gif shows the `git clone` command
+The following GIF shows the `git clone` command
 
 ![GIF showing git clone command](/assets/images/2019-12-20-basic-git-commands/git-clone.gif)
 
@@ -95,7 +95,7 @@ You can stage and take a snapshot of the current changes in a single command als
 
 Staging your changes first and then taking snapshot gives you complete control over the repository's history. 
 
-The followig gif shows the `git add` command
+The following GIF shows the `git add` command
 
 ![GIF showing git add command](/assets/images/2019-12-20-basic-git-commands/git-add.gif)
 
@@ -112,7 +112,7 @@ You can write a meaningful message to the commit. It is recommended to write a c
 
 If you are committing a new feature to your project then your commit message should be `"Add <feature-name> feature"`.
 
-The followig gif shows the `git commit` command
+The following GIF shows the `git commit` command
 
 ![GIF showing git commit command](/assets/images/2019-12-20-basic-git-commands/git-commit.gif)
 
@@ -142,7 +142,7 @@ HP@Gaurav MINGW64 /e/directory/example (master)
 $
 
 ```
-The followig gif shows the `git status` command
+The following GIF shows the `git status` command
 
 ![GIF showing git status command](/assets/images/2019-12-20-basic-git-commands/git-status.gif)
 
@@ -158,7 +158,7 @@ $ git branch
 HP@Gaurav MINGW64 /e/directory/example (master)
 $
 ```
-The followig gif shows the `git branch` command
+The following GIF shows the `git branch` command
 
 ![GIF showing git branch command](/assets/images/2019-12-20-basic-git-commands/git-branch.gif)
 
@@ -189,13 +189,13 @@ If your teammate made commits to the remote branch and you want to reflect these
 
 This command will check if there are any updates on the remote branch as compared to your local environment, if yes, then it will update your local environment with these changes. If no, then it will do nothing.
 
-The followig gif shows the `git pull` command
+The following GIF shows the `git pull` command
 
 ![GIF showing git pull command](/assets/images/2019-12-20-basic-git-commands/git-pull.gif)
 
 ## 8. `git push`
 
-`git push` updates the remote repository with any commits made locally to a brach
+`git push` updates the remote repository with any commits made locally to a branch
 
 ```
 $ git push origin <branch-name-you-have made commits on>
@@ -222,7 +222,7 @@ To https://github.com/gauravkukade/example.git
 HP@Gaurav MINGW64 /e/directory/example (master)
 $
 ```
-The followig gif shows the `git push` command
+The following GIF shows the `git push` command
 
 ![GIF showing git push command](/assets/images/2019-12-20-basic-git-commands/git-push.gif)
 
@@ -230,7 +230,7 @@ You are here means you like the post and hence here is your bonus content.
 
 ### How to create a new branch locally
 
-You can create a new branch loacally using the following command
+You can create a new branch locally using the following command
 ```
 $ git checkout -b <your-new-branch-name>
 
