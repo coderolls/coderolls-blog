@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "How to covert String to Integer in Java"
+title: "How to convert String to Integer in Java"
 author: gaurav
 categories: [ Java, Core Java, String]
 description: "In this article you are going to learn how can one convert the string into an integer using the inbuilt methods of the Integer class."
