@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: How to convert String to Integer in Java
 author: gaurav
