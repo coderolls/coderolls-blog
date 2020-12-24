@@ -4,9 +4,12 @@ title: "How To Create UUID in Java?"
 author: gaurav
 image: assets/images/2020-12-23/create-uuid-in-java.png
 categories: [ Java, Core Java, String]
-description: In this article you will see, how to create UUID in Java.
-
+description: "In this article you will see, how to create UUID in Java."
+featured: true
+hidden: true
 ---
+
+In this article you will see, how to create UUID in Java.
 
 ## Introduction
 
