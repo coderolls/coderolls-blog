@@ -18,6 +18,10 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+{% if site.adsense == "enabled" %}
+<script data-ad-client="{{ site.adsense-data-ad-client }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{% endif %}
+
 </head>
 
 {% if jekyll.environment == 'production' %}
