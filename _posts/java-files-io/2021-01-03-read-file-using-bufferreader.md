@@ -1,29 +1,29 @@
 ﻿---
 layout: post
-title: "How To Read File Using BufferReader In Java?"
+title: "How To Read File Using BufferedReader In Java?"
 author: gaurav
-image: assets/images/2021-01-03/read-file-using-bufferreader.png
+image: assets/images/2021-01-03/read-file-using-bufferedreader.png
 categories: [Java, Java File IO]
-description: "In this article we will see how to read a file using the `BufferReader` class in Java."
+description: "In this article we will see how to read a file using the `BufferedReader` class in Java."
 
 ---
 
-In this article we will see how to read a file using the `BufferReader `class in Java.
+In this article we will see how to read a file using the `BufferedReader `class in Java.
 
-`BufferReader` class reads text from a character-input stream. Because of buffering characters it provides an  efficient way to read characters, arrays, and lines.
+`BufferedReader` class reads text from a character-input stream. Because of buffering characters it provides an  efficient way to read characters, arrays, and lines.
 
-`BufferReader` provides two important  methods to read from the file. i.e `read()` and `readLine()`.
+`BufferedReader` provides two important  methods to read from the file. i.e `read()` and `readLine()`.
 
-You can specify the bufferSize in `BufferReader `constructer. But as [motioned in the docs](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html), 
+You can specify the bufferSize in `BufferedReader `constructer. But as [motioned in the docs](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html), 
 >The default is large enough for most purposes.
 
-## BufferReader `read()` method
+## BufferedReader `read()` method
 
-`BufferReader` `read()` method reads a single character. IT returns the `int` representation of the char in range of 0 to 65535 (0x00-0xffff), or -1 if the end of the stream has been reached.
+`BufferedReader` `read()` method reads a single character. IT returns the `int` representation of the char in range of 0 to 65535 (0x00-0xffff), or -1 if the end of the stream has been reached.
 
 We can cast `int` value returned by `read()` method to `char` to get the character value.
 
-I have given an example to read a file character by character using the `read()` method of the `BufferReader` class
+I have given an example to read a file character by character using the `read()` method of the `BufferedReader` class
 ```java
 package com.coderolls;
 
@@ -31,11 +31,11 @@ import java.io.*;
 
 /**
  * A java program to read file character by character using the
- * read() method of the BufferReader Class.
+ * read() method of the BufferedReader Class.
  * 
  * @author Gaurav Kukade at coderolls.com
  */
-public class BufferReaderReadMethodExample {
+public class BufferedReaderReadMethodExample {
 
 	public static void main(String[] args) {
 		
@@ -65,9 +65,9 @@ Output
 ```
 Welcome to coderolls.com!
 ```
-See [this example on GitHub](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-files-io/BufferReaderReadMethodExample.java).
+See [this example on GitHub](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-files-io/BufferedReaderReadMethodExample.java).
 
-## BufferReader `readLine()` method
+## BufferedReader `readLine()` method
 As specified in the name, this method reads a line of text.
 
 A line is considered to be terminated by any one of a line feed ('\n') or  a carriage return ('\r').
@@ -83,12 +83,12 @@ import java.io.*;
 
 /**
  * A java program to read file line by line using the
- * readLine() method of the BufferReader Class.
+ * readLine() method of the BufferedReader Class.
  * 
  * @author Gaurav Kukade at coderolls.com
  *
  */
-public class BufferReaderReadLineMethodExample {
+public class BufferedReaderReadLineMethodExample {
 
 	public static void main(String[] args) {
 		
@@ -120,31 +120,33 @@ Welcome to coderolls.com!
 
 Visit coderolls to read more coding tutorials!
 ```
-See [this example on GitHub](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-files-io/BufferReaderReadLineMethodExample.java).
+See [this example on GitHub](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-files-io/BufferedReaderReadLineMethodExample.java).
 
-I have given below a combine example of the Java `BufferReader` `read()` and `readLine()` method below
+I have given below a combine example of the Java `BufferedReader` `read()` and `readLine()` method below
 
 ```java
 package com.coderolls;
 
 import java.io.*;
 
-public class BufferReaderExanple {
+public class BufferedReaderExanple {
 
 	public static void main(String[] args) {
 		BufferedReader bufferedReader = null;
 		try {
+			bufferedReader = new BufferedReader(new FileReader("F:\\sample-text.txt"));
+			System.out.println("Read file using read() method: ");
+			readFileCharacterByCharacter(bufferedReader);
+
 			bufferedReader = new BufferedReader(new FileReader("F:\\sample-text-two-lines.txt"));
+			System.out.println("\n\nRead file using readLine() method: ");
+			readFileLineByLine(bufferedReader);
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		readFileCharacterByCharacter(bufferedReader);
-		
-		readFileLineByLine(bufferedReader);
-		
+
 		try {
 			bufferedReader.close();
 		} catch (IOException e) {
@@ -153,7 +155,7 @@ public class BufferReaderExanple {
 	}
 	
 	/**
-	 * A method to read file content character by character using the BufferReader 
+	 * A method to read file content character by character using the BufferedReader 
 	 * read() method
 	 * 
 	 * @param bufferedReader
@@ -171,7 +173,7 @@ public class BufferReaderExanple {
 	}
 	
 	/**
-	 * A method to read file content line by line using the BufferReader 
+	 * A method to read file content line by line using the BufferedReader 
 	 * readLine() method
 	 * 
 	 * @param bufferedReader
@@ -191,19 +193,19 @@ public class BufferReaderExanple {
 }
 ```
 
-See [this example on GitHub](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-files-io/BufferReaderExanple.java).
+See [this example on GitHub](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-files-io/BufferedReaderExanple.java).
 
 ## `newBufferedReader()` method in Java 8 
 
-In Java 1.8 and above you can get a `BufferReader` instance using the `newBufferedReader()` method of the `java.nio.file.Files` class.
+In Java 1.8 and above you can get a `BufferedReader` instance using the `newBufferedReader()` method of the `java.nio.file.Files` class.
 
 ## Conclusion
 
-You can read file character by character using the `read()` method of the `BufferReader`Class.
+You can read file character by character using the `read()` method of the `BufferedReader`Class.
 
 `read()` method returns an integer value, you have to cast it to `char` to get character value.
 
-Also, you can read file line by line using the `readLine()` method of the `BufferReader`Class
+Also, you can read file line by line using the `readLine()` method of the `BufferedReader`Class
 
 `readLine()` methods returns the line content as string, except the line terminating character
 
