@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Read File Using BufferReader In Java?"
 author: gaurav
