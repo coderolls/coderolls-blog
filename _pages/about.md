@@ -15,9 +15,9 @@ let's find out what is codeRolls.</p>
 
 <p>At codeRolls I am trying to write easy to undersatnd but in detail tutorials. I am writing few examples in the tutorials which elaborate the conecpt.</p>
 
-<p>If you have any questions please feel free to reach us <span class="spoiler">hello@coderolls.com</span></p>
+<p>If you have any questions please feel free to reach us at hello@coderolls.com</p>
 
-<p>Follow codeRolls on Twitter, Facebook, Instagram and YouTube.</p>
+<p>Follow codeRolls on <a target="_blank"  href="https://twitter.com/coderolls">Twitter <i class="fab fa-twitter"></i></a>, Facebook <i class="fab fa-facebook-square"></i>, <a target="_blank" href="https://www.instagram.com/coderolls/">Instagram  <i class="fab fa-instagram"></i></a> and <a target="_blank" href="https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w" >YouTube <i class="fab fa-youtube-square"></i></a>.</p>
 
 <p></p>
 
@@ -33,7 +33,7 @@ let's find out what is codeRolls.</p>
 <p></p>
 <h5>Questions or bug reports?</h5>
 
-<p>Get in touch with us at hello[at]coderolls[dot]com</p>
+<p>Get in touch with us at hello@coderolls.com</p>
 
 <p>Or, head over to our <a href="https://github.com/coderolls/coderolls.github.io">Github repository</a>!</p>
 
@@ -41,9 +41,9 @@ let's find out what is codeRolls.</p>
 
 <p>"Hi 👋🏼 I'm Gaurav Kukade, a software developer. Here I write tutorials for Java programming language and related technologies."</p>
 
-<p>I am a coding enthusiast and like to try new things in the world of coding.</p>
+<p>I like to try new things in the world of coding.</p>
 
-<p>Get in touch with me at <span class="spoiler">gaurav[at]coderolls[dot]com!</span> 🙂</p>
+<p>Get in touch with me at gaurav@coderolls.com 🙂</p>
 
 You can connect with me on <a href="https://linkedin.com/in/gauravkukade/">Linkedin <i class="fab fa-linkedin"></i></a>, <a href="https://twitter.com/GDKukade">Twitter <i class="fab fa-twitter"></i></a>, <a href="https://github.com/gauravkukade">GitHub <i class="fab fa-linkedin"></i></a>, <a href="https://www.facebook.com/gdkukade">Facebook <i class="fab fa-facebook"></i></a>, <a href="https://www.instagram.com/gauravdkukade">Instagram <i class="fab fa-instagram"></i></a> and <a href="https://medium.com/@gauravkukade">Medium <i class="fab fa-medium"></i></a>.
 
