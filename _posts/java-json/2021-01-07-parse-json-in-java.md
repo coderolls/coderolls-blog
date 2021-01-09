@@ -416,5 +416,3 @@ You can support me by [giving a cup of Coffee ☕](https://www.paypal.me/GauravK
 - [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
 - [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
 - [Difference Between StringBuffer and StringBuilder class](https://coderolls.com/difference-between-stringbuffer-and-stringbuilder/)
-- [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)
-- [How To Create UUID in Java?](https://coderolls.com/create-uuid-in-java/)
