@@ -79,12 +79,17 @@ Output:
 ```java
 The reversed string of the 'coderolls.com' is: moc.slloredoc
 ```
+
 #### Note:
 In the `for` loop, I have assigned `blogName.length()-1` to i instead of `blogName.length()` because the characters in the string are indexed from 0.
 
 I have given an image below to show the string indexing.
 
 ![Showing indexes of the characters in the string.](/assets/images/2019-12-02/string-indexing.png)
+
+Also you can watch [the video on my youtube channel for reverse a string with the above method](https://www.youtube.com/watch?v=vrTYrQuB0BE).
+
+[![How To Reverse A String In Java](https://img.youtube.com/vi/vrTYrQuB0BE/0.jpg)](https://www.youtube.com/watch?v=vrTYrQuB0BE "How To Reverse A String In Java")
 
 ## 2. Using `getBytes()` method of String
 In the `getBytes()` method of Java String first encodes the specified string into the sequence of bytes using the platforms default charset and then save the result in the byte array. The same byte array will be returned.

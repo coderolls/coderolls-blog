@@ -22,6 +22,10 @@ I have listed down two ways to convert a String into an Integer.
 1. Using the `Integre.parseInt()` method
 2. Using the `Integer.valueOf()` method
 
+You can watch [the video on my youtube channel for "How To Convert A String To An Integer In Java"](https://www.youtube.com/watch?v=pNHjvpNHVCs).
+
+[![How To Convert A String To An Integer In Java](https://img.youtube.com/vi/pNHjvpNHVCs/0.jpg)](https://www.youtube.com/watch?v=pNHjvpNHVCs "How To Convert A String To An Integer In Java")
+
 Now we will see the above ways to convert string to integer one by one.
 
 ## Using the `Integre.parseInt()` method
@@ -85,7 +89,7 @@ Output
 134
 ```
 
-## Let us know about `NumberFormatException`
+## A Note about `NumberFormatException`
 
 When you are trying to convert a string to integer but your string contains a value other than the decimal digits, then bothe the methods (`Integre.parseInt()` method and `Integer.valueOf()` method) will throw the `NumberFormatException`.
 
