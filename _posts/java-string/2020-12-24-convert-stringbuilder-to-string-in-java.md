@@ -2,7 +2,7 @@
 layout: post
 title: "How To Convert StringBuilder To String In Java?"
 author: gaurav
-image: assets/images/2020-12-24/convert-stringbuilder-to-string-in-java.png
+image: assets/images/2020-12-24/convert-stringbuilder-to-string-in-java.webp
 categories: [ Java, Core Java, String]
 description: "In this article you will see, how to convert a StringBuilder to String in Java."
 featured: false

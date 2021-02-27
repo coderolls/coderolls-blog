@@ -176,7 +176,7 @@ If it is present in the string pool, the reference to the memory address of that
 
 The following image shows the pictorial explanation of the same.
 
-!['firstString' pointing towards the "coderolls" string in string pool](/assets/images/2019-12-10/firstString-pointing-to-coderolls-in-string-pool.png)
+!['firstString' pointing towards the "coderolls" string in string pool](/assets/images/2019-12-10/firstString-pointing-to-coderolls-in-string-pool.webp)
 
 ‘firstString’ pointing towards the “coderolls” string in string pool
 
@@ -186,13 +186,13 @@ Since the string object with that value is already created in the previous step.
 
 The following image shows the pictorial explanation for the same
 
-!['firstString' and 'secondString' pointing towards the "coderolls" string in string pool](/assets/images/2019-12-10/secondString-pointing-to-coderolls-in-string-pool.png)
+!['firstString' and 'secondString' pointing towards the "coderolls" string in string pool](/assets/images/2019-12-10/secondString-pointing-to-coderolls-in-string-pool.webp)
 
 ‘firstString’ and ‘secondString’ pointing towards the “coderolls” string in string pool
 
 When we create string using the  `new`  operator, a new string object is created and stored in the Java heap space.
 
-!['firstString' and 'secondString' pointing towards the "coderolls" string in string pool and 'thirdString' pointing towards the "coderolls" in java heap space.](/assets/images/2019-12-10/thirdString-pointing-to-coderolls-in-heap.png)
+!['firstString' and 'secondString' pointing towards the "coderolls" string in string pool and 'thirdString' pointing towards the "coderolls" in java heap space.](/assets/images/2019-12-10/thirdString-pointing-to-coderolls-in-heap.webp)
 
 ‘firstString’ and ‘secondString’ pointing towards the “coderolls” string in string pool and ‘thirdString’ pointing towards the “coderolls” in java heap space.t
 
@@ -202,7 +202,7 @@ When we create string using the  `new`  operator, a new string object is created
 
 `compareTo()`  method compares the character sequence of the argument string with the character sequence of the specified string.
 
-![Showing argument string and specified string.](/assets/images/2019-12-10/showing-argument-string-and-specified-string.png)
+![Showing argument string and specified string.](/assets/images/2019-12-10/showing-argument-string-and-specified-string.webp)
 
 Showing argument string and a specified string.
 
