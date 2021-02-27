@@ -27,7 +27,7 @@ Let’s understand Java as a programming language.
 
 Java is a high-level programming language. It is a concurrent, class-based, object-oriented programming language.
 
-![Java Language Feature](/assets/images/2019-11-29/java-language-feature.png)
+![Java Language Feature](/assets/images/2019-11-29/java-language-feature.webp)
 
 We will understand Java by the following simple terms, let’s discuss one by one,
 
@@ -136,7 +136,7 @@ When we compile this file with the javac compiler, the .class file will be gener
 
 Refer the following diagram,
 
-![How Java Code Works](/assets/images/2019-11-29/how-java-code-works.png)
+![How Java Code Works](/assets/images/2019-11-29/how-java-code-works.webp)
 
 What was your experience when you started learning Java, share with us in the comment section.
 

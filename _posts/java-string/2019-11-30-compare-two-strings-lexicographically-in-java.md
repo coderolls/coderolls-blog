@@ -30,7 +30,7 @@ Java `compareTo()` method Compares two strings lexicographically, The comparison
 
 The character sequence represented by the String object is compared lexicographically to the character sequence represented by the argument string.
 
-![Showing which one is the argument string](/assets/images/2019-11-30/compareto-method-string-def.png)
+![Showing which one is the argument string](/assets/images/2019-11-30/compareto-method-string-def.webp)
 
 ```java
 int compareTo(T o)
@@ -104,12 +104,12 @@ Compairing character sequence of fourthString (Cheese) to the character sequence
 Explanation:
 1. In first case,`compareTo()` method returns zero since firstString and secondString are same.
 2. In second case, `compareTo()` method returns 14 since secondString follows thirdString by 14 characters. The pictorial explanation for this case is given below.
-![An explanation for the second case of the java program for `compareTo()` method](/assets/images/2019-11-30/comapreto-method-secondstring-compareto-thirdstring.png)
+![An explanation for the second case of the java program for `compareTo()` method](/assets/images/2019-11-30/comapreto-method-secondstring-compareto-thirdstring.webp)
 
 3. In third case, `compareTo()` method returns -1 since thirdString precedes fourthString by 1 character.
 4. In last case, `compareTo()` method returns -13 since fourthString precedes firstString by 13 characters. The pictorial explanation for this case is given below.
 
-![An explanation for the fourth case of the java program for `compareTo()` method](/assets/images/2019-11-30/comapreto-method-fourthString-compareto-firstString.png)
+![An explanation for the fourth case of the java program for `compareTo()` method](/assets/images/2019-11-30/comapreto-method-fourthString-compareto-firstString.webp)
 
 ## 2. By creating a user-defined method
 

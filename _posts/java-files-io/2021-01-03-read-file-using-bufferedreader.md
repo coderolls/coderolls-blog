@@ -2,7 +2,7 @@
 layout: post
 title: "How To Read File Using BufferedReader In Java?"
 author: gaurav
-image: assets/images/2021-01-03/read-file-using-bufferedreader.png
+image: assets/images/2021-01-03/read-file-using-bufferedreader.webp
 categories: [Java, Java File IO]
 description: "In this article we will see how to read a file using the `BufferedReader` class in Java."
 ---

@@ -8,12 +8,12 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hello 👋🏼 its Gaurav, 
+<p>Hello 👋🏼 I am Gaurav, 
 let's find out what is coderolls.</p>
 
-<p>coderolls is a blog about coding. Here I do write articles about Java programming language, Spring Framework, Hibernate, SQL, GIT and many related technologies. </p>
+<p>coderolls is a blog about coding. Here I do write articles about Java programming language, Spring Framework, Hibernate, SQL, GIT, and many related technologies. </p>
 
-<p>At coderolls I am trying to write easy to undersatnd but in detail tutorials. I am writing few examples in the tutorials which elaborate the conecpt.</p>
+<p>At coderolls, I am trying to write easy-to-understand but in detail tutorials. I am writing few examples in the tutorials which elaborate the concept.</p>
 
 <p>If you have any questions please feel free to reach us at hello@coderolls.com</p>
 
@@ -39,7 +39,7 @@ let's find out what is coderolls.</p>
 
 <h4>About Gaurav</h4>
 
-<p>"Hi 👋🏼 I'm Gaurav Kukade, a software developer. Here I write tutorials for Java programming language and related technologies."</p>
+<p>Hi 👋🏼 I'm Gaurav Kukade, a software developer. Here I write tutorials for Java programming language and related technologies.</p>
 
 <p>I like to try new things in the world of coding.</p>
 
@@ -54,7 +54,7 @@ You can connect with me on <a href="https://linkedin.com/in/gauravkukade/">Linke
 <div class="sticky-top sticky-top-80">
 <h5>Buy me a coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="/">coderolls <i class="fab fa-github"></i></a>.</p>
+<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="/">coderolls<i class="fab fa-github"></i></a>.</p>
 
 <a target="_blank" href="https://paypal.me/GauravKukade" class="btn btn-success">Buy me a coffee ☕</a>
 

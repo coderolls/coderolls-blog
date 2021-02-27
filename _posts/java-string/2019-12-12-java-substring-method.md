@@ -57,7 +57,7 @@ If the given string is “codeRolls.com” and we applied the substring() method
 
 See the pictorial explanation shown below.
 
-![substring() method explanation with both parameter i.e. beginIndex and endIndex](/assets/images/2019-12-12-java-substring-method/substring-method-with-beginIndex.png)
+![substring() method explanation with both parameter i.e. beginIndex and endIndex](/assets/images/2019-12-12-java-substring-method/substring-method-with-beginIndex.webp)
 
 substring() method explanation with one parameter i.e. beginIndex
 
@@ -126,7 +126,7 @@ Let us take a simple string like “codeRolls.com” and I will apply the  `subs
 
 See the pictorial explanation shown below.
 
-![substring() method explanation with both parameter i.e. beginIndex and endIndex](/assets/images/2019-12-12-java-substring-method/substring-method-with-beginIndex-and-endIndex.png)
+![substring() method explanation with both parameter i.e. beginIndex and endIndex](/assets/images/2019-12-12-java-substring-method/substring-method-with-beginIndex-and-endIndex.webp)
 
 Let us see the full java code for the example stated above.
 

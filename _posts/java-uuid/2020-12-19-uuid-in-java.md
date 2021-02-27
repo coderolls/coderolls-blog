@@ -2,7 +2,7 @@
 layout: post
 title: "Your Guide To UUID In Java"
 author: gaurav
-image: assets/images/2020-12-19/uuid.png
+image: assets/images/2020-12-19/uuid.webp
 categories: [ Java, Core Java, String]
 description: In this article you will learn what is UUID and about the Java UUID class.
 featured: false
@@ -50,7 +50,7 @@ UUID can be used in the following cases
 
 df6fdea1-10c3-474c-ae62-e63def80de0b
 
-![Structure of UUID](/assets/images/2020-12-19/uuid.png)
+![Structure of UUID](/assets/images/2020-12-19/uuid.webp)
 ## Java UUID class
 
 UUID Class belongs to the `java.util` package. It represents an immutable universally unique identifier (UUID).
