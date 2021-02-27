@@ -3,7 +3,7 @@ layout: post
 title: "How To Create UUID in Java?"
 author: gaurav
 image: assets/images/2020-12-23/create-uuid-in-java.webp
-categories: [ Java, Core Java, String]
+categories: [Java, Core Java, String]
 description: "In this article you will see, how to create UUID in Java."
 featured: true
 hidden: true
@@ -79,6 +79,5 @@ If you found this article worth, support me by  [giving a cup of Coffee ☕](htt
 -   [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
 -   [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
 -   [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
--  [Difference Between StringBuffer and StringBuilder class](https://coderolls.com/difference-between-stringbuffer-and-stringbuilder/)
-
-- [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)
+-   [Difference Between StringBuffer and StringBuilder class](https://coderolls.com/difference-between-stringbuffer-and-stringbuilder/)
+-   [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)

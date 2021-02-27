@@ -24,7 +24,7 @@ I have listed down two ways to convert a String into an Integer.
 
 You can watch [the video on my youtube channel for "How To Convert A String To An Integer In Java"](https://www.youtube.com/watch?v=pNHjvpNHVCs).
 
-[![How To Convert A String To An Integer In Java](https://img.youtube.com/vi/pNHjvpNHVCs/0.jpg)](https://www.youtube.com/watch?v=pNHjvpNHVCs "How To Convert A String To An Integer In Java")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pNHjvpNHVCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now we will see the above ways to convert string to integer one by one.
 
