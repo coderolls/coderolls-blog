@@ -88,7 +88,26 @@ Output
 ```java
 numberString: 1234
 ```
-If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
+
+## Conclusion
+
+We can convert an int to String in Java using 
+
+1. the String.valueOf() method 
+
+```java
+String numberString = String.valueOf(number);
+```
+
+2. the Integer.toString() method.
+
+```java
+String numberString = Integer.toString(number);
+```
+In both cases, `number` is an `int` value.
+
+If you found this article worth, support me by [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
+
 
 ### Related Articles
 
