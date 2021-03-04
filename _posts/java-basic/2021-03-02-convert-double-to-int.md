@@ -63,11 +63,11 @@ In the case of 82.99, it should be rounded to 83 and then converted to int.
 
 It is not possible with typecasting, but our next solution can achieve it.
 
-## 2. convert double to int  - using `Math.round()`
+## 2. convert double to int  - using [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)
 
-`Math.round()` method will round the floating-point value to the nearest long value. Then we can typecast it to the int.
+[`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method will round the floating-point value to the nearest long value. Then we can typecast it to the int.
 
-I have given a simple java program below that shows how to convert double to int using the `Math.round()` method.
+I have given a simple java program below that shows how to convert double to int using the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method.
 
 ```java
 /** 
@@ -114,14 +114,14 @@ intValue: 82
 nextDoubleValue: 82.99
 nextIntValue: 83
 ```
-## 3. convert double to int - using `Double.intValue()`
+## 3. convert double to int - using [`Double.IntValue()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#intValue--)
 
 
 In this way, we will convert the double primitive value to the `Double` wrapper class, and then we can use the `intValue()` method of the `Double` wrapper class.
 
 This method does not round the value before converting it to the int value. It will remove the digits after the decimal point.
 
-I have given a simple java program below that shows how to convert double to int using the `Double.IntValue()` method.
+I have given a simple java program below that shows how to convert double to int using the [`Double.IntValue()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#intValue--) method.
 
 ```java
 /**
@@ -168,18 +168,18 @@ int intValue = (int) Math.round(doubleValue);
 ```
 But in this way, we will lose the value after the decimal point. It will not do the rounding before converting double to int.
    
-**2. convert double to int - using `Math.round()`**
+**2. convert double to int - using [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) **
 
 
-In this way, we use the `Math.round()` method for the rounding purpose. 
+In this way, we use the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method for the rounding purpose. 
 
-`Math.round()` method round the double value to the nearest long, and then we can typecast long to the int as given below.
+[`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method round the double value to the nearest long, and then we can typecast long to the int as given below.
 ```java
 int nextIntValue = (int) Math.round(nextDoubleValue);
 ```
-**3. convert double to int - using `Double.IntValue()`**
+**3. convert double to int - using [`Double.IntValue()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#intValue--)**
 
-In this way, we convert the `double` value to the `Double` wrapper class, and then we use the `Double.intValue()` method to get the int value.
+In this way, we convert the `double` value to the `Double` wrapper class, and then we use the [`Double.IntValue()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#intValue--) method to get the int value.
 
 ```java
 //create Double wrapper object
