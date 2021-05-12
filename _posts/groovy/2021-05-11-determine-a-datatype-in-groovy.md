@@ -6,9 +6,9 @@ categories: [Groovy]
 description: "In this quick tutorial, we will how can we determine the datatype of an object in Groovy."
 ---
 
-## Introduction
-
 In this quick tutorial, we will see how we can determine the datatype of an object in Groovy.
+
+## Introduction
 
 When you are writing a Groovy code, sometimes you need to check the datatype of an object.  Also, not following the proper naming convention may lead to object datatype confusion.
 
