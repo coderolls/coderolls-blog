@@ -74,6 +74,8 @@ Output:
 4. timeStampMillis: 1620919459988
 5. timeStampSeconds: 1620919459
 ```
+See above code as [GitHub Gist](https://gist.github.com/gauravkukade/b1ceabac137864efd7258b60610cd9dd)
+
 ### Explanation:
 
 1. In the first case, we have used the `.now()` method of the `Instant` class to get the current timestamp.
@@ -118,6 +120,8 @@ Output:
 2. timestampFromDateObject: 2021-05-13 20:55:44.187
 ```
 
+See above code as [GitHub Gist](https://gist.github.com/gauravkukade/a965f1a078d382ff7366e7ba6d13561c)
+
 ### Explanation:
 
 1. In the first case, we are got the `timestamp` using the system time in milliseconds. We can get the system time in millisecond using the `System.currentTimeMillis()`.
@@ -158,6 +162,8 @@ Output:
 ```
 Instant To Timestamp: 2021-05-13 21:07:44.381
 ```
+See above code as [GitHub Gist](https://gist.github.com/gauravkukade/ea3bc951f15be0010569d306ccafa975)
+
 ### Explanation:
 
 In the above example, we have used `.from()` of the `Timestamp` class to get the current timestamp from the `instant` object.
@@ -199,6 +205,8 @@ Output:
 ```
 Timestamp To Instant: 2021-05-13T15:39:08.046Z
 ```
+See above code as [GitHub Gist](https://gist.github.com/gauravkukade/a031b1904d4efaf758a59462ee2dc02e)
+
 ### Explanation:
 
 In the above example, we have used the `.toInstant()` method on the `timestamp` object to get the current timestamp (as Instant ).
@@ -267,7 +275,7 @@ If you have any queries about the above article, please comment below. Thanks.
 
 We will see how to get the current date-time in java. Also, we will see how we can format them using the SimpleDateFormat.
 
-You can check my YouTube channel at: https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w
+You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w)
 
 ### Related Articles
 

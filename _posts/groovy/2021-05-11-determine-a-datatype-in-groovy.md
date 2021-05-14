@@ -42,6 +42,8 @@ class java.util.ArrayList
 class java.lang.String
 java.lang.String
 ```
+See above code as [GitHub Gist](https://gist.github.com/gauravkukade/1c12a2e35d8803106d4cf2b0e11f6b18#file-determine-datatype-groovy)
+
 In the above program, we can see that the `names` is an `ArrayList`  and `blogname` is a `String` object.
 
 When we call the `getClass()` method on these objects it prints its respective datatype.
@@ -68,6 +70,7 @@ Output:
 true
 false
 ```
+See above code as [GitHub Gist](https://gist.github.com/gauravkukade/eafc65547cd3cd54877ca5d54eec8acc)
 
 In the above program, I have defined one String `blogname`. I have used the `instanceof` keyword to check if the `blogname` implements the `String` class and it prints `true`. It means the `blogname` is an instance of the `String` class.
 
@@ -91,6 +94,8 @@ Also, if you want to check if an object implements an Interface or Class, you ca
 That's it about checking the datatype of an object in Groovy. 
 
 If you know any other way to check the datatype of an object, please comment below to help the community. Thank you.
+
+You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w)
 
 ### Related Articles
 
