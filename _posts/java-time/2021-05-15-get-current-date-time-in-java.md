@@ -65,6 +65,7 @@ Sat May 15 12:21:39 IST 2021
 15/05/2021 12:21:39
 15/05/2021 12:21:39
 ```
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/c0abb86106b161cd9b3d12de37e34cb3)
 
 ## 2. Java Calendar API (`java.util.Calendar`) (Legacy)
 
@@ -107,6 +108,8 @@ Sat May 15 12:50:17 IST 2021
 15/05/2021 12:50:17
 ```
 
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/b29079c6b840d9c894c836468d9326dd)
+
 ## 3. LocalDate (`java.time.LocalDate`)
 
 
@@ -144,6 +147,7 @@ Output:
 2021-05-15
 2021/05/15
 ```
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/4a756785c65e94fa645c1a4faa65edb4)
 
 ## 4. LocalTime (`java.time.LocalTime`)
 
@@ -181,6 +185,7 @@ Output:
 13:11:46.140359217
 13:11:46
 ```
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/8ca11fd8b4652f33932b66a518c5775d)
 
 ## 5. LocalDateTime (`java.time.LocalDateTime`)
 
@@ -220,6 +225,7 @@ Output:
 2021-05-15T13:20:13.329481722
 15/05/2021 13:20:13
 ```
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/ef36191b7cca3069631ab45918624c1c)
 
 ## 6. ZonedDateTime (`java.time.ZonedDateTime`)
 
@@ -287,6 +293,8 @@ Asia/Kolkata
 2021/05/15 10:15:55
 +02:00
 ```
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/1ef796c53091ddb2a658f3e7dda22366)
+
 ## 7. Instant (`java.time.Instant`)
 
 We can use `java.time.Instant` to get epoch timestamps in seconds and milliseconds.
@@ -332,6 +340,7 @@ Output:
 1621073505
 15/05/2021 15:41:45
 ```
+Check above code as [GitHub Gist](https://gist.github.com/gauravkukade/f490a87ced1aa63c076bbe6bd7860a2c)
 
 ## Conclusion
 
