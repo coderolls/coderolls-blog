@@ -273,11 +273,13 @@ That's it for now.
 
 If you have any queries about the above article, please comment below. Thanks.
 
-We will see how to get the current date-time in java. Also, we will see how we can format them using the SimpleDateFormat.
+We will see [how to get the current date-time in java](https://coderolls.com/get-current-date-time-in-java/). Also, we will see how we can format them using the SimpleDateFormat.
 
 You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w)
 
 ### Related Articles
+
+-   [How To Get Current Date Time In Java](https://coderolls.com/get-current-date-time-in-java/)
 
 -   [How To Convert An Integer To String In Java](https://coderolls.com/convert-int-to-string/)
     
