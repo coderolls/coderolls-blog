@@ -17,7 +17,7 @@ let's find out what is coderolls.</p>
 
 <p>If you have any questions please feel free to reach us at hello@coderolls.com</p>
 
-<p>Follow coderolls on <a target="_blank"  href="https://twitter.com/coderolls">Twitter <i class="fab fa-twitter"></i></a>, Facebook <i class="fab fa-facebook-square"></i>, <a target="_blank" href="https://www.instagram.com/coderolls/">Instagram  <i class="fab fa-instagram"></i></a> and <a target="_blank" href="https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w" >YouTube <i class="fab fa-youtube-square"></i></a>.</p>
+<p>Follow coderolls on <a target="_blank"  href="https://twitter.com/coderolls">Twitter <i class="fab fa-twitter"></i></a>,<a target="_blank"  href="https://fb.com/coderolls"> Facebook <i class="fab fa-facebook-square"></i></a>, <a target="_blank" href="https://www.instagram.com/coderolls/">Instagram  <i class="fab fa-instagram"></i></a> and <a target="_blank" href="https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w" >YouTube <i class="fab fa-youtube-square"></i></a>.</p>
 
 <p></p>
 
@@ -45,7 +45,7 @@ let's find out what is coderolls.</p>
 
 <p>Get in touch with me at gaurav@coderolls.com 🙂</p>
 
-You can connect with me on <a href="https://linkedin.com/in/gauravkukade/">Linkedin <i class="fab fa-linkedin"></i></a>, <a href="https://twitter.com/GDKukade">Twitter <i class="fab fa-twitter"></i></a>, <a href="https://github.com/gauravkukade">GitHub <i class="fab fa-linkedin"></i></a>, <a href="https://www.facebook.com/gdkukade">Facebook <i class="fab fa-facebook"></i></a>, <a href="https://www.instagram.com/gauravdkukade">Instagram <i class="fab fa-instagram"></i></a> and <a href="https://medium.com/@gauravkukade">Medium <i class="fab fa-medium"></i></a>.
+You can connect with me on <a href="https://twitter.com/GDKukade">Twitter <i class="fab fa-twitter"></i></a>, <a href="https://github.com/gauravkukade">GitHub <i class="fab fa-linkedin"></i></a>, <a href="https://www.facebook.com/gdkukade">Facebook <i class="fab fa-facebook"></i></a>, <a href="https://www.instagram.com/gauravdkukade">Instagram <i class="fab fa-instagram"></i></a> and <a href="https://medium.com/@gauravkukade">Medium <i class="fab fa-medium"></i></a>.
 
 </div>
 
