@@ -164,7 +164,7 @@ We can convert double to int in java using the three ways given below.
 
 In this method we typecast the double value to int as give below,
 ```java
-int intValue = (int) Math.round(doubleValue);
+int intValue = (int) doubleValue;
 ```
 But in this way, we will lose the value after the decimal point. It will not do the rounding before converting double to int.
    
