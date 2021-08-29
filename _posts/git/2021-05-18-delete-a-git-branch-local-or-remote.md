@@ -28,7 +28,7 @@ git push origin :<the-remote-branch>
 
 GIT is one of the most used software for version control. In GIT, branches are part of the day-to-day development process. A Git branch represents an independent line of development.
 
-If you are beginner I would recommend you to have a look at [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/) .
+If you are beginner I would recommend you to have a look at <a target="_blank" href="https://coderolls.com/basic-git-commands/">8 Basic GIT Commands Every Newbie Developer Must Know</a>.
 
 Usually, all repositories have a `main/master` branch for the main code and team members create a feature or bug fix branches from the `main/master` branch.
 
