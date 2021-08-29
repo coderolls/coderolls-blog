@@ -19,8 +19,6 @@ let's find out what is coderolls.</p>
 
 <p>Follow coderolls on <a target="_blank"  href="https://twitter.com/coderolls">Twitter <i class="fab fa-twitter"></i></a>,<a target="_blank"  href="https://fb.com/coderolls"> Facebook <i class="fab fa-facebook-square"></i></a>, <a target="_blank" href="https://www.instagram.com/coderolls/">Instagram  <i class="fab fa-instagram"></i></a> and <a target="_blank" href="https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w" >YouTube <i class="fab fa-youtube-square"></i></a>.</p>
 
-<p></p>
-
 <div>
 <a href="https://twitter.com/coderolls?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @coderolls</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
@@ -31,11 +29,6 @@ let's find out what is coderolls.</p>
 <div class="fb-like" data-href="https://www.facebook.com/coderolls" data-width="" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 
 <p></p>
-<h5>Questions or bug reports?</h5>
-
-<p>Get in touch with us at hello@coderolls.com</p>
-
-<p>Or, head over to our <a href="https://github.com/coderolls/coderolls.github.io">Github repository</a>!</p>
 
 <h4>About Gaurav</h4>
 
@@ -46,6 +39,26 @@ let's find out what is coderolls.</p>
 <p>Get in touch with me at gaurav@coderolls.com 🙂</p>
 
 You can connect with me on <a href="https://twitter.com/GDKukade">Twitter <i class="fab fa-twitter"></i></a>, <a href="https://github.com/gauravkukade">GitHub <i class="fab fa-linkedin"></i></a>, <a href="https://www.facebook.com/gdkukade">Facebook <i class="fab fa-facebook"></i></a>, <a href="https://www.instagram.com/gauravdkukade">Instagram <i class="fab fa-instagram"></i></a> and <a href="https://medium.com/@gauravkukade">Medium <i class="fab fa-medium"></i></a>.
+
+<p></p>
+<!--My artticles on the other platform-->
+
+<h4>My Articles on the other platform:</h4>
+
+<ul>
+	<li><a target="_blank" href="https://soshace.com/organize-your-java-code-using-packages/">Organize Your Java Code Using Packages</a>, Soshace</li>
+	<li><a target="_blank" href="https://soshace.com/understanding-the-git-workflow/">Understanding The GIT Workflow</a>, Soshace</li>
+	<li><a target="_blank" href="https://soshace.com/guide-to-control-flow-statements-in-java/">Guide to Control Flow Statements in Java</a>, Soshace</li>
+	<li><a target="_blank" href="https://soshace.com/top-20-java-string-interview-questions-and-answers/">Top 20 Java String Interview Questions And Answers</a>, Soshace</li>
+	<li><a target="_blank" href="https://soshace.com/top-12-string-programs-for-your-next-java-interview/">Top 12 String Programs For Your Next Java Interview</a>, Soshace</li>
+</ul>
+
+
+<h5>Questions or bug reports?</h5>
+
+<p>Get in touch with us at hello@coderolls.com</p>
+
+<p>Or, head over to our <a href="https://github.com/coderolls/coderolls.github.io">Github repository</a>!</p>
 
 </div>
 
