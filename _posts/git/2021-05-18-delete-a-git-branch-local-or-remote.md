@@ -9,19 +9,26 @@ In this article, we will see how to delete a GIT branch both locally or remotely
 
 Short Snippet
 
+
+Delete local branch, if you finished working on branch, and merged
+
 ```git
-// if you finished working on branch, and merged
 git branch -d <the-local-branch>
+```
+Delete local branch without checking merged status
 
-// delete local branch without checking merged status
+```git
 git branch -D <the-local-branch>
+```
+Delete remote branch (Git v1.7.0 and above)
 
-// delete remote branch (Git v1.7.0 and above)
+```git
 git push origin --delete <the-remote-branch>
+```
 
-// delete remote branch (old syntax)
+Delete remote branch (old syntax)
+```git
 git push origin :<the-remote-branch>
-
 ```
 
 ## Introduction
