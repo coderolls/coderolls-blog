@@ -1,44 +1,44 @@
 ---
 layout: post
-title: How to convert String to Integer in Java
+title: How to convert String to int in Java
 author: gaurav
 categories: [ Java, Core Java, String]
-description: In this article you are going to learn how can one convert the string into an integer using the inbuilt methods of the Integer class.
+description: In this article you are going to learn how one can convert the string to int using the inbuilt methods of the Integer class.
 ---
 
-In this article you are going to learn how can one convert the string into an integer using the inbuilt methods of the Integer class. 
+In this article you are going to learn how one can convert the string to int using the inbuilt methods of the Integer class.
 
 ## Introduction
 We have learned many tutorials on the String class and seen the String operations are an important part of java programming.
 
-Sometimes we took some values as a String but we want to operate them as an Integer, then questions arise how can one convert string to the integer? The Java team provided the solution for it.
+Sometimes we took some values as a String but we want to operate them as an int, then questions arise how can one convert string to int? The Java team provided the solution for it.
 
-Converting a string to integer is one of the most important things to know by a Java Developer.
+Converting a string to int is one of the most important things to know by a Java Developer.
 
-Now we will see what are the available options to convert a Siring into Integer.
+Now we will see what are the available options to convert a string to int.
 
-I have listed down two ways to convert a String into an Integer.
+I have listed down two ways to convert a String to int.
 
-1. Using the `Integre.parseInt()` method
-2. Using the `Integer.valueOf()` method
+1. Convert String to int using the `Integre.parseInt()` method
+2. Convert String to int using the `Integer.valueOf()` method
 
 You can watch [the video on my youtube channel for "How To Convert A String To An Integer In Java"](https://www.youtube.com/watch?v=pNHjvpNHVCs).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pNHjvpNHVCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Now we will see the above ways to convert string to integer one by one.
+Now we will see the above ways to convert string to int one by one.
 
-## Using the `Integre.parseInt()` method
+## How to convert string to int using the `Integre.parseInt()` method
 
-We can convert the String to an integer using the `Integre.parseInt()` method.
+We can convert String to int using the `Integre.parseInt()` method.
 
-The `Integer.parseInt()` method can convert an entire string to integer provided the String must contain the digit values only. For example `String str= "123";`
+The `Integer.parseInt()` method can convert an entire string to int, provided the String must contain the digit values only. For example `String str= "123";`
 
-Now we will see one example which converts the string to an integer using the `Integre.parseInt()` method.
+Now we will see one example which converts the string to int using the `Integre.parseInt()` method.
 
 ```java
 /*
- * A Java program to convert String to Integer.
+ * A Java program to convert String to int.
  * 
  * @author Gaurav Kukade at coderolls.com
  */
@@ -58,9 +58,9 @@ Output
 ```java
 1254
 ```
-## Using the `Integer.valueOf()` method
+## How to convert string to int using the `Integer.valueOf()` method
 
-We can also convert String to Integer using the `Integer.valueOf()` method.
+We can also convert String to int using the `Integer.valueOf()` method.
 
 The  `Integer.valueOf()` method returns the integer instance of the value represented by the string variable.
 
@@ -68,7 +68,7 @@ Below we will see one program to convert string to int using the `Integer.valueO
 
 ```java
 /*
- * A Java program to convert String to Integer.
+ * A Java program to convert String to int.
  * 
  * @author Gaurav Kukade at coderolls.com
  */
@@ -91,7 +91,7 @@ Output
 
 ## A Note about `NumberFormatException`
 
-When you are trying to convert a string to integer but your string contains a value other than the decimal digits, then bothe the methods (`Integre.parseInt()` method and `Integer.valueOf()` method) will throw the `NumberFormatException`.
+When you are trying to convert a string to int but your string contains a value other than the decimal digits, then both the methods (`Integre.parseInt()` method and `Integer.valueOf()` method) will throw the `NumberFormatException`.
 
 Below we will one program to see how `Integre.parseInt()` method throw the `NumberFormatException`.
 
@@ -125,10 +125,10 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "1
 
 ## Conclusion
 
-We can convert String to integer using two methods, `Integre.parseInt()` method and `Integer.valueOf()` method.
+We can convert String to int using two methods, `Integre.parseInt()` method and `Integer.valueOf()` method.
 
-If the string contains some other value than the decimal numbers bothe the methods will throw the `NumberFormatException`.
+If the string contains some other value than the decimal numbers both the methods will throw the `NumberFormatException`.
 
 If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
 
-If you know any other way to convert the string to integer or if you have any query about the string to integer conversion please write it down in the comment section below.
+If you know any other way to convert the string to int or if you have any query about the string to int conversion please write it down in the comment section below.
