@@ -75,8 +75,6 @@ You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/U
 
 --------------
 
-You can support me by [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 #### Related Articles
 
 - [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)

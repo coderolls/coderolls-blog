@@ -29,17 +29,6 @@ let's find out what is coderolls.</p>
 <div class="fb-like" data-href="https://www.facebook.com/coderolls" data-width="" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 
 <p></p>
-
-<h4>About Gaurav</h4>
-
-<p>Hi 👋🏼 I'm Gaurav Kukade, a software developer. Here I write tutorials for Java programming language and related technologies.</p>
-
-<p>I like to try new things in the world of coding.</p>
-
-<p>Get in touch with me at gaurav@coderolls.com 🙂</p>
-
-You can connect with me on <a href="https://twitter.com/GDKukade">Twitter <i class="fab fa-twitter"></i></a>, <a href="https://github.com/gauravkukade">GitHub <i class="fab fa-linkedin"></i></a>, <a href="https://www.facebook.com/gdkukade">Facebook <i class="fab fa-facebook"></i></a>, <a href="https://www.instagram.com/gauravdkukade">Instagram <i class="fab fa-instagram"></i></a> and <a href="https://medium.com/@gauravkukade">Medium <i class="fab fa-medium"></i></a>.
-
 <p></p>
 <!--My artticles on the other platform-->
 

@@ -140,6 +140,4 @@ Refer the following diagram,
 
 What was your experience when you started learning Java, share with us in the comment section.
 
-If you found this article worth, please [Give me a cup of Coffee ☕](https://paypal.me/GauravKukade).
-
 Or use Google Pay/UPI at gkukade54@okicici

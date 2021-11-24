@@ -163,10 +163,6 @@ When you assigned a literal to string variable it will automatically be interned
 
 In contrast, when you create a string using  `new`  operator you have applied `intern()`  method to add its copy to the java string pool.
 
-If you found this article worth, please
-
-[Give me a cup of Coffee ☕](https://paypal.me/GauravKukade)
-
 If you have any queries about the code blocks given above, please write it down in the comment section below. Also. let me know if you have any other information about the Java String pool and  `intern()`  method in the comment section.
 
 ### Related Article

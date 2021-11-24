@@ -238,6 +238,4 @@ $ git checkout -b <your-new-branch-name>
 
 ![How to create new branch](/assets/images/2019-12-20-basic-git-commands/git-new-branch.gif)
 
-If you found this article worth, please support me by [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 If you have queries please let me know in the comment section below.

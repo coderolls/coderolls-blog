@@ -129,6 +129,4 @@ We can convert String to int using two methods, `Integre.parseInt()` method and 
 
 If the string contains some other value than the decimal numbers both the methods will throw the `NumberFormatException`.
 
-If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 If you know any other way to convert the string to int or if you have any query about the string to int conversion please write it down in the comment section below.

@@ -367,8 +367,6 @@ We can reverse the string in multiple ways. I have listed the five ways below.
 
 These are the ways we can reverse the string in Java.
 
-If you found this article worth, please [Give me a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 If you have any queries or any suggestions or if you find any mistakes in the article or in the code snippet given above please feel free to comment below.
 
 Have you  try the different ways to reverse the string in the java? or do you know the most simple way? please write it down in the comment section below.

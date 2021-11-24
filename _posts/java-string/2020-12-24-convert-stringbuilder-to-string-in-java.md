@@ -53,8 +53,6 @@ Get the [above code as GitHub Gist](https://gist.github.com/gauravkukade/00bd416
 
 You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w?view_as=subscriber?sub_confirmation=1) to find more video tutorials.
 
-If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 #### Related Articles
 
 -   [Learn About Java String Pool And intern() Method](https://coderolls.com/java-string-pool-and-intern-method/)

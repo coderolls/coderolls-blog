@@ -170,8 +170,6 @@ In Java  `substring()`  method has two variants.
 
 `substring(int beginIndex, int endIndex)`  returns the substring of this string which will start from the character at the  `beginIndex`  and will extend till the character at the  `endIndex - 1`. Here, the parameter  `beginIndex`  is inclusive while the parameter  `endIndex`  is exclusive.
 
-If you found this article worth, please [Give me a cup of Coffee ☕](https://paypal.me/GauravKukade)
-
 If you have any queries about the  `substring()`  method please write it below in the comment section.
 
 #### Related Articles

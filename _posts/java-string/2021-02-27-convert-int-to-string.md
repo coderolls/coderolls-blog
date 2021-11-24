@@ -106,8 +106,6 @@ String numberString = Integer.toString(number);
 ```
 In both cases, `number` is an `int` value.
 
-If you found this article worth, support me by [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 
 ### Related Articles
 

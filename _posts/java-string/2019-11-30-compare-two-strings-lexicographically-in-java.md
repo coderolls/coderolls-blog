@@ -207,6 +207,4 @@ In a first way, I am using the `compareTo()` method of the Java and in the secon
 
 Most noteworthy, In `compareTo()` method of the Java, the comparison is based on the Unicode value of each character in the strings.
 
-If you found this article worth, please [Give me a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 Have you tried the `compareTo()` method or created a user-defined method to compare two string lexicographically? How was your experience? Have you faced any problem? please write down the same in the comment section below.

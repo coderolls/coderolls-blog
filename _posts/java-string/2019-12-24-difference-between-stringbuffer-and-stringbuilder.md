@@ -75,6 +75,4 @@ So, `StringBuffer` class takes more time as compare to `StringBuilder` class for
 
 Taking efficiency into consideration, it is highly recommended to use `StringBuilder` class instead of the old `StringBuffer` class.
 
-If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
 Also, if you have other information about the difference between `StringBuffer` class and `StringBuilder` class please write it down in the comment section below.
