@@ -6,11 +6,11 @@ categories: [Collections, ArrayList]
 description: "In this article, we will see how to add element in ArrayList. Also, we will see how can we add an element at particular index in ArrayList."
 ---
 
-In this article, we will see how to add an element in ArrayList. Also, we will see how can we add an element at particular index in ArrayList.
+In this article, we will see how to add an element in [ArrayList](https://coderolls.com/arraylist-in-java/). Also, we will see how can we add an element at particular index in ArrayList.
 
 ## Introduction
 
-We can add an element to the end of ArrayList using the `add(E e)` method. 
+We can add an element to the end of [ArrayList](https://coderolls.com/arraylist-in-java/) using the `add(E e)` method. 
 
 To add an element to a particular index, we can use the `add(int index, E element)` method.
 
@@ -116,7 +116,7 @@ Output:
 
 ## Conclusion
 
-We can add element to the ArrayList using `add()` method in two ways.
+We can add element to the [ArrayList](https://coderolls.com/arraylist-in-java/) using `add()` method in two ways.
 1. `add(E e)` - It will add an element to the end of the ArrayList
 2. `add(int index, E element)`- This method will add an element at the specified index
 
