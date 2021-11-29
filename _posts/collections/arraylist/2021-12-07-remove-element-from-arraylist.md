@@ -71,7 +71,7 @@ ArrayList after removing an element[Red, Green]
 
 The method signature is as `public E remove(int index)`
 
-Once we remove an element from the ArrayList using the `remove(int index)` method, the remaining elements from after the specified index get shifted left.
+Once we remove an element from the ArrayList using the `remove(int index)` method, the remaining elements from after the specified index get shifted left and it's indices are updated.
 
 The return type is a `E`. It returns the element that was removed from the list.
 
@@ -131,3 +131,6 @@ If you know any other way, please comment below.
 - [ArrayList In Java](https://coderolls.com/arraylist-in-java/)
 - [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
 - [How To Change An Element In ArrayList](https://coderolls.com/change-element-in-arraylist/)
+
+
+https://www.atatus.com/tools/free-tools
