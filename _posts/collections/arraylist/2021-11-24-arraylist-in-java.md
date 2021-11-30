@@ -153,3 +153,8 @@ public class ArrayListDuplicate {
 3. On printing the `arrayList`, we can see the 5th as well as 6th String object (`"Rina"` ) on the console. That means `ArrayList` will allow the duplicate elements.
 
 Let me know you thoughts or suggestion in comment section below.
+
+### Related articles
+
+- [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
+- [How To Change An Element In ArrayList](https://coderolls.com/change-element-in-arraylist/)
