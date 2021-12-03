@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "java.util.ArrayList.addAll() method in Java"
+title: "ArrayList addAll() method in Java"
 author: gaurav
 categories: [Collections, ArrayList]
 description: "In this article, we will see how to add another collections elements in the ArrayList. Also, we will see how to add another collections elements from any particular index in ArrayList."
@@ -9,21 +9,21 @@ In this article, we will see how to add another collections elements in the Arra
 
 ## Introduction
 
- [ArrayList](https://coderolls.com/arraylist-in-java/) is widely used class from the Collection framework in Java. ArrayList used dynamic array internally to store the elements.
+ [ArrayList](https://coderolls.com/arraylist-in-java/) is a widely used class from the Collection framework in Java. ArrayList used a dynamic array internally to store the elements.
 
-When we add objects to [ArrayList](https://coderolls.com/arraylist-in-java/) , it maintains the insertion order. So, ArrayList is an ordered collection.
+When we add objects to [ArrayList](https://coderolls.com/arraylist-in-java/), it maintains the insertion order. So, ArrayList is an ordered collection.
 
 Also, duplicate objects are allowed in ArrayList.
 
-Sometimes we need to add another collections elements to the ArrayList. ArrayList call provides the `addAll()` method to add the collections elements.
+Sometimes we need to add the elements of another collection to the ArrayList. ArrayList call provides the `addAll()` method to add the elements of the collection.
 
 The `addAll()` method has two overload type 
 1. `addAll(Collection c)`
 2. `addAll(int index, Collection c)`
 
-The first ArrayList method add the specified collections elements to the end of the ArrayList.
+The first ArrayList method adds the elements of the specified collection to the end of the ArrayList.
 
-The second ArrayList method add the elements of the specified collection at the specified index.
+The second ArrayList method adds the elements of the specified collection at the specified index.
 
 Let's see both the method one by one.
 
@@ -31,19 +31,19 @@ Let's see both the method one by one.
 
 The `addAll(Collection c)` method adds all the elements of the specified collection to the end of the ArrayList.
 
-The method signature for this method is as given below
+The method signature for this method is as given below.
 ```java
 public boolean addAll(Collection c)
 ``` 
-The method signature show that, this method accepts one parameter of type Collection.
+The method signature shows that this method accepts one parameter of type Collection.
 
 - **`c` : -** any collection obejct
 
-It has a return type as `boolean` i.e. this method returns `true` if the ArrayList as result of the call (if elements from other collections added to the ArrayList), otherwise it returns false.
+It has a return type as `boolean` i.e. this method returns `true` if the ArrayList as a result of the call (if elements from other collections are added to the ArrayList), otherwise it returns false.
 
-This method may throw [NullPointerException](https://docs.oracle.com/javase/8/docs/api/java/lang/NullPointerException.html "class in java.lang"), if the specified collection is empty
+This method may throw [NullPointerException](https://docs.oracle.com/javase/8/docs/api/java/lang/NullPointerException.html "class in java.lang") if the specified collection is empty
 
-I have given an java program to add elements of a collection to ArrayList using the `addAll(Collection c)` method.
+I have given a java program to add elements of a collection to ArrayList using the `addAll(Collection c)` method.
 
 ```java
 import java.util.ArrayList;
@@ -98,9 +98,9 @@ Actresses :
 
 ## 2. Add a collection in ArrayList at particular index using `addAll(int index, Collection c)` method
 
-The `addAll(int index, Collection c)` method adds all the elements of the specified collection to the ArrayList, from the specified `index`.
+The `addAll(int index, Collection c)` method adds all the elements of the specified collection to the ArrayList from the specified `index`.
 
-The method signature for this method is as given below
+The method signature for this method is as given below.
 ```java
 public boolean addAll(int index, Collection c)
 ``` 
@@ -115,7 +115,7 @@ This method may throw the following exceptipons
 - [IndexOutOfBoundsException](https://docs.oracle.com/javase/8/docs/api/java/lang/IndexOutOfBoundsException.html "class in java.lang")  - if the index is out of range (index < 0 || index > arraList.size())
 -  [NullPointerException](https://docs.oracle.com/javase/8/docs/api/java/lang/NullPointerException.html "class in java.lang"), if the specified collection is empty
 
-I have given an java program to add elements of a collection to ArrayList at a particular index using the `addAll(Collection c)` method.
+I have given a java program to add elements of a collection to ArrayList at a particular index using the `addAll(Collection c)` method.
 ```java
 import java.util.ArrayList;
 import java.util.List;
@@ -171,9 +171,13 @@ Entrepreneurs :
 
 ## Conclusion
 
-We can add elements of a collection to the ArrayList using the `addAll()` method in two ways
+We can add elements of a collection to the ArrayList using the `addAll()` method in two ways.
 
 1. `addAll(Collection c)` - it adds elements of the specified collection to the end of ArrayList
 2. `addAll(int index, Collection c)` - it adds elements of the specified collection to the ArrayList from the specified position (index)
 
-Write down your thoughts in the commend section below.
+Please write your thoughts in the commend section below.
+
+
+
+
