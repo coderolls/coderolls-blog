@@ -139,5 +139,3 @@ Refer the following diagram,
 ![How Java Code Works](/assets/images/2019-11-29/how-java-code-works.webp)
 
 What was your experience when you started learning Java, share with us in the comment section.
-
-Or use Google Pay/UPI at gkukade54@okicici

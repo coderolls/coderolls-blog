@@ -173,8 +173,3 @@ Read more and check example Java programs about changing the element of ArrayLis
 If you want to remove the element from the ArrayList, you can use the remove(Object o) method or remove(int index) method.
 
 Read more and check example Java program about removing an element from the ArrayList on this blogpost: [How To Remove An Element From An ArrayList?](http://coderolls.com/remove-element-from-arraylist/)
-
-### Related articles
-
-- [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
-- [How To Change An Element In ArrayList](https://coderolls.com/change-element-in-arraylist/)

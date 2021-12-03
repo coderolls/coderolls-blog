@@ -69,14 +69,3 @@ Get the [above code as GitHub Gist](https://gist.github.com/gauravkukade/395f314
 --------
 
 You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w?view_as=subscriber?sub_confirmation=1) to find more video tutorials.
-
-If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
-#### Related Articles
-
--   [Learn About Java String Pool And intern() Method](https://coderolls.com/java-string-pool-and-intern-method/)
--   [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
--   [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
--   [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
--   [Difference Between StringBuffer and StringBuilder class](https://coderolls.com/difference-between-stringbuffer-and-stringbuilder/)
--   [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)

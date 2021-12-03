@@ -96,7 +96,3 @@ That's it about checking the datatype of an object in Groovy.
 If you know any other way to check the datatype of an object, please comment below to help the community. Thank you.
 
 You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w)
-
-### Related Articles
-
-- [Hello World In Groovy](https://coderolls.com/hello-world-in-groovy/)

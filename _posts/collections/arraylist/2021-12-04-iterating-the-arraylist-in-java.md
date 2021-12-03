@@ -368,10 +368,3 @@ We can iterate over ArrayList using the following ways.
 5. Iterating the ArrayList using Lambda Expressions
 
 If you know any other way to iterate through ArrayList, please write it down in the comment section below.
-
-### Related articles
-
-- [ArrayList In Java](https://coderolls.com/arraylist-in-java/)
-- [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
-- [How To Change An Element In ArrayList](https://coderolls.com/change-element-in-arraylist/)
-- [How To Remove An Element From An ArrayList?](https://coderolls.com/remove-element-from-arraylist/)

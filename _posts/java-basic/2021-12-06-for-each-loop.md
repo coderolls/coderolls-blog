@@ -126,15 +126,3 @@ For-each loop i.e. enhanced for loop can be used to traverse over the array or c
 It provides a more readable syntax as compared to the simple for loop.
 
 Please write down your thoughts in the comment section below.
-
-### Related Articles
-
-- [How To Convert An Integer To String In Java](https://coderolls.com/convert-int-to-string/)
-
-- [How to convert String to Integer in Java](https://coderolls.com/convert-string-to-int/)
-
-- [How To Convert StringBuilder To String In Java?](https://coderolls.com/convert-stringbuilder-to-string-in-java/)
-
-- [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
-
--  [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)

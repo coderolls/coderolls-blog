@@ -125,12 +125,3 @@ We can remove an element from the ArrayList in two ways.
 2. `remove(int index)` - We can remove an element at the position (index) specified
 
 If you know any other way, please comment below.
-
-### Related articles
-
-- [ArrayList In Java](https://coderolls.com/arraylist-in-java/)
-- [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
-- [How To Change An Element In ArrayList](https://coderolls.com/change-element-in-arraylist/)
-
-
-https://www.atatus.com/tools/free-tools

@@ -58,17 +58,3 @@ If you are looking to get the current timestamp in java, you can visit this arti
 
 You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w).
 
-### Related Articles
-
-- [How To Get Current Timestamp In Java?](https://coderolls.com/how-to-get-current-timestamps-in-java/)
-
--   [How To Convert An Integer To String In Java](https://coderolls.com/convert-int-to-string/)
-    
--   [How to convert String to Integer in Java](https://coderolls.com/convert-string-to-int/)
-    
--   [How To Convert StringBuilder To String In Java?](https://coderolls.com/convert-stringbuilder-to-string-in-java/)
-    
--   [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
-    
--   [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
-

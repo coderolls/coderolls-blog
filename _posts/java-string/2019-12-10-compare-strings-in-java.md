@@ -281,9 +281,3 @@ Most of the beginner java developers do mistakes while comparing strings. They a
 It is always advised to use equals() method to compare the string on the basis of its content.
 
 If you have any query about the code blocks given above, please write it down in the comment section below. Also. let me know if you have any other way to compare two strings in java in the comment section.
-
-### Related Article
-
--   [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
--   [How To Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
--   [Introduction to Java Technology (Language and Platform)](https://coderolls.com/java-introduction/)

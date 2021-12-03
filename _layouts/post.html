@@ -67,6 +67,10 @@ post_class: post-template
                 {% endif %}
                 <!-- End Toc -->
                 {{content}}
+                
+                <!-- ==============================Related Post include=================================-->
+                {% include related_posts.html %}
+                <!-- ==============================Related Post include=================================-->
                 <!-- Mailchimp Subscribe Form -->
                 {% if site.mailchimp-list %}
                 <div class="border p-5 bg-lightblue">

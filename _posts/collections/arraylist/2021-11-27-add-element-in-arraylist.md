@@ -121,9 +121,3 @@ We can add element to the [ArrayList](https://coderolls.com/arraylist-in-java/) 
 2. `add(int index, E element)`- This method will add an element at the specified index
 
 If  know any other ways, you a can write a comment below.
-
-### Related Article 
-
-- [ArrayList In Java](https://coderolls.com/arraylist-in-java/)
-
-

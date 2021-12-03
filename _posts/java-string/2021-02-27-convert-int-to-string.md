@@ -106,13 +106,4 @@ String numberString = Integer.toString(number);
 ```
 In both cases, `number` is an `int` value.
 
-
-### Related Articles
-
--   [How to convert String to Integer in Java](https://coderolls.com/convert-string-to-int/)
--   [Learn About Java String Pool And intern() Method](https://coderolls.com/java-string-pool-and-intern-method/)
--   [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
--   [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
--   [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
--   [Difference Between StringBuffer and StringBuilder class](https://coderolls.com/difference-between-stringbuffer-and-stringbuilder/)
--   [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)
+Please write down your thoughts in the comment section below.

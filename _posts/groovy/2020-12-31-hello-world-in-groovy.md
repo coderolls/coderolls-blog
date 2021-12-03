@@ -72,15 +72,3 @@ So you have successfully written your first groovy program.
 That's it for now.
 
 You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w?view_as=subscriber?sub_confirmation=1) to find more video tutorials.
-
---------------
-
-#### Related Articles
-
-- [8 Basic GIT Commands Every Newbie Developer Must Know](https://coderolls.com/basic-git-commands/)
-- [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
-- [How To Create UUID in Java?](https://coderolls.com/create-uuid-in-java/)
-- [Learn About Java String Pool And intern() Method](https://coderolls.com/java-string-pool-and-intern-method/)
-- [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
-- [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
-- [Difference Between StringBuffer and StringBuilder class](https://coderolls.com/difference-between-stringbuffer-and-stringbuilder/)

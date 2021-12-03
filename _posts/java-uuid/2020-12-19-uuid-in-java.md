@@ -130,14 +130,3 @@ This method returns the version number (`int`)  associated with this UUID.
 
 --------
 You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w?view_as=subscriber?sub_confirmation=1) to find more video tutorials.
-
-If you found this article worth, support me by  [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
-
-#### Related Articles
-
--   [Learn About Java String Pool And intern() Method](https://coderolls.com/java-string-pool-and-intern-method/)
--   [How Do I Compare Strings In Java](https://coderolls.com/compare-strings-in-java/)
--   [How To Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
--   [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
--   [Introduction to Java Technology (Language and Platform)](https://coderolls.com/java-introduction/)
-

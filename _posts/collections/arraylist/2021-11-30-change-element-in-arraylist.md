@@ -82,12 +82,3 @@ public E set(int index, E element)
 The `set()` returns the previously present element in the `ArrayList`.
 
 So, we have seen [how to add an element](https://coderolls.com/add-element-in-arraylist/) and how to change an element in the ArrayList, next we will see how we can remove an element from ArrayList in Java.
-
-### Related articles
-
-- [ArrayList In Java](https://coderolls.com/arraylist-in-java/)
-- [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
-
-
-
-

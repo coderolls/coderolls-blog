@@ -164,10 +164,3 @@ When you assigned a literal to string variable it will automatically be interned
 In contrast, when you create a string using  `new`  operator you have applied `intern()`  method to add its copy to the java string pool.
 
 If you have any queries about the code blocks given above, please write it down in the comment section below. Also. let me know if you have any other information about the Java String pool and  `intern()`  method in the comment section.
-
-### Related Article
-
--   [How do I compare strings in Java](https://coderolls.com/compare-strings-in-java)
--   [Reverse A String In Java (5 ways)](https://coderolls.com/reverse-a-string-in-java/)
--   [Compare Two Strings Lexicographically In Java](https://coderolls.com/compare-two-strings-lexicographically-in-java/)
--   [Introduction to Java Technology (Language and Platform)](https://coderolls.com/java-introduction/)
