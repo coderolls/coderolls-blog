@@ -30,6 +30,8 @@ The `remove(Object o)` method has a return type as a `boolean`. It returns `true
 
 We will see a java program to remove an element from the ArrayList using the `remove(Object o)` method.
 
+### Example 1
+
 ```java
 import java.util.ArrayList;
 
@@ -65,6 +67,111 @@ Output:
 ArrayList before removing an element[Red, Green, Pink]
 ArrayList after removing an element[Red, Green]
 ```
+### Example 2
+
+In the above example we have remove the string object. In this example we will take an employee object. The Employee.java will look like given below
+
+```java
+/**
+ * An employee class for ArrayList remove example
+ * @author Gaurav Kukade at coderolls.com
+ *
+ */
+public class Employee {
+	
+	private int id;
+	
+	private String name;
+	
+	private int salary;
+	
+	// a constructor will all the fields
+	public Employee(int id, String name, int salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	// getters and setters for the variables
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	// Override to string method to print student objects
+	@Override
+	public String toString() {
+		return "{"+this.getId()+", "+ this.getName()+ ", "+this.getSalary()+"}";
+	}
+}
+
+```
+
+Now, we will create an arraylist of the above employee objects and try remove them from the arraylist using `remove(Object o)`.
+
+```java
+import java.util.ArrayList;
+/**
+ * A Java program to remove an object from ArrayList
+ * using the remove(int index) method.
+ * 
+ * @author Gaurav Kukade at coderolls.com
+ *
+ */
+public class ArrayListRemoveObjectExample {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> arrayList = new ArrayList<Employee>();
+		
+		//create Employee objects
+		Employee john = new Employee(100, "John Doe", 20000);
+		Employee nathasha = new Employee(101, "Natasha Putin", 28000);
+		Employee remo = new Employee(102, "Remo Smith", 40000);
+		
+		//adding employee objects to the arrayList using normal add method
+		arrayList.add(john);
+		arrayList.add(nathasha);
+		arrayList.add(remo);
+		
+		System.out.println("ArrayList before removing an employee Object:\n"+ arrayList); 
+		
+		//Remove object using the remo0ve(Object o) method 
+		//Remove employee nathasha from the arrayList
+		arrayList.remove(nathasha);
+		
+		System.out.println("\nArrayList after removing an employee Object:\n"+ arrayList);
+	}
+}
+```
+Output:
+```
+ArrayList before removing an employee Object:
+[{100, John Doe, 20000}, {101, Natasha Putin, 28000}, {102, Remo Smith, 40000}]
+
+ArrayList after removing an employee Object:
+[{100, John Doe, 20000}, {102, Remo Smith, 40000}]
+```
+
 ## 2. Remove an element from an ArrayList using the `remove(int index)` method
 
 `remove(int index)` remove an element at the specified position from the ArrayList.
@@ -76,6 +183,8 @@ Once we remove an element from the ArrayList using the `remove(int index)` metho
 The return type is a `E`. It returns the element that was removed from the list.
 
 We will see a java program to remove an element from the ArrayList by passing its index as an argument to `remove(int index)` method.
+
+### Example 1
 
 ```java
 import java.util.ArrayList;
@@ -116,6 +225,111 @@ Output:
 ArrayList before removing an element[Apple, Orange, Guava, Banana]
 ArrayList after removing an element[Apple, Orange, Banana]
 ```
+
+### Example 2
+
+In the above example we have remove the string object. In this example we will take an employee object. The Employee.java will look like given below
+
+```java
+/**
+ * An employee class for ArrayList remove example
+ * @author Gaurav Kukade at coderolls.com
+ *
+ */
+public class Employee {
+	
+	private int id;
+	
+	private String name;
+	
+	private int salary;
+	
+	// a constructor will all the fields
+	public Employee(int id, String name, int salary) {
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	// getters and setters for the variables
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getSalary() {
+		return salary;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	// Override to string method to print student objects
+	@Override
+	public String toString() {
+		return "{"+this.getId()+", "+ this.getName()+ ", "+this.getSalary()+"}";
+	}
+}
+
+```
+
+Now, we will create an arraylist of the above employee objects and try remove them from the arraylist using `remove(int index)`.
+```java
+import java.util.ArrayList;
+
+/**
+ * A Java program to remove an object from ArrayList
+ * using the remove(int index) method.
+ * 
+ * @author Gaurav Kukade at coderolls.com
+ *
+ */
+public class ArrayListRemoveObjectExample2 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> arrayList = new ArrayList<Employee>();
+		
+		//create Employee objects
+		Employee john = new Employee(100, "John Doe", 20000);
+		Employee nathasha = new Employee(101, "Natasha Putin", 28000);
+		Employee remo = new Employee(102, "Remo Smith", 40000);
+		
+		//adding employee objects to the arrayList using normal add method
+		arrayList.add(john);
+		arrayList.add(nathasha);
+		arrayList.add(remo);
+		
+		System.out.println("ArrayList before removing an employee Object:\n"+ arrayList); 
+		
+		//Remove object using the remove(int index) method 
+		//Remove employee nathasha from the arrayList, so pass natasha's index
+		arrayList.remove(1);
+		
+		System.out.println("\nArrayList after removing an employee Object:\n"+ arrayList);
+	}
+}
+```
+Output:
+```
+ArrayList before removing an employee Object:
+[{100, John Doe, 20000}, {101, Natasha Putin, 28000}, {102, Remo Smith, 40000}]
+
+ArrayList after removing an employee Object:
+[{100, John Doe, 20000}, {102, Remo Smith, 40000}]
+``` 
 
 ## Conclusion
 
