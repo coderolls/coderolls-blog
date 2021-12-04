@@ -152,24 +152,32 @@ public class ArrayListDuplicate {
 2. I have added 6 string objects using the `add()` method one by one. You can observe the 5th and 6th String objects are the same. i.e duplicate (`"Rina"` ) 
 3. On printing the `arrayList`, we can see the 5th as well as 6th String object (`"Rina"` ) on the console. That means `ArrayList` will allow the duplicate elements.
 
-Let me know you thoughts or suggestion in comment section below.
-
 ## Comon Operations on ArrayList
 
-### Adding an element in the ArrayList
+### 1. Adding an element in the ArrayList
 
 When we create an ArrayList Object, we can add an element to the ArrayList using the `add(Object o)` method and `add(int index, Object o)` method.
 
 Read more and check example Java programs about adding an element to the ArrayList in this blog: [How To Add An Element To ArrayList In Java?](https://coderolls.com/add-element-in-arraylist/)
 
-### Changing an element of the ArrayList
+### 2. Changing an element of the ArrayList
 
 When you create an ArrayList objects and add elements to it, some you need to change the element at particular index. You can do it using the `set(int index, E element)`.
 
 Read more and check example Java programs about changing the element of ArrayList in this blogpost: [How To Change An Element In ArrayList?](https://coderolls.com/change-element-in-arraylist/)
 
-### Removing an element of the ArrayList
+### 3. Removing an element of the ArrayList
 
 If you want to remove the element from the ArrayList, you can use the remove(Object o) method or remove(int index) method.
 
 Read more and check example Java program about removing an element from the ArrayList on this blogpost: [How To Remove An Element From An ArrayList?](http://coderolls.com/remove-element-from-arraylist/)
+
+### 4. Iterating over an ArrayList
+
+There are multiple ways to iterate over an ArrayList. You can use the traditional for loop or for-each loop or Iterator.
+
+I have covered all the ways of iterating the ArrayList in Java with all the examples at [Iterating the ArrayList In Java
+](http://coderolls.com/iterating-the-arraylist-in-java/)
+
+
+Let me know you thoughts or suggestions in comment section below.
