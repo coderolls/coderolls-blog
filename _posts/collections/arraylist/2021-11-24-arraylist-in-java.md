@@ -79,6 +79,19 @@ In the above code the `<String>` represents Generics and I am creating an `array
 By default, Collections are heterogeneous i.e. they can save all types of objects in one collection. By using Generics I am making it homogeneous i.e. it will store only specified types of objects in that particular collection.
 
 
+## Methods in ArrayList
+
+{:class="table table-bordered"}
+|Method | Description |
+|:------| :---------- |
+|[`add(E e)`](https://coderolls.com/add-element-in-arraylist/)|This method adds an element to the end of the list.|
+|[`add(int index, E element)`](https://coderolls.com/add-element-in-arraylist/)|This method adds an element to the list at the specifed `index`.|
+|[`set(int index, E element)`](https://coderolls.com/change-element-in-arraylist/)|This method sets the sepecified element at the specifed `index`.|
+|[`remove(Object o)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the specified object from the ArrayList.|
+|[`remove(int index)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the object at specified index from the ArrayList.|
+|[`iterator()`](https://coderolls.com/remove-element-from-arraylist/)|This method provides the Iterator to iterate over an ArrayList.|
+
+
 ## Features
 
 ### 1. ArrayList maintains the insertion order.
@@ -178,6 +191,7 @@ There are multiple ways to iterate over an ArrayList. You can use the traditiona
 
 I have covered all the ways of iterating the ArrayList in Java with all the examples at [Iterating the ArrayList In Java
 ](http://coderolls.com/iterating-the-arraylist-in-java/)
+
 
 
 The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-in-java).
