@@ -81,4 +81,6 @@ public E set(int index, E element)
 
 The `set()` returns the previously present element in the `ArrayList`.
 
-So, we have seen [how to add an element](https://coderolls.com/add-element-in-arraylist/) and how to change an element in the ArrayList, next we will see how we can remove an element from ArrayList in Java.
+So, we have seen [how to add an element](https://coderolls.com/add-element-in-arraylist/) and [how to change an element in the ArrayList](https://coderolls.com/change-element-in-arraylist/), next we will see how we can [remove an element from ArrayList](https://coderolls.com/remove-element-from-arraylist/) in Java.
+
+The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/change-element-in-arraylist).

@@ -180,4 +180,6 @@ I have covered all the ways of iterating the ArrayList in Java with all the exam
 ](http://coderolls.com/iterating-the-arraylist-in-java/)
 
 
+The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-in-java).
+
 Let me know you thoughts or suggestions in comment section below.

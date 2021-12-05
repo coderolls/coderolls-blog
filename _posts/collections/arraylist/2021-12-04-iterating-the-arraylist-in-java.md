@@ -367,4 +367,6 @@ We can iterate over ArrayList using the following ways.
 4. Iterating the ArrayList using Iterator
 5. Iterating the ArrayList using Lambda Expressions
 
+The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/iterating-the-arraylist-in-java).
+
 If you know any other way to iterate through ArrayList, please write it down in the comment section below.

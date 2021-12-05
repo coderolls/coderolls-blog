@@ -338,4 +338,6 @@ We can remove an element from the ArrayList in two ways.
 1. `remove(Object o)` - we can remove the specified object from the ArrayList
 2. `remove(int index)` - We can remove an element at the position (index) specified
 
+The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/remove-element-from-arraylist).
+
 If you know any other way, please comment below.
