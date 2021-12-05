@@ -135,7 +135,11 @@ public class ArrayListToArray2 {
 		
 		// convert ArrayList to array
 		// pass a new String array of the arrayList size as a param to toArray
-		String[] elements = arrayList.toArray(new String[arrayList.size()]);
+		//String[] elements = arrayList.toArray(new String[arrayList.size()]);
+		
+		//kindly read the 'Important Note' below
+		String[] elements = arrayList.toArray(new String[0]);
+
 		
 		System.out.println("\nArray:");
 		//we will receive the string array, so iterate on it to print each element
@@ -158,6 +162,9 @@ Netflix
 Microsoft
 Google
 ```
+
+### Important Note: The code above used new String[arrayList.size()] as a paramter to a `toArray()` method. However, [this blogpost from Aleksey Shipilёv](https://shipilev.net/blog/2016/arrays-wisdom-ancients/) reveals that due to JVM optimizations, using new String[0] is better now. 
+
 
 ## Conclusion
 
