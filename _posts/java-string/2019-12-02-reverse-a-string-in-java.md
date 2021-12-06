@@ -258,10 +258,10 @@ public class ReverseStringUsingReverseMethodOfStringBuilder {
     
     StringBuilder stringBuilder = new StringBuilder(blogName);
     
-    stringBuilder = stringBuilder.reverse();
+    String reversedString = stringBuilder.reverse().toString();
     
     System.out.print("The reversed string of the '"+blogName+"' is: ");
-    System.out.println(stringBuilder);
+    System.out.println(reversedString);
   }
 }
 ```
