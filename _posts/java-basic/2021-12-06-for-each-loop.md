@@ -125,4 +125,6 @@ For-each loop i.e. enhanced for loop can be used to traverse over the array or c
 
 It provides a more readable syntax as compared to the simple for loop.
 
+The example java program used in the above article can be found at [this GitHub repository.](https://github.com/coderolls/blogpost-coding-examples/tree/main/java-basic/for-each-loop)
+
 Please write down your thoughts in the comment section below.
