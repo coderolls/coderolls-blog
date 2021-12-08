@@ -23,8 +23,6 @@ public static String reverse(String str) {
 }
 ```
 
-### Explanation:
-
 In the above method `reverse()` we are taking String `str` to be reversed.
 
 We are checking if the `str` is null or its length is less than 1. If found, we will return the same string.
