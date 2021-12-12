@@ -91,7 +91,7 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`remove(int index)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the object at specified index from the ArrayList.|
 |[`iterator()`](https://coderolls.com/remove-element-from-arraylist/)|This method provides the Iterator to iterate over an ArrayList.|
 |[`clear()`](http://coderolls.com/arraylist-clear-method-in-java/)|This method removes all the elements from the list and makes it empty.|
-
+|[`contains()`]()|This method is used for checking if the specified element exists in the given list or not.|
 
 ## Features
 
