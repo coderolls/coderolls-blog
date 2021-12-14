@@ -87,4 +87,8 @@ The ArrayList `contains()` method is used to check if the list contains the spec
 
 This method returns `true` if the specified element is present in the list. Otherwise, it  returns `false`
 
+---
+
+The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-contains-method).
+
 If you know anything other than this, kindly write in the comment section below.

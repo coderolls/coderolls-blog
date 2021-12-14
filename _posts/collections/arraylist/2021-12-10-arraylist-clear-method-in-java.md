@@ -95,8 +95,9 @@ When we invoke the `clear()` method on the ArrayList, it removes all the element
 ```
 arrayList.clear()
 ```
+
+---
+
+The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-clear-method-in-java).
+
 If you know anything else about the `clear()` method of the [ArrayList class](https://coderolls.com/arraylist-in-java/), kindly write it in the comment section below.
-
-
-
-
