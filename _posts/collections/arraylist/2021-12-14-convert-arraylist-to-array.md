@@ -163,7 +163,9 @@ Microsoft
 Google
 ```
 
-### Important Note: The code above used new String[arrayList.size()] as a paramter to a `toArray()` method. However, [this blogpost from Aleksey Shipilёv](https://shipilev.net/blog/2016/arrays-wisdom-ancients/) reveals that due to JVM optimizations, using new String[0] is better now. 
+### Important Note:
+
+The code above used new String[arrayList.size()] as a paramter to a `toArray()` method. However, [this blogpost from Aleksey Shipilёv](https://shipilev.net/blog/2016/arrays-wisdom-ancients/) reveals that due to JVM optimizations, using new String[0] is better now. 
 
 
 ## Conclusion
