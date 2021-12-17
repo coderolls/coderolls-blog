@@ -1,6 +1,6 @@
 ﻿---  
 layout: post  
-title: "ArrayList `removeRange()` method in Java"  
+title: "ArrayList removeRange() method in Java"  
 author: gaurav  
 categories: [Collections, ArrayList]  
 description: "In this article, we will see removeRange() method of ArrayList class in Java. This method is used to remove a range of elements from the ArrayList."  
@@ -16,7 +16,7 @@ ArrayList is an ordered collection i.e. it maintains the insertion order of the 
 
 We have seen [how to remove elements from the ArrayList](https://coderolls.com/remove-element-from-arraylist/). Today, we will see how to remove a range of elements from the ArrayList.
 
-Also, We have seen a few methods of the ArrayList class before like [`add()`](https://coderolls.com/add-element-in-arraylist/), [`addAll()`](http://https://coderolls.com/arraylist-addall-method-in-java/), [`remove()`](https://coderolls.com/remove-element-from-arraylist/), [`set()`](https://coderolls.com/change-element-in-arraylist/), [`iterate()`](http://coderolls.com/iterating-the-arraylist-in-java/), [`clear()`](http://coderolls.com/arraylist-clear-method-in-java/),  [`contains()`](http://coderolls.com/arraylist-contains-method) and [`get()`](http://coderolls.com/arraylist-get-method) method.  
+Also, We have seen a few methods of the ArrayList class before like [`add()`](https://coderolls.com/add-element-in-arraylist/), [`addAll()`](http://https://coderolls.com/arraylist-addall-method-in-java/), [`remove()`](https://coderolls.com/remove-element-from-arraylist/), [`set()`](https://coderolls.com/change-element-in-arraylist/), [`iterate()`](https://coderolls.com/iterating-the-arraylist-in-java/), [`clear()`](https://coderolls.com/arraylist-clear-method-in-java/),  [`contains()`](https://coderolls.com/arraylist-contains-method) and [`get()`](https://coderolls.com/arraylist-get-method) method.  
 
 Today we will see the `removeRange()` method.  
   
@@ -33,6 +33,7 @@ The method signature is as given below.
 protected void removeRange(int fromIndex, int toIndex)  
 ```
 As shown in the above method signature, it accepts two parameter.
+
 {:class="table table-bordered"}
 |Parameter|Description|
 |:------------|:-------|

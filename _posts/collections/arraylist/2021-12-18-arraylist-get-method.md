@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "ArrayList `get()` method in Java"
+title: "ArrayList get() method in Java"
 author: gaurav
 categories: [Collections, ArrayList]
 description: "In this article, we will see get() method of ArrayList class in Java. This method is used to get an arraylist element by its index."
@@ -16,7 +16,7 @@ ArrayList is an ordered collection i.e. it maintains the insertion order of the 
 
 When we [iterate over an ArrayList](https://coderolls.com/iterating-the-arraylist-in-java/) using for loop, the variable `i` will be the current index of the list. We can use the variable `i` in the `get(int index)` method to get the element at index `i`.
 
-We have seen a few methods of the ArrayList class before like [`add()`](https://coderolls.com/add-element-in-arraylist/), [`addAll()`](http://https://coderolls.com/arraylist-addall-method-in-java/), [`remove()`](https://coderolls.com/remove-element-from-arraylist/), [`set()`](https://coderolls.com/change-element-in-arraylist/), [`iterate()`](http://coderolls.com/iterating-the-arraylist-in-java/), [`clear()`](http://coderolls.com/arraylist-clear-method-in-java/) and [`contains()`](http://coderolls.com/arraylist-contains-method).
+We have seen a few methods of the ArrayList class before like [`add()`](https://coderolls.com/add-element-in-arraylist/), [`addAll()`](http://https://coderolls.com/arraylist-addall-method-in-java/), [`remove()`](https://coderolls.com/remove-element-from-arraylist/), [`set()`](https://coderolls.com/change-element-in-arraylist/), [`iterate()`](https://coderolls.com/iterating-the-arraylist-in-java/), [`clear()`](https://coderolls.com/arraylist-clear-method-in-java/) and [`contains()`](https://coderolls.com/arraylist-contains-method).
 
 Today we will see the `get()` method.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "For-each loop in Java or Enhanced For loop in Java"
 author: gaurav
-categories: [Java]
+categories: [Java, Control Flow Statements]
 description: "In this article, we will see the for-each loop in java i.e. Enhanced for loop"
 ---
 In this article, we will see the for-each loop in java i.e. Enhanced for loop
