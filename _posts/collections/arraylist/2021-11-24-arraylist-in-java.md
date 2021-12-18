@@ -86,6 +86,9 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |:------| :---------- |
 |[`add(E e)`](https://coderolls.com/add-element-in-arraylist/)|This method adds an element to the end of the list.|
 |[`add(int index, E element)`](https://coderolls.com/add-element-in-arraylist/)|This method adds an element to the list at the specifed `index`.|
+|[`addAll(Collection c)`](https://coderolls.com/arraylist-addall-method-in-java/)|This method adds the elements of the specified collection to the end of the ArrayList.|
+|[`addAll(int index, Collection c)`](https://coderolls.com/arraylist-addall-method-in-java/)|This method adds the elements of the specified collection at the specified index `index`.|
+|[`get(int index)`](https://coderolls.com/arraylist-get-method/)|This method is used to get the ArrayList element by it’s index `index`.|
 |[`set(int index, E element)`](https://coderolls.com/change-element-in-arraylist/)|This method sets the sepecified element at the specifed `index`.|
 |[`remove(Object o)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the specified object from the ArrayList.|
 |[`remove(int index)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the object at specified index from the ArrayList.|
