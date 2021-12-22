@@ -92,12 +92,17 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`set(int index, E element)`](https://coderolls.com/change-element-in-arraylist/)|This method sets the sepecified element at the specifed `index`.|
 |[`remove(Object o)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the specified object from the ArrayList.|
 |[`remove(int index)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the object at specified index from the ArrayList.|
+|`removeIf(Predicate filter)`|This method removes all of the elements of the ArrayList that satisfy the given predicate.|
+|`removeAll(Collection c)`|This method removes from this list all of its elements that are contained in the specified collection.|
 |[`iterator()`](https://coderolls.com/remove-element-from-arraylist/)|This method provides the Iterator to iterate over an ArrayList.|
 |[`clear()`](http://coderolls.com/arraylist-clear-method-in-java/)|This method removes all the elements from the list and makes it empty.|
+|`isEmpty()`|This method returns true if this list contains no elements.|
 |[`contains()`](http://coderolls.com/arraylist-contains-method/)|This method is used for checking if the specified element exists in the given list or not.|
 |[`toArray()`](http://coderolls.com/convert-arraylist-to-array/)|This method returns an array containing all of the elements in this ArrayList in proper sequence.|
 |[`toArray(T[] a)`](http://coderolls.com/convert-arraylist-to-array/)|This method returns `T []` i.e. An array of the specified type `T` can be returned.|
 |[`removeRange(int fromIndex, int toIndex)`](http://coderolls.com/arraylist-removerange-method/)|This method is used for removing the range of ekements from the subclasses of the ArrayList class. The [`removeRange(int fromIndex, int toIndex)` method](http://coderolls.com/arraylist-removerange-method/) is a protected method.|
+|[`retainAll(Collection c)`](http://coderolls.com/arraylist-retainall-method/)|This method method retains all the elements of the collection passed as a parameter in the list.|
+
 
 ## Features
 
