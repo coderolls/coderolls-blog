@@ -34,7 +34,7 @@ The `addAll(Collection c)` method adds all the elements of the specified collect
 The method signature for this method is as given below.
 ```java
 public boolean addAll(Collection c)
-``` 
+```
 The method signature shows that this method accepts one parameter of type Collection.
 
 - **`c` : -** any collection obejct
@@ -103,7 +103,7 @@ The `addAll(int index, Collection c)` method adds all the elements of the specif
 The method signature for this method is as given below.
 ```java
 public boolean addAll(int index, Collection c)
-``` 
+```
 
 This method accepts two parameters, 
 - **`c`  : -**  a collection `c`  whose elements need to be added to the arraylist
@@ -176,8 +176,11 @@ We can add elements of a collection to the ArrayList using the `addAll()` method
 1. `addAll(Collection c)` - it adds elements of the specified collection to the end of ArrayList
 2. `addAll(int index, Collection c)` - it adds elements of the specified collection to the ArrayList from the specified position (index)
 
-Please write your thoughts in the commend section below.
+---
 
+The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-addall-method-in-java).
+
+Please write your thoughts in the commend section below.
 
 
 

@@ -329,7 +329,7 @@ ArrayList before removing an employee Object:
 
 ArrayList after removing an employee Object:
 [{100, John Doe, 20000}, {102, Remo Smith, 40000}]
-``` 
+```
 
 ## Conclusion
 
@@ -337,6 +337,8 @@ We can remove an element from the ArrayList in two ways.
 
 1. `remove(Object o)` - we can remove the specified object from the ArrayList
 2. `remove(int index)` - We can remove an element at the position (index) specified
+
+---
 
 The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/remove-element-from-arraylist).
 

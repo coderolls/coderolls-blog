@@ -177,6 +177,8 @@ There are two versions of the `toArray()` method.
 1. `public Object[] toArray()` method
 2. `public <T> T[] toArray(T[] a)` method
 
+---
+
 The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/convert-arraylist-to-array).
 
 Please write you thoughts in the comment section below.

@@ -3,6 +3,7 @@ layout: post
 title: "ArrayList In Java"
 author: gaurav
 categories: [Collections, ArrayList]
+
 description: "In this article, we will see ArrayList in Java. How to create an ArrayList? Its various type of constructors for creating an ArrayList object. Also, some important features with an example."
 ---
 In this article, we will see ArrayList in Java. How to create an ArrayList? Its various type of constructors for creating an ArrayList object. Also, some important features with an example.
@@ -201,10 +202,9 @@ Read more and check example Java program about removing an element from the Arra
 
 There are multiple ways to iterate over an ArrayList. You can use the traditional for loop or for-each loop or Iterator.
 
-I have covered all the ways of iterating the ArrayList in Java with all the examples at [Iterating the ArrayList In Java
-](http://coderolls.com/iterating-the-arraylist-in-java/)
+I have covered all the ways of iterating the ArrayList in Java with all the examples at [Iterating the ArrayList In Java](http://coderolls.com/iterating-the-arraylist-in-java/)
 
-
+---
 
 The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-in-java).
 

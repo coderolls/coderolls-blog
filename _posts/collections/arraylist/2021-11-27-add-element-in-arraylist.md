@@ -120,6 +120,8 @@ We can add element to the [ArrayList](https://coderolls.com/arraylist-in-java/) 
 1. `add(E e)` - It will add an element to the end of the ArrayList
 2. `add(int index, E element)`- This method will add an element at the specified index
 
+---
+
 The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/add-element-in-arraylist).
 
 If you know any other ways, you a can write a comment below.

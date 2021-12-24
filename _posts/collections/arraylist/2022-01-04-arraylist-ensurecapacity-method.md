@@ -1,4 +1,4 @@
-﻿---  
+﻿---
 layout: post  
 title: "ArrayList ensureCapacity() method in Java"  
 author: gaurav  

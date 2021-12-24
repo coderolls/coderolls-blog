@@ -99,6 +99,8 @@ The element from an `arrayList` at index `i` can be get as
 arrayList.get(i);
 ```
 
+---
+
 The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-get-method).
- 
+
 Please write your thoughts in the comment section below.
