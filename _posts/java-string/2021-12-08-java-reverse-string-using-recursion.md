@@ -60,7 +60,7 @@ The full example java program is as given below.
 public class ReverseStringUsingRecursion {
 
 	public static void main(String[] args) {
-		String str = "Hello";
+		String str = "hello";
 		System.out.println(reverse(str));
 
 	}
@@ -77,4 +77,7 @@ Output:
 ```
 olleh
 ```
+
+The example java program given in the above tutorial can be found at [this GitHub Gist](https://gist.github.com/gauravkukade/16388aabb97a4990bd91cd32f3acf9d6).
+
 Please write you thoughts in the comment section below.
