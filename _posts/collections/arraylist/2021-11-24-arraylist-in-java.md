@@ -104,6 +104,7 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`removeRange(int fromIndex, int toIndex)`](http://coderolls.com/arraylist-removerange-method/)|This method is used for removing the range of ekements from the subclasses of the ArrayList class. The [`removeRange(int fromIndex, int toIndex)` method](http://coderolls.com/arraylist-removerange-method/) is a protected method.|
 |[`retainAll(Collection c)`](http://coderolls.com/arraylist-retainall-method/)|This method method retains all the elements of the collection passed as a parameter in the list.|
 |[`trimToSize()`](http://coderolls.com/arraylist-trimtosize-method/)|This method trims the capacity of this ArrayList instance to be the list's current size.|
+|[`indexOf(Object o)`](http://coderolls.com/arraylist-indexof-method/)|This method returns the index of the first occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
 
 
 
