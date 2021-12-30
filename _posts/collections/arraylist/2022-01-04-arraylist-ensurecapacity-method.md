@@ -3,8 +3,11 @@ layout: post
 title: "ArrayList ensureCapacity() method in Java"  
 author: gaurav  
 categories: [Collections, ArrayList]  
-description: "In this short tutorial, we will see the ensureCapacity(int minCapacity) method of the Arraylist class in Java."  
+
+description: "In this short tutorial, we will see the ensureCapacity(int minCapacity) method of the Arraylist class in Java." 
+
 ---
+
 In this tutorial, we will see the `ensureCapacity(int minCapacity)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). 
 
 ## Introduction  

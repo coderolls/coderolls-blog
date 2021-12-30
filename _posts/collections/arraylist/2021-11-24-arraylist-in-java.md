@@ -105,6 +105,7 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`retainAll(Collection c)`](http://coderolls.com/arraylist-retainall-method/)|This method method retains all the elements of the collection passed as a parameter in the list.|
 |[`trimToSize()`](http://coderolls.com/arraylist-trimtosize-method/)|This method trims the capacity of this ArrayList instance to be the list's current size.|
 |[`indexOf(Object o)`](http://coderolls.com/arraylist-indexof-method/)|This method returns the index of the first occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
+|[`lastIndexOf(Object o)`](http://coderolls.com/arraylist-lastIndexof-method/)|This method returns the index of the last occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
 
 
 
