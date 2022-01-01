@@ -93,11 +93,11 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`set(int index, E element)`](https://coderolls.com/change-element-in-arraylist/)|This method sets the sepecified element at the specifed `index`.|
 |[`remove(Object o)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the specified object from the ArrayList.|
 |[`remove(int index)`](https://coderolls.com/remove-element-from-arraylist/)|This method removes the object at specified index from the ArrayList.|
-|`removeIf(Predicate filter)`|This method removes all of the elements of the ArrayList that satisfy the given predicate.|
-|`removeAll(Collection c)`|This method removes from this list all of its elements that are contained in the specified collection.|
+|[`removeIf(Predicate filter)`](http://coderolls.com/arraylist-removeif-method/)|This method removes all of the elements of the ArrayList that satisfy the given predicate.|
+|[`removeAll(Collection c)`](http://coderolls.com/arraylist-removeall-method/)|This method removes from this list all of its elements that are contained in the specified collection.|
 |[`iterator()`](https://coderolls.com/remove-element-from-arraylist/)|This method provides the Iterator to iterate over an ArrayList.|
 |[`clear()`](http://coderolls.com/arraylist-clear-method-in-java/)|This method removes all the elements from the list and makes it empty.|
-|`isEmpty()`|This method returns true if this list contains no elements.|
+|[`isEmpty()`](http://coderolls.com/arraylist-isempty-method/)|This method returns true if this list contains no elements.|
 |[`contains()`](http://coderolls.com/arraylist-contains-method/)|This method is used for checking if the specified element exists in the given list or not.|
 |[`toArray()`](http://coderolls.com/convert-arraylist-to-array/)|This method returns an array containing all of the elements in this ArrayList in proper sequence.|
 |[`toArray(T[] a)`](http://coderolls.com/convert-arraylist-to-array/)|This method returns `T []` i.e. An array of the specified type `T` can be returned.|
@@ -106,6 +106,8 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`trimToSize()`](http://coderolls.com/arraylist-trimtosize-method/)|This method trims the capacity of this ArrayList instance to be the list's current size.|
 |[`indexOf(Object o)`](http://coderolls.com/arraylist-indexof-method/)|This method returns the index of the first occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
 |[`lastIndexOf(Object o)`](http://coderolls.com/arraylist-lastIndexof-method/)|This method returns the index of the last occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
+|[`ensureCapacity()`](http://coderolls.com/arraylist-ensurecapacity-method/)|This method increases the capacity of this  ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument.|
+|[`listIterator()`](http://coderolls.com/arraylist-listiterator-method/)|This method returns a *fail-fast* list iterator over the elements in this list (in proper sequence).|
 
 
 

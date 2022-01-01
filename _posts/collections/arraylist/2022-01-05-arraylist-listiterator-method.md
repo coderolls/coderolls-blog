@@ -27,7 +27,7 @@ There are two variations of the `listIterator()` method.
 
 ## 1. ArrayList `listIterator()` method  
 
-The `listIterator()` method  returns a list iterator over the elements in this list (in proper sequence).
+The `listIterator()` method returns a list iterator over the elements in this list (in proper sequence).
 
 The returned list iterator is [*fail-fast*](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html#fail-fast). i.e When multiple threads try to uodate the list at a time, it will throw the `ConcurrentModificationExaception`.
 
