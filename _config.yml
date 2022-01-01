@@ -62,6 +62,6 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "enabled"
 
 # hide future post
-future: true
+future: false
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
