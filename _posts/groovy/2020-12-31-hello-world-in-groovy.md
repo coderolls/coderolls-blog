@@ -5,7 +5,7 @@ author: gaurav
 image: assets/images/2020-12-31/groovy-logo.webp
 categories: [ Groovy]
 description: "In this article you will say 'Hello' to Groovy. We will see the installation and 'the' most important 'Hello World!' program."
-featured: true
+featured: false
 ---
 In this article, you will say 'Hello' to Groovy. We will see the installation and 'the' most important "Hello World!" program. 🙂
 

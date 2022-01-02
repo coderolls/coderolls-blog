@@ -10,9 +10,15 @@ post_class: post-template
 <div class="container">
     <div class="row">
 
-        <!-- Post Share -->
-        <div class="col-md-2 pl-0">
+        <!-- Post Share
+        <div class="col-md-1 pl-0">
             {% include share.html %}
+        </div>
+ -->
+
+        <!-- Post Share -->
+        <div class="col-md-3" pl-0>
+            {% include related_posts_sidebar.html %}
         </div>
 
         <!-- Post -->
@@ -60,10 +66,29 @@ post_class: post-template
                     {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
                     {% endif %}
+                    <!-- commented default toc , added colaapsable below
                     <div class="toc mt-4 mb-4 lead">
                         <h3 class="font-weight-bold">Summary</h3>
                         {% include toc.html html=content %}
                     </div>
+                    -->
+                    <div id="accordion">
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Table of Contents
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                {% include toc.html html=content %}
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
                 {% endif %}
                 <!-- End Toc -->
                 {{content}}
@@ -71,32 +96,11 @@ post_class: post-template
                 <!-- ==============================Related Post include=================================-->
                 {% include related_posts.html %}
                 <!-- ==============================Related Post include=================================-->
-                <!-- Mailchimp Subscribe Form -->
+                <!-- ==============================Mailchimp Subscribe Form=============================-->
                 {% if site.mailchimp-list %}
-                <div class="border p-5 bg-lightblue">
-                    <div class="row justify-content-between">
-                        <div class="col-md-6 mb-2 mb-md-0">
-                            <h5 class="font-weight-bold">Join Newsletter</h5>
-                            Get the latest tutorials right in your inbox. We never spam!
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
-                                <div class="mc-field-group">
-                                
-                                    <input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
-                                
-                                
-                                    <button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
-                                
-                                </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    {% include mailchimp_newsletter_box.html %}
                 {% endif %}
-                <!-- End Mailchimp Subscribe Form -->
+                <!-- =============================End Mailchimp Subscribe Form========================== -->
                 
             </div>
 
@@ -158,6 +162,7 @@ post_class: post-template
         </div>
         <!-- End Post -->
 
+
     </div>
 </div>
 <!-- End Article
@@ -168,7 +173,10 @@ post_class: post-template
 {% if page.comments != false %}
     <div class="container">
         <div id="comments" class="row justify-content-center mb-5">
-            <div class="col-md-8">
+            <div class="col-md-3">
+               
+            </div>
+            <div class="col-md-9">
                 {% include disqus.html %}
             </div>
         </div>

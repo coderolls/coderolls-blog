@@ -1,0 +1,38 @@
+<div class="related-posts-sidebar ">
+
+<h4>Related Tutorials</h4>
+
+{% assign maxRelated = 25 %}
+{% assign minCommonTags =  2 %}
+{% assign maxRelatedCounter = 0 %}
+
+<ul>
+{% for post in site.posts %}
+
+  {% assign sameTagCount = 0 %}
+  {% assign commonTags = '' %}
+
+  {% for category in post.categories %}
+    {% if post.url != page.url %}
+      {% if page.categories contains category %}
+        {% assign sameTagCount = sameTagCount | plus: 1 %}
+        {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+        {% assign commonTags = commonTags | append: tagmarkup %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if sameTagCount >= minCommonTags %}
+    <li>
+    <div>
+    <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p><!-- {{ commonTags }} -->
+    </div>
+    </li>
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    {% if maxRelatedCounter >= maxRelated %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+</div>

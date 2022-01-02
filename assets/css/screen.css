@@ -4,20 +4,20 @@ Copyright: Sal, WowThemes.net, https://www.wowthemes.net
 License: https://www.wowthemes.net/freebies-license/ 
 */
 @media screen and (min-width:1500px) {
-    html { font-size:18px; } /* Increase the font size on higher resolutions */
-    .container {max-width:80%;}
+    html { font-size:19px; } /* Increase the font size on higher resolutions */
+    .container {max-width:90%;}
 }
 .mainheading {
     padding: 1rem 0rem;
 }
 
 a {
-    color: #00ab6b;
+    color: #6C63FF;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #038252;
+    color: #9400d3;
     text-decoration: none;
 }
 
@@ -785,6 +785,12 @@ iframe {
 
     .jumbotron.fortags .row {
         margin: 0;
+    }
+
+    .related-posts-sidebar {
+        top: 100px;
+        margin-left: -120px;
+        font-family: -apple-system,  system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 }
 
