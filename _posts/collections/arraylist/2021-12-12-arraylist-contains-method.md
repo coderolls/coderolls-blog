@@ -3,6 +3,7 @@ layout: post
 title: "ArrayList contains() method in Java"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see the contains() method of ArrayList in Java. This method is used to check if the list contains the specified element."
 ---
 In this article, we will see the `contains()` method of [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method is used to check if the list contains the element.

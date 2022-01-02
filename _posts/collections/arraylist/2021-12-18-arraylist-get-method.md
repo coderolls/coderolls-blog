@@ -3,6 +3,7 @@ layout: post
 title: "ArrayList get() method in Java"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see get() method of ArrayList class in Java. This method is used to get an arraylist element by its index."
 ---
 

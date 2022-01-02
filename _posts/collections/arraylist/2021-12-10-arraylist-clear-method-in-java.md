@@ -3,6 +3,7 @@ layout: post
 title: "ArrayList clear() method in Java"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see clear() method of ArrayList in Java. This method is used to remove all the elements of the current ArrayList."
 ---
 

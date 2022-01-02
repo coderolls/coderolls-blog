@@ -2,7 +2,8 @@
 layout: post  
 title: "ArrayList removeAll() method"  
 author: gaurav  
-categories: [Collections, ArrayList]  
+categories: [Collections, ArrayList]
+toc: true 
 description: "In this tutorial, we will see the removeAll(Collection c) method of the Arraylist class in Java."  
 ---
 In this tutorial, we will see the `removeAll(Collection c)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method removes from this list all of its elements that are contained in the specified collection..

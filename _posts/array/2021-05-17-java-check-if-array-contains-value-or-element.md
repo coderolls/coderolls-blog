@@ -3,6 +3,7 @@ layout: post
 title: " Java: Check If Array Contains Value or Element"
 author: gaurav
 categories: [Java, Array]
+toc: true
 description: "In this quick beginner-friendly tutorial, we will see how to check if an array contains a value or an element."
 ---
 

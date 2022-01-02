@@ -2,7 +2,8 @@
 layout: post  
 title: "ArrayList removeIf() method"  
 author: gaurav  
-categories: [Collections, ArrayList]  
+categories: [Collections, ArrayList]
+toc: true  
 description: "In this tutorial, we will see the removeIf(Predicate filter) method of the Arraylist class in Java."  
 ---
 In this tutorial, we will see the `removeIf(Predicate filter)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method removes all of the elements of this collection that satisfy the given predicate.

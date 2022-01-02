@@ -4,7 +4,7 @@ layout: post
 title: "ArrayList listIterator() method in Java"  
 author: gaurav  
 categories: [Collections, ArrayList]  
-
+toc: true
 description: "In this short tutorial, we will see the listIterator() method of the Arraylist class in Java."  
 ---
 

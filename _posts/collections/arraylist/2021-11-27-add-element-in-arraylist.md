@@ -3,6 +3,7 @@ layout: post
 title: "How To Add An Element To ArrayList In Java?"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see how to add element in ArrayList. Also, we will see how can we add an element at particular index in ArrayList."
 ---
 

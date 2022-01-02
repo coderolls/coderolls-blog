@@ -3,6 +3,7 @@ layout: post
 title: "ArrayList addAll() method in Java"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see how to add another collections elements in the ArrayList. Also, we will see how to add another collections elements from any particular index in ArrayList."
 ---
 In this article, we will see how to add another collections elements in the ArrayList. Also, we will see how to add another collections elements from any particular index in ArrayList.

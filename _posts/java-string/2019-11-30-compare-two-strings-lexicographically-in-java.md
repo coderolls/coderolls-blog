@@ -3,6 +3,7 @@ layout: post
 title: "How To Compare Two Strings Lexicographically In Java"
 author: gaurav
 categories: [ Java, Core Java, String]
+toc: true
 description: "In this article, we will learn how to compare two strings lexicographically in java."
 featured: false
 comments: true

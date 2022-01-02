@@ -3,6 +3,7 @@ layout: post
 title: "How To Reverse A String In Java Using Recursion"
 author: gaurav
 categories: [Java, String]
+toc: true
 description: "In this article, we will see how to reverse a string in java using the recursion."
 ---
 In this article, we will see how to reverse a string in java using the recursion.

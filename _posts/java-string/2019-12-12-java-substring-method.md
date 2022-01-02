@@ -3,6 +3,7 @@ layout: post
 title: substring() Method in Java (With example)
 author: gaurav
 categories: [ Java, Core Java, String]
+toc: true
 description: The String class in Java is one of the most important classes in Java. After reading this article you will be able to use the 'substring()` method of the String class.
 ---
 The String class in Java is one of the most important classes in Java. After reading this article you will be able to use the 'substring()` method of the String class.

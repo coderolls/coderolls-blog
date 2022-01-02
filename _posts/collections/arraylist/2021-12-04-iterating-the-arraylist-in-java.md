@@ -3,6 +3,7 @@ layout: post
 title: "Iterating the ArrayList In Java"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see how to iterate through an ArrayList in java. We will see the various to iterate like for loop, Iterator Inteface, For-Each method with Lambda expression etc"
 ---
 In this article, we will see how to iterate through an [ArrayList In Java](https://coderolls.com/arraylist-in-java/). We will see the various to iterate like for loop, Iterator Inteface, For-Each method with Lambda expression etc

@@ -2,7 +2,8 @@
 layout: post  
 title: "ArrayList isEmpty() method in Java"  
 author: gaurav  
-categories: [Collections, ArrayList]  
+categories: [Collections, ArrayList]
+toc: true  
 description: "In this short tutorial, we will see the isEmpty() method of the Arraylist class in Java. This method is used to check if the AarrayList is empty or not."  
 ---
 In this tutorial, we will see the `isEmpty()` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method is used to check if the ArrayList is empty or not.

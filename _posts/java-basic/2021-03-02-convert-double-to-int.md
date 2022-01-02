@@ -4,6 +4,7 @@ title: "How To Convert double To int In Java?"
 author: gaurav
 image: assets/images/2021-03-02/double-to-int-in-java.webp
 categories: [ Java, Core Java, String]
+toc: true
 description: "In this article you are going to learn how can we convert a double value to an integer value."
 ---
 

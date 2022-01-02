@@ -3,7 +3,7 @@ layout: post
 title: "ArrayList ensureCapacity() method in Java"  
 author: gaurav  
 categories: [Collections, ArrayList]  
-
+toc: true
 description: "In this short tutorial, we will see the ensureCapacity(int minCapacity) method of the Arraylist class in Java." 
 
 ---

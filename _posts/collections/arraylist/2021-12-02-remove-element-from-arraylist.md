@@ -3,6 +3,7 @@ layout: post
 title: "How To Remove An Element From An ArrayList?"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see how to remove an element from an ArrayList."
 ---
 In this article, we will see how to remove an element from an [ArrayList In Java](https://coderolls.com/arraylist-in-java/).

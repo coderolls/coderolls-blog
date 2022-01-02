@@ -5,6 +5,7 @@ author: gaurav
 categories: [ Java, Core Java ]
 description: "Java is a general purpose computer programming language. Let's get introduce to an amazing programming language."
 featured: false
+toc: true
 ---
 
 Java is a general purpose computer programming language. Let's get introduce to an amazing programming language.

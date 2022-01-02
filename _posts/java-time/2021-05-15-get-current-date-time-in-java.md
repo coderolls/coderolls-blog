@@ -3,6 +3,7 @@ layout: post
 title: "How To Get Current Date Time In Java?"
 author: gaurav
 categories: [Java, Java Time]
+toc: true
 description: "We need to use Date and Time in day-to-day programming. In this article, we will see how to get the current date and time in Java. "
 ---
 We need to use Date and Time in day-to-day programming. In this article, we will see how to get the current date and time in Java. 

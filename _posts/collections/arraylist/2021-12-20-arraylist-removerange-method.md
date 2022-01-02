@@ -2,7 +2,8 @@
 layout: post  
 title: "ArrayList removeRange() method in Java"  
 author: gaurav  
-categories: [Collections, ArrayList]  
+categories: [Collections, ArrayList]
+toc: true  
 description: "In this article, we will see removeRange() method of ArrayList class in Java. This method is used to remove a range of elements from the ArrayList."  
 ---
 

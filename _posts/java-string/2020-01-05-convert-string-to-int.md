@@ -3,6 +3,7 @@ layout: post
 title: "How to convert String to int in Java?"
 author: gaurav
 categories: [ Java, Core Java, String]
+toc: true
 description: "In this article you are going to learn how one can convert the string to int using the inbuilt methods of the Integer class."
 ---
 

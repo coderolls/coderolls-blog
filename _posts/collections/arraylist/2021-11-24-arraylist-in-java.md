@@ -3,9 +3,7 @@ layout: post
 title: "ArrayList In Java"
 author: gaurav
 categories: [Collections, ArrayList]
-
 toc: true
-
 description: "In this article, we will see ArrayList in Java. How to create an ArrayList? Its various type of constructors for creating an ArrayList object. Also, some important features with an example."
 ---
 In this article, we will see ArrayList in Java. How to create an ArrayList? Its various type of constructors for creating an ArrayList object. Also, some important features with an example.

@@ -2,7 +2,8 @@
 layout: post  
 title: "subList() method of ArrayList class in java"  
 author: gaurav  
-categories: [Collections, ArrayList]  
+categories: [Collections, ArrayList]
+toc: true  
 description: "In this tutorial, we will see the  subListt() method of the Arraylist class in Java."  
 ---
 In this tutorial, we will see the `subList()` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method returns a view of the specified range within the list.

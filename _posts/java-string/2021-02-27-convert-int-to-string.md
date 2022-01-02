@@ -4,6 +4,7 @@ title: "How To Convert An Integer To String In Java"
 author: gaurav
 image: assets/images/2021-02-27/convert-int-to-string.webp
 categories: [Java, Core Java, String]
+toc: true
 description: "In this article you are going to learn how can you convert an integer to a String."
 ---
 

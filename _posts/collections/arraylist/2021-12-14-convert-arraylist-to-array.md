@@ -3,6 +3,7 @@ layout: post
 title: "How to convert ArrayList to Array In Java?"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see how to convert an ArrayList to Array in Java."
 ---
 In this article, we will see how to convert an ArrayList to Array in Java.

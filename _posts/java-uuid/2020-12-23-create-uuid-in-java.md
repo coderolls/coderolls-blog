@@ -5,6 +5,7 @@ author: gaurav
 image: assets/images/2020-12-23/create-uuid-in-java.webp
 categories: [Java, Core Java, String]
 description: "In this article you will see, how to create UUID in Java."
+toc: true
 hidden: false
 ---
 
@@ -12,7 +13,7 @@ In this article you will see, how to create UUID in Java.
 
 ## Introduction
 
-UUID, a universally unique identifier is a 128-bit number used to identify information in computer systems.
+[UUID](https://coderolls.com/uuid-in-java/), a universally unique identifier is a 128-bit number used to identify information in computer systems.
 
 UUID is made of hex digits along with 4 hyphen ("-") symbols. The length of a UUID is 36 characters.
 
@@ -63,6 +64,9 @@ Printing the randomly generated UUID value......
 uuid: e3aed661-ccc2-42fd-ad69-734fee350cd2
 
 ```
+## Conclusion
+
+You can create a UUID using the static method `randomUUID()` of the `UUID` class.
 
 Get the [above code as GitHub Gist](https://gist.github.com/gauravkukade/395f314c549969bd300d72c7e032dbcb).
 

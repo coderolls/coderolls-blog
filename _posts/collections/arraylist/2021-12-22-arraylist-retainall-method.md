@@ -2,7 +2,8 @@
 layout: post  
 title: "ArrayList retainAll() method"  
 author: gaurav  
-categories: [Collections, ArrayList]  
+categories: [Collections, ArrayList]
+toc: true  
 description: "Let's see the retainAll() method of the Arraylist class in Java."  
 ---
 

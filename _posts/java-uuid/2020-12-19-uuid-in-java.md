@@ -5,6 +5,7 @@ author: gaurav
 image: assets/images/2020-12-19/uuid.webp
 categories: [ Java, Core Java, String]
 description: In this article you will learn what is UUID and about the Java UUID class.
+toc: true
 featured: false
 
 ---

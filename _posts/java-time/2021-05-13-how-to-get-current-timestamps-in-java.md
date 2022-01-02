@@ -3,6 +3,7 @@ layout: post
 title: "How To Get Current Timestamp In Java?"
 author: gaurav
 categories: [Java, Java Time]
+toc: true
 description: "In this article, we will see how to get the current timestamp in Java."
 ---
 In this article, we will see how to get the current timestamp in Java. 

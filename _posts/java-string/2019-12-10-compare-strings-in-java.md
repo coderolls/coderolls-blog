@@ -3,6 +3,7 @@ layout: post
 title: How Do I Compare Strings In Java
 author: gaurav
 categories: [ Java, Core Java, String]
+toc: true
 description: In this article you are going to learn how to compare strings. What problem occurs when you compare string using `equals to` (`=`)operator.
 featured: false
 ---

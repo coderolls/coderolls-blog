@@ -3,6 +3,7 @@ layout: post
 title: "How To Change An Element In ArrayList?"
 author: gaurav
 categories: [Collections, ArrayList]
+toc: true
 description: "In this article, we will see how to change an element in ArrayList."
 ---
 
