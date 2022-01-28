@@ -115,6 +115,8 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 
 ### 1. ArrayList maintains the insertion order.
 
+I have given a simple java program below that shows, ArrayList maintains the insertion order.
+
 ```java
 import java.util.ArrayList;
 
@@ -152,6 +154,8 @@ public class ArrayListExample {
 3. I have printed the `arrayList` object using a sysout statement. Here we can observe that all the strings are in the same order that they are inserted in the code. So we can say that the `ArrayList` maintains the insertion order. 
 
 ### 2. ArrayList allow the duplicate elements.
+
+I have given a simple java program below that shows, ArrayList allow the duplicate elements.
 
 ```java
 import java.util.ArrayList;
