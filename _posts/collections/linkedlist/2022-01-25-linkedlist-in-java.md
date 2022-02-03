@@ -12,7 +12,7 @@ In this article, we will see LinkedList in Java. How LinkedList are createed? It
 
 ## Introduction
 
-LinkedList class is present in the `java.util` package. LinkedList implements the List interface from the Collections.
+LinkedList class is present in the `java.util` package. LinkedList implements the **List** and **Deque** interfaces and extends the **AbstractSequentialList** class from the Collections.
 
 LinkedList allows duplicates and a null value. Also, it maintains the insertion order.
 
@@ -66,16 +66,14 @@ List<String> linkedList = new LinkedList<String>(arrayList);
 
 {:class="table table-bordered"}
 
-| Methods       | Description                                                  |
-| :------------ | ------------------------------------------------------------ |
-| addFirst(E e) | Inserts the specified element at the beginning of this list. |
-| addLast(E e)  | Inserts the specified element to the end of this list.       |
-| getFirst()    | Returns the first element in this list.                      |
-| getLast()     | Returns the last element in this list.                       |
-| removeFirst() | Removes and returns the first element from this list.        |
-| removeLast()  | Removes and returns the last element from this list.         |
-
-
+| Methods                                                      | Description                                                  |
+| :----------------------------------------------------------- | ------------------------------------------------------------ |
+| [`addFirst(E e)`](https://coderolls.com/linkedlist-addfirst-method/) | Inserts the specified element at the beginning of this list. |
+| `addLast(E e)`                                               | Inserts the specified element to the end of this list.       |
+| `getFirst()`                                                 | Returns the first element in this list.                      |
+| `getLast()`                                                  | Returns the last element in this list.                       |
+| `removeFirst()`                                              | Removes and returns the first element from this list.        |
+| `removeLast()`                                               | Removes and returns the last element from this list.         |
 
 ## Features
 
