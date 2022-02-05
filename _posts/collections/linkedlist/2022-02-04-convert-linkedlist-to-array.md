@@ -110,7 +110,7 @@ The method signature for this method is as given below.
 public <T> T[] toArray(T[] a)
 ```
 
-This method accepts a type T of array as an input paramter. And it returns type T of the array containing all of the elements in this list in proper sequence (from first to last element).
+This method accepts a type T of array as an input paramter. And it returns an array of type T containing all of the elements in this list in proper sequence (from first to last element).
 
 If list fits in the specified array, then it return the same. Otherwise, a new array is allocated with the runtime type of the specified array and the size of this list.
 

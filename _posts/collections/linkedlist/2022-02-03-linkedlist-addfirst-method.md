@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LinkedList addFirst() Method"
+title: "How To Add Element At The Beginning Of LinkedList?"
 author: gaurav
 categories: [Collections, LinkedList]
 toc: true

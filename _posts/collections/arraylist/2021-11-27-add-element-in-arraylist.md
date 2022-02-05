@@ -19,10 +19,13 @@ Let's see these two methods one by one.
 
 ## 1. `add(E e)`
 
-This method has a signature as 
-`public boolean add(E e)`.
+The method signature for this method is given below.
 
-This method adds an element to the end of the list.
+```java
+public boolean add(E e)
+```
+
+This method appends the specified element `e` to the end of the list.
 
 This method returns `true` if the element is added to the list otherwise, it returns `false`.
 
@@ -70,9 +73,13 @@ Output:
 
 ## 2. `add(int index, E element)`
 
-This method has a method signature as `public void add(int index, E element)`.
+The method signature for this method is given below.
 
-This method adds an element at the specified `index`.
+```java
+public boolean add(int index, E element)
+```
+
+This method adds the specified element `element` at the specified index `index`.
 
 This method has a return type as `void` so, it will not return anything.
 
@@ -110,6 +117,7 @@ public class ArrayListAddExample {
 }
 ```
 Output:
+
 ```
 [Gaurav, Shyam]
 [Gaurav, Saurav, Shyam]
