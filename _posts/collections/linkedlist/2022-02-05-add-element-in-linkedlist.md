@@ -5,10 +5,10 @@ author: gaurav
 categories: [Collections, LinkedList]
 toc: true
 
-description: "In this article, we will see, how to add an element to linkedlist. LinkedList class provide varous methods to add an element to the lnikedlist."
+description: "In this article, we will see, how to add an element to linkedlist. LinkedList class provide various methods to add an element to the lnikedlist. We will cover these methods with example."
 ---
 
-In this article, we will see, how to add an element to linkedlist. LinkedList class provide varous methods to add an element to the lnikedlist.
+In this article, we will see, how to add an element to linkedlist. LinkedList class provide various methods to add an element to the lnikedlist. We will cover these methods with example.
 
 ## Introduction
 

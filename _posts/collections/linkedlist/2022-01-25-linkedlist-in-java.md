@@ -66,15 +66,17 @@ List<String> linkedList = new LinkedList<String>(arrayList);
 
 | Methods                                                      | Description                                                  |
 | :----------------------------------------------------------- | ------------------------------------------------------------ |
-| `add(Object o)`                                              | Appends the specified element to the end of a list.          |
-| `add(int index, Object element)`                             | Inserts the specified element at the specified position index in a list. |
+| [`add(Object o)`](https://coderolls.com/add-element-in-linkedlist/) | Appends the specified element to the end of a list.          |
+| [`add(int index, Object element)`](https://coderolls.com/add-element-in-linkedlist/) | Inserts the specified element at the specified position index in a list. |
 | [`addFirst(E e)`](https://coderolls.com/linkedlist-addfirst-method/) | Inserts the specified element at the beginning of this list. |
 | [`addLast(E e)`](https://coderolls.com/linkedlist-addlast-method/) | Inserts the specified element to the end of this list.       |
 | `size()`                                                     | Returns the number of elements in a list                     |
 | `contains(Object o)`                                         | Return `true` if the list contains a specified element, else `false`. |
-| `remove(Object o)`                                           | Removes the first occurence of the specified element in a list. |
-| `removeFirst()`                                              | Removes and returns the first element from this list.        |
-| `removeLast()`                                               | Removes and returns the last element from this list.         |
+| [`remove()`](https://coderolls.com/remove-element-from-linkedlist/#1-remove) | Retrieves and removes the head (first element) of this list. |
+| [`remove(Object o)`](https://coderolls.com/remove-element-from-linkedlist/#2-removeobject-o) | Removes the first occurence of the specified element in a list. |
+| [`remove(int index)`](https://coderolls.com/remove-element-from-linkedlist/#3-removeint-index) | Removes the element at the specified position in this list.  |
+| [`removeFirst()`](https://coderolls.com/remove-element-from-linkedlist/#4-removefirst) | Removes and returns the first element from this list.        |
+| [`removeLast()`](https://coderolls.com/remove-element-from-linkedlist/#5-removelast) | Removes and returns the last element from this list.         |
 | `getFirst()`                                                 | Returns the first element in this list.                      |
 | `getLast()`                                                  | Returns the last element in this list.                       |
 | `indexOf(Object o)`                                          | Returns the index in a list of the first occurrence of the specified element, or -1 if the list does not contain specified element. |
