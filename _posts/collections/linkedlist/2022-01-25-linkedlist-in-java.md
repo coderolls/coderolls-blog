@@ -71,7 +71,7 @@ List<String> linkedList = new LinkedList<String>(arrayList);
 | [`addFirst(E e)`](https://coderolls.com/linkedlist-addfirst-method/) | Inserts the specified element at the beginning of this list. |
 | [`addLast(E e)`](https://coderolls.com/linkedlist-addlast-method/) | Inserts the specified element to the end of this list.       |
 | `size()`                                                     | Returns the number of elements in a list                     |
-| `contains(Object o)`                                         | Return `true` if the list contains a specified element, else `false`. |
+| [`contains(Object o)`](https://coderolls.com/check-if-linkedlist-contains-an-element/) | Return `true` if the list contains a specified element, else `false`. |
 | [`remove()`](https://coderolls.com/remove-element-from-linkedlist/#1-remove) | Retrieves and removes the head (first element) of this list. |
 | [`remove(Object o)`](https://coderolls.com/remove-element-from-linkedlist/#2-removeobject-o) | Removes the first occurence of the specified element in a list. |
 | [`remove(int index)`](https://coderolls.com/remove-element-from-linkedlist/#3-removeint-index) | Removes the element at the specified position in this list.  |
