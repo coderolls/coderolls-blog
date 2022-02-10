@@ -215,6 +215,6 @@ LinkedList class provides following method to get an element from the LinkedList
 
 ---
 
-The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/LinkedList/remove-element-from-linkedlist).
+The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/LinkedList/get-an-element-from-linkedlist).
 
 Let me know you thoughts or suggestions on the topic discussed above in comment section below.
