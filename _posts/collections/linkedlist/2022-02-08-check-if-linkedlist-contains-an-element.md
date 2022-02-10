@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Check If LinkedList Contains An ELement?"
+title: "How To Check If LinkedList Contains The ELement?"
 author: gaurav
 categories: [Collections, LinkedList]
 toc: true
@@ -20,7 +20,7 @@ Sometimes we need to check if the element is present in the LinkedList or not.
 
 LinkedList provides `contains(Object o)` method to check if the specified element is present in the LinkedList.
 
-## Check If LinkedList Contains An Elelement Using `contains(Object o)` Method
+## Check If LinkedList Contains The Elelement Using `contains(Object o)` Method
 
 The `contains(Object o)` method **returns true , if the list conatins the specified element `o`.**
 

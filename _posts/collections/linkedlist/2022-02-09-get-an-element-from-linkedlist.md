@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Get An ELement From LinkedList?"
+title: "How To Get An Element From LinkedList?"
 author: gaurav
 categories: [Collections, LinkedList]
 toc: true
