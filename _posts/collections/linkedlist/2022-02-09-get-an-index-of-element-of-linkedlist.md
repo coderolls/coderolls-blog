@@ -12,7 +12,16 @@ In this tutorial, we will see how to get an index of the element from the Linked
 
 ## Introduction
 
-## 1. indexOf(Object o)
+LinkedList class is present in the `java.util` package.
+
+[LinkedList](https:/coderolls.com/linkedlist-in-java/) internally uses a doubly linkedlist for storing the variables. That's why LinkedList is preferred when our frequent operation is insertion and deletion.
+
+LinkedList class provides following method to an element from the list.
+
+1. `indexOf(Object o)`
+2. `lastIndexOf(Object o)`
+
+## 1. `indexOf(Object o)`
 
 The `indexOf(Object o)` method returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element.
 
@@ -76,7 +85,7 @@ Index of the GoldSpot in linkedList is: 2
 Index of the Moxie in linkedList is: 5
 ```
 
-## 2. lastIndexOf()
+## 2. `lastIndexOf(Object o)`
 
 The `lastIndexOf(Object o)` method returns the index of the last occurrence of the specified element in this list, or -1 if this list does not contain the element.
 

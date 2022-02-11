@@ -77,10 +77,11 @@ List<String> linkedList = new LinkedList<String>(arrayList);
 | [`remove(int index)`](https://coderolls.com/remove-element-from-linkedlist/#3-removeint-index) | Removes the element at the specified position in this list.  |
 | [`removeFirst()`](https://coderolls.com/remove-element-from-linkedlist/#4-removefirst) | Removes and returns the first element from this list.        |
 | [`removeLast()`](https://coderolls.com/remove-element-from-linkedlist/#5-removelast) | Removes and returns the last element from this list.         |
-| `getFirst()`                                                 | Returns the first element in this list.                      |
-| `getLast()`                                                  | Returns the last element in this list.                       |
-| `indexOf(Object o)`                                          | Returns the index in a list of the first occurrence of the specified element, or -1 if the list does not contain specified element. |
-| `lastIndexOf(Object o)`                                      | Returns the index in a list of the last occurrence of the specified element, or -1 if the list does not contain specified element. |
+| [`get(int index)`](https://coderolls.com/get-an-element-from-linkedlist/#1-getint-index) | Returns the element at the specified position in this list.  |
+| [`getFirst()`](https://coderolls.com/get-an-element-from-linkedlist/#2-getfirst) | Returns the first element in this list.                      |
+| [`getLast()`](https://coderolls.com/get-an-element-from-linkedlist/#3-getlast) | Returns the last element in this list.                       |
+| [`indexOf(Object o)`](https://coderolls.com/get-an-index-of-element-of-linkedlist/#1-indexofobject-o) | Returns the index in a list of the first occurrence of the specified element, or -1 if the list does not contain specified element. |
+| [`lastIndexOf(Object o)`](https://coderolls.com/get-an-index-of-element-of-linkedlist/#2-lastindexofobject-o) | Returns the index in a list of the last occurrence of the specified element, or -1 if the list does not contain specified element. |
 | `iterator()`                                                 | Returns an iterator over the elements in this list in proper sequence. |
 | [`toArray()`](https://coderolls.com/convert-linkedlist-to-array) | Returns an array containing all of the elements in this list in proper sequence. |
 | `subList(int fromIndex, int toIndex)`                        | Returns a view of the portion of this list between the specified `fromIndex` (inclusive) and `toIndex` (exclusive). |
