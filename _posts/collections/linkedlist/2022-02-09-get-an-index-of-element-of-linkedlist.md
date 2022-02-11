@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Get An Index of the ELement Of LinkedList?"
+title: "How To Get An Index of the Element Of LinkedList?"
 author: gaurav
 categories: [Collections, LinkedList]
 toc: true
@@ -62,9 +62,14 @@ public class LinkedListIndexOf {
 		System.out.println(linkedList);
 		
 		// get first index of GoldSpot
-		int index = linkedList.indexOf("GoldSpot"); // 2
+		int index = linkedList.indexOf("DrPepper"); // 1
 		
-		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ index);
+		System.out.println("\nIndex of the DrPepper in linkedList is: "+ index);
+		
+		// get first index of GoldSpot
+		int indexGS = linkedList.indexOf("GoldSpot"); // 2
+		
+		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ indexGS);
 		
 		// get first index of Moxie
 		int indexMoxie = linkedList.indexOf("Moxie"); // 5
@@ -79,6 +84,8 @@ Output:
 ```
 LinkedList: 
 [PepsiCo, DrPepper, GoldSpot, GoldSpot, CocaCola, Moxie, GoldSpot, Moxie]
+
+Index of the DrPepper in linkedList is: 1
 
 Index of the GoldSpot in linkedList is: 2
 
@@ -126,14 +133,19 @@ public class LinkedListLastIndexOf {
 		System.out.println(linkedList);
 		
 		// get last index of GoldSpot
-		int index = linkedList.lastIndexOf("GoldSpot"); // 6
+		int index = linkedList.lastIndexOf("DrPepper"); // 1
 		
-		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ index);
+		System.out.println("\nLast index of the DrPepper in linkedList is: "+ index);
+		
+		// get last index of GoldSpot
+		int indexGS = linkedList.lastIndexOf("GoldSpot"); // 6
+		
+		System.out.println("\nLast index of the GoldSpot in linkedList is: "+ indexGS);
 		
 		// get last index of Moxie
 		int indexMoxie = linkedList.lastIndexOf("Moxie"); // 7
 		
-		System.out.println("\nIndex of the Moxie in linkedList is: "+ indexMoxie);
+		System.out.println("\nLast index of the Moxie in linkedList is: "+ indexMoxie);
 	}
 }
 ```
@@ -144,9 +156,11 @@ Output:
 LinkedList: 
 [PepsiCo, DrPepper, GoldSpot, GoldSpot, CocaCola, Moxie, GoldSpot, Moxie]
 
-Index of the GoldSpot in linkedList is: 6
+Last index of the DrPepper in linkedList is: 1
 
-Index of the Moxie in linkedList is: 7
+Last index of the GoldSpot in linkedList is: 6
+
+Last index of the Moxie in linkedList is: 7
 ```
 
 
