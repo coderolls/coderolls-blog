@@ -17,11 +17,11 @@ LinkedList class is present in the `java.util` package.
 
 [LinkedList](https:/coderolls.com/linkedlist-in-java/) internally uses a doubly linkedlist for storing the variables. That's why LinkedList is preferred when our frequent operation is insertion and deletion.
 
-Whenever we want to set an element at particular index in linkedlist, we can use the `set(int index, E element)` method.
+Whenever we want to set an element at a particular index in the LinkedList, we can use the `set(int index, E element)` method.
 
 ## Set An Element Using `set(int index, E element)` Method
 
-LinkedList class provides `set(int index, E element)` method to set an element at a particular index in the LinkedList. This method replaces the existing element with the specifed element (`element`) at specified index (`index`).
+LinkedList class provides the `set(int index, E element)` method to set an element at a particular index in the LinkedList. This method replaces the existing element with the specified element (`element`) at the specified index (`index`).
 
 The method signature is as given below.
 
@@ -39,9 +39,7 @@ This method accepts two parameters as given below.
 
 This method returns **the element previously at the specified position.**
 
-
-
-I have given a java program to set an element at a particulat index in LinkedList.
+I have given a java program to set an element at a particular index in LinkedList.
 
 ```java
 import java.util.LinkedList;
