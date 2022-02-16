@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "How To Set An Element At A Particular Index In LinkedList?"
 author: gaurav

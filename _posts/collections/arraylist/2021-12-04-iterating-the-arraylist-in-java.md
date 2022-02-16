@@ -20,7 +20,7 @@ There are multiple ways to iterate over the ArrayList. We will see the following
 2. Iterating the ArrayList using Enhanced For Loop i.e. For-each loop
 3. Iterating the ArrayList using while loop
 4. Iterating the ArrayList using Iterator
-5. Iterating the ArrayList using Lambda Expressions
+5. Iterating the ArrayList using Java 8 forEach() Method
 
 So let's see all the options one by one.
 
@@ -84,7 +84,7 @@ Object form the ArrayList at 6 is Sunday
 
 ## 2. Iterating the ArrayList using Enhanced For Loop i.e. For-each loop
 
-Here we will use the Enhanced For Loop to iterate through ArrayList.
+Here we will use the [foreach loop i.e. Enhanced For Loop](https://coderolls.com/for-each-loop/) to iterate through ArrayList.
 
 Let us understand the syntax for the Enhanced For Loop.
 
@@ -236,6 +236,9 @@ Iterator has three important methods. They are as given below.
 I have given a java program below to iterate over an ArrayList using the iterator interface. We will be using the `hasNext()` and `next()` method in the program.
 
 ```java
+import java.util.Iterator;
+import java.util.ArrayList;
+import java.util.List;
 /**
  * A java program to iterate through arraylist 
  * using Iterator interface.
@@ -298,7 +301,7 @@ Object form the ArrayList is Sunday
 It is always recommended to use the  `Iterator.remove()` method for removing an element from a list while iterating on it. Also, we have `remove()` method in the ArrayList class, if you used the `ArrayList.remove()` method to remove an element while iterating over the list, you will get the `ConcurrentModificationException`.
 
 
-## 5. Iterating the ArrayList using Lamda Expressions
+## 5. Iterating the ArrayList using Java 8 forEach() Method
 
 In java 8, we got the new `forEach()` method to iterator over collections.
 
@@ -334,7 +337,7 @@ public class ArrayListIterateExample4 {
         
         System.out.println("Iterating through ArrayList using forEach method and lamda expression........\n");
         
-        // add lambda expressionin the foreach loop
+        // add lambda expression in the foreach method
         list.forEach(s -> System.out.println("Object form the ArrayList is "+ s));
     }
 }
@@ -366,7 +369,7 @@ We can iterate over ArrayList using the following ways.
 2. Iterating the ArrayList using Enhanced For Loop i.e. For-each loop
 3. Iterating the ArrayList using while loop
 4. Iterating the ArrayList using Iterator
-5. Iterating the ArrayList using Lambda Expressions
+5. Iterating the ArrayList using Java 8 forEach() Method
 
 ---
 
