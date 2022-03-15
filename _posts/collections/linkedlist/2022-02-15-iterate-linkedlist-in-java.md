@@ -286,7 +286,7 @@ Object form the LinkedList is Avocado
 
 ## 5. Iterate the LinkedList using ListIterator
 
-I will be wrting a seperate tutorial for the ListIterator method.
+I have written a detailed article on the ListIterator metod of the LinkedList class. Read [LinkedList listIterator() method in Java](https://coderolls.com/linkedlist-listiterator/)
 
 ## 6. Iterate the LinkedList using Java 8 forEach() Method
 
@@ -388,7 +388,7 @@ We can iterate over ArrayList using the following ways.
    }
    ```
 
-5. Iterating the ArrayList using ListIterator- A Seperate Article Coming Soon
+5. Iterating the ArrayList using ListIterator- I have written a detailed article on the ListIterator metod of the LinkedList class. Read [LinkedList listIterator() method in Java](https://coderolls.com/linkedlist-listiterator/)
 
 6. Iterating the ArrayList using Java 8 forEach() Method
 
