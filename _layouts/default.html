@@ -22,6 +22,17 @@
 <script data-ad-client="{{ site.adsense-data-ad-client }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 {% endif %}
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics_measurement_id}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{site.google_analytics_measurement_id}}');
+</script>
+
 </head>
 
 {% if jekyll.environment == 'production' %}

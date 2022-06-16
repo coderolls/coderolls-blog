@@ -6,6 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-122932713-1'
+google_analytics_measurement_id: 'G-5JMBR710R0'
 disqus: 'coderolls'
 mailchimp-list: 'https://coderolls.us4.list-manage.com/subscribe/post?u=91e4893f731db2a4807928752&amp;id=76d82df79a'
 include: ["_pages"]
