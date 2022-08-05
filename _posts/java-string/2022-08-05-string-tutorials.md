@@ -2,7 +2,7 @@
 layout: post
 title: "String Tutorials"
 author: gaurav
-categories: [Java, Collections]
+categories: [Java Basics, String Tutorials]
 toc: false
 description: "An index page for all collections tutorial."
 hidden: true

@@ -2,7 +2,7 @@
 layout: post
 title: "LinkedList Tutorials"
 author: gaurav
-categories: [Java, Collections]
+categories: [Java Basics, Collections]
 toc: false
 description: "An index page for all LinkedList tutorials."
 hidden: true
