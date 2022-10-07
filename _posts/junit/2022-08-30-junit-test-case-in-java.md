@@ -228,6 +228,6 @@ assertNull(actual)
 
 ---
 
-The example java programs used in the above article can be found at this GitHub repository, [coderolls/junit-tutorial](https://github.com/coderolls/junit-tutorial/tree/main/examples/junit-test-case-in-java).  
+The example java programs used in the above article can be found at this GitHub repository, [coderolls/junit-tutorial](https://github.com/coderolls/junit-tutorial).  
 
 Please write your thoughts in the comment section below.
