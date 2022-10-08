@@ -1,13 +1,13 @@
 ---
 layout: post  
-title: "assertTrue() and AssertFalse() in JUnit With Example"  
+title: "assertTrue() and assertFalse() in JUnit With Example"  
 author: gaurav  
 categories: [Unit Testing in Java, JUnit]  
 toc: true
 description: "In This tutoril, we will see the assertTrue() and assertFalse() assertion methods from the JUnit with various examples."
 ---
 
-In this tutorial, we will see the assertTrue() and assertFalse() assertion methods from the JUnit with various examples.
+In this tutorial, we will see the `assertTrue()` and `assertFalse()` assertion methods from the JUnit with various examples.
 
 The `Assertions` is a collection of utility methods that support asserting conditions in tests.
 
@@ -69,7 +69,7 @@ Once you run it as JUnit test case (right-click in the unit test editor, Run as 
 
 ## assertFalse(boolean condition)
 
-assertFalse(boolean condition) asserts that the supplied `condition` is `false`.
+`assertFalse(boolean condition)` asserts that the supplied `condition` is `false`.
 
 Example:
 
@@ -77,7 +77,7 @@ We will take the same class and method (`NumberHelper.java`  and `isEven()` meth
 
 We will add an addition test method in the `NumberHelperTest.java` as `testIsEven_FalseCondition()`.
 
-Here we will take a `sampleNumber` as `3`.
+Here we will take a `sampleNum` as `3`.
 
 We know 3 is not an even number, so `isEven()` method must return `false`. To check it we can use `assertFalse()`.
 
