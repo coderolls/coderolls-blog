@@ -21,6 +21,8 @@ We can have business logic in the interface with default and static methods. So 
 
 ## Difference Between Interface And Abstract Class After Java 8 i.e. Interface Vs  Abstract Class After Java 8
 
+{:class="table table-bordered"}
+
 | Property             | Interface                                                    | Abstract Class                                               |
 | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Variables            | **Every variable present inside the interface is always public, static, and final,** whether we are declaring or not. | The variables present inside the abstract class **need not be public static and final.** We can have other types of variables too. |
@@ -33,6 +35,8 @@ We can have business logic in the interface with default and static methods. So 
 ## Difference Between Interface And Abstract Class Before Java 8 i.e. Interface Vs  Abstract Class Before Java 8
 
 Here we will see difference between interface and abstract class before Java 8 version.
+
+{:class="table table-bordered"}
 
 | Property                | Interface                                                    | Abstract Class                                               |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
