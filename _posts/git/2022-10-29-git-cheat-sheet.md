@@ -252,6 +252,12 @@ Add new remote repository
 git remote add <remote> <url>
 ```
 
+Change the url of an existing remote repository:
+
+```bash
+git remote set-url <remote> <url>
+```
+
 Download all changes from <remote>, but don't integrate into HEAD
 
 ```bash
