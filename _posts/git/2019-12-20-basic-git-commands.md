@@ -38,11 +38,11 @@ $
 ```
 
 You are hitting `git init` means you want to initialize the current directory as GIT repository.
- 
+
 The following GIF show initializing a new repository and a hidden subfolder containing all data structure required for version control. 
 
 ![GIF showing git init command](/assets/images/2019-12-20-basic-git-commands/git-init.gif)
- 
+
 ## 2. `git clone`
 
 `git clone` creates a local copy of a repository that already exists remotely. The local copy is the exact copy of the remote repository, it contains the same files, history, and branches.
@@ -89,7 +89,7 @@ $ git add <first-filepath-you-want-to-stage> <second-filepath-you-want-to-stage>
 If you want to stage all the files, then write '.' (dot) after `git add`
 ```
 $ git add .
-``` 
+```
 Any staged changes will become the part of the next snapshot and a part of the repository's history.
 
 You can stage and take a snapshot of the current changes in a single command also but is not recommended.
@@ -229,7 +229,7 @@ The following GIF shows the `git push` command
 
 You are here means you like the post and hence here is your bonus content.
 
-### How to create a new branch locally
+## How to create a new branch locally
 
 You can create a new branch locally using the following command
 ```
