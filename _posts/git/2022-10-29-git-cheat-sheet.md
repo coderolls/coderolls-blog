@@ -209,13 +209,13 @@ Create a new tracking branch based on a remote branch
 git checkout --track <remote/branch> 
 ```
 
-[Delete a local git branch](/delete-a-git-branch-local-or-remote/#How-To-Delete-A-Local-Git-Branch?)
+[Delete a local git branch](/delete-a-git-branch-local-or-remote/#how-to-delete-a-local-git-branch)
 
 ```bash
 git branch -d <local-branch-name>
 ```
 
-[Delete a remote git branch](/delete-a-git-branch-local-or-remote/#How-To-Delete-A-Remote-Git-Branch?)
+[Delete a remote git branch](/delete-a-git-branch-local-or-remote/#how-to-delete-a-remote-git-branch)
 
 ```bash
 git push <remote> --delete <branch-name>
