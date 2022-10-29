@@ -9,7 +9,7 @@ description: "A cheat sheet for GIT, a free and open source software for distrib
 
 A cheat sheet for [GIT](https://git-scm.com/), a free and open source software for distributed version control.
 
-## CREATE
+## Create Repository
 
 Clone an existing repository
 
@@ -39,7 +39,7 @@ See changes in a particular file in your working directory
 git diff <complete-file-path>
 ```
 
-### Stage changes
+### Stage Changes
 
 Add local changes of a file to next commit (Stage changes from a file)
 
@@ -53,7 +53,7 @@ Add all local changes to next commit (Stage all changes from all files)
 git add .
 ```
 
-### Commit changes
+### Commit Changes
 
 Commit (commit previously staged changes)
 
@@ -233,7 +233,7 @@ git tag <tag-name>
 
 
 
-## Update and publish
+## Update and Publish
 
 List all currently configured remotes
 ```bash
@@ -282,7 +282,7 @@ git push tags
 
 
 
-## Merge and rebase
+## Merge and Rebase
 
 Merge <branch> into your current HEAD
 ```bash
