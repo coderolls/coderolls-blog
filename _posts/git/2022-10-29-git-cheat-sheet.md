@@ -2,7 +2,7 @@
 layout: post  
 title: "GIT Cheat Sheet"  
 author: gaurav
-categories: [GIT, Cheat Sheet]
+categories: [GIT, Cheat Sheet, GIT Basic]
 toc: true
 description: "A cheat sheet for GIT, a free and open source software for distributed version control."
 ---
