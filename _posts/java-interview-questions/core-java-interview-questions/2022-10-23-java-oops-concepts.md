@@ -104,7 +104,14 @@ If *one task is performed in different ways*, it is known as polymorphism.
 
 The word ***poly*** means ***many*** and ***morphs*** means ***forms or ways***.
 
-In Java, we use method overloading and method overriding to achieve polymorphism.
+In Java, we use [method overloading](/method-overloading-in-java/) and [method overriding](/method-overriding-in-java/) to achieve polymorphism.
+
+There are two types of polymorphism in Java: 
+
+1. Compile-time Polymorphism
+2. Runtime Polymorphism.
+
+Compile-time polymorphism can be achieved by [**overloading the static method**](/method-overloading-in-java/). While Runtime Polymorphism can be achieved by [**overriding the parent class method in the child class**](/method-overriding-in-java/).
 
 ## Conclusion
 
@@ -115,7 +122,7 @@ In Java, we use method overloading and method overriding to achieve polymorphism
 2. Encapsulation is the **process of grouping data members and corresponding methods in a single unit**. Ex. Java Class
 
 3. In inheritance, **a child class inherits all the properties and behaviour of parent class**. It can be done by extending the parent class. Ex. `class Dog extends Animal{...}`
-4. **Doing one task in many ways** is called polymorphism. In java, polymorphism can be done using **method overloading and method overriding**.
+4. **Doing one task in many ways** is called polymorphism. In java, polymorphism can be done using [method overloading](/method-overloading-in-java/) and [method overriding](/method-overriding-in-java/).
 
 ---
 
