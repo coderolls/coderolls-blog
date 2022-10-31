@@ -19,11 +19,11 @@ For example `add(int a, int b)` or `add(int a, int b, int c)` or `add(double a, 
 
 ---
 
-> **What Is Method Signature In Java**
+> **What Is Method Signature In Java?**
 >
 > In Java, method signature contains method name and type of arguments.
 >
-> <method-name>(<argument-type-1>, <argument-type-2>...)
+> method-name(argument-type-1, argument-type-2...)
 >
 > Ex. `getData(int, String)`
 >
