@@ -5,7 +5,7 @@ author: gaurav
 image: assets/images/2019-12-20-basic-git-commands/blog-cover.jpg
 categories: [GIT, GIT Basic]
 description: GIT is one of the most important parts of the developer's day to day work. So learning GIT is a must for a newbie developer. In this article, you are going to learn the 8 most important basic GIT commands.
-featured: true
+featured: false
 hidden: flase
 toc: true
 ---
