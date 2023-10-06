@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Difference Between Abstract Class and Interface In Java"  
+title: "Difference Between Interface and Abstract Class In Java"  
 author: gaurav  
 categories: [Java, Java Interview Questions]  
 toc: true
