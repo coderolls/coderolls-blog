@@ -4,20 +4,20 @@ title: "Difference Between Interface and Abstract Class In Java"
 author: gaurav  
 categories: [Java, Java Interview Questions]  
 toc: true
-description: "In this tutorial, we will see difference between abstract class and interface in Java."
+description: "In this tutorial, we will see the difference between abstract class and interface in Java."
 ---
 
-In this tutorial, we will see difference between abstract class and interface in Java.
+In this tutorial, we will see the difference between abstract class and interface in Java.
 
 ## Introduction
 
 Interfaces form a contract between **the class and the outside world**, and this contract is enforced at build time by the compiler.
 
-An *abstract class* is a class that is **declared with `abstract` keyword**—it may or may not include abstract methods. Abstract classes cannot be instantiated, but they can be subclassed.
+An *abstract class* is a class that is **declared with the `abstract` keyword**—it may or may not include abstract methods. Abstract classes cannot be instantiated, but they can be subclassed.
 
 We all know that Defaults and Static methods are introduced in Java 8.
 
-We can have business logic in the interface with default and static methods. So the measure difference that interface can not have concrete methods and abstract class have concrete methods is no more. But still there are many differences in the interface and abstract class as discussed below.
+We can have business logic in the interface with default and static methods. So the measure difference that interface can not have concrete methods and abstract class have concrete methods is no more. But still, there are many differences in the interface and abstract class as discussed below.
 
 ## Difference Between Interface And Abstract Class After Java 8 i.e. Interface Vs  Abstract Class After Java 8
 
@@ -34,7 +34,7 @@ We can have business logic in the interface with default and static methods. So 
 
 ## Difference Between Interface And Abstract Class Before Java 8 i.e. Interface Vs  Abstract Class Before Java 8
 
-Here we will see difference between interface and abstract class before Java 8 version.
+Here we will see the difference between the interface and abstract class before the Java 8 version.
 
 {:class="table table-bordered"}
 
@@ -44,9 +44,9 @@ Here we will see difference between interface and abstract class before Java 8 v
 | Methods                 | Inside the interface, **all methods are public and abstract** by default. Hence we can achieve 100% abstraction with an interface. | Every method present in the abstract class need not be public and abstract. **In addition to abstract methods, we can have concrete methods too**. |
 | Modifiers               | Since all the methods are public and abstract, we **can not use any other modifiers. (Other than public and abstract)** | Since we can concrete methods in the Abstract class, **there are no restrictions on abstract class method modifiers.** |
 | Variables               | **Every variable present inside the interface is always public, static, and final,** whether we are declaring or not. | The variables present inside the abstract class **need not be public static and final.** We can have other types of variables too. |
-| Variables               | We **can not declare protected, transient and volatile variables** in interface. | There are **no restrictions on abstract class variable modifiers**. We can have protected, transient and volatile variables in Abstract class. |
-| Variable Initialisation | At the time of declaration, **we need to initialize the variables compulsorily**. Otherwise, we will get compile time error. | For Abstract class variables, **it is not necessary to initialize them at the time of declaration**. |
-| Blocks                  | Inside the interface, **we can not declare instances and static blocks**. Otherwise, we will get compile time error. | Inside the abstract class, we **can declare instances and static blocks**. |
+| Variables               | We **can not declare protected, transient, and volatile variables** in the interface. | There are **no restrictions on abstract class variable modifiers**. We can have protected, transient, and volatile variables in the Abstract class. |
+| Variable Initialisation | At the time of declaration, **we need to initialize the variables compulsorily**. Otherwise, we will get a compile time error. | For Abstract class variables, **it is not necessary to initialize them at the time of declaration**. |
+| Blocks                  | Inside the interface, **we can not declare instances and static blocks**. Otherwise, we will get a compile time error. | Inside the abstract class, we **can declare instances and static blocks**. |
 | Constructors            | We **can not have constructors** inside the interface.       | We **can declare a constructor inside an abstract class** that can be used at the time of child object creation. |
 | Multiple Inheritance    | A **class can implement multiple interfaces**. So multiple inheritances are possible with Interfaces. | A **class can extend only one abstract class**. So multiple inheritances are not possible with abstract classes. |
 | Example                 | Servlet                                                      | GenericServlet , HttpServlet                                 |
