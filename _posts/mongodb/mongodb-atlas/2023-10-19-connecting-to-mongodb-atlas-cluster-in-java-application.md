@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post  
 title: "How to Connect to a MongoDB Atlas Cluster in a Java Application"  
 author: gaurav  
