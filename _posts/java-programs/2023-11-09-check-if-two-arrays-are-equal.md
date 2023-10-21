@@ -107,7 +107,7 @@ public class ArrayEquals2 {
         int[] arr = {2, 3, 5, 6};
         int[] arr2 = {2, 3, 5, 6};
 
-        System.out.println("Comparing arr and arr2 usig Arrays.equals() method: ");
+        System.out.println("Comparing arr and arr2 using Arrays.equals() method: ");
         boolean result1 = Arrays.equals(arr, arr2);
 
         if (result1) {
