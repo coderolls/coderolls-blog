@@ -1,15 +1,15 @@
 ---
 layout: post  
-title: "Java Program To Check If Two Multidimensional Arrays Are Equal"  
+title: "Java Program To Check Whether Two Multidimensional Arrays Are Equal"  
 author: gaurav  
 categories: [Java Programs, Array]  
 toc: true
-description: "In this tutorial, we will see a Java program to check if two multidimensional arrays are equal or not."
+description: "In this tutorial, we will see a Java program to check whether two multidimensional  arrays are equal or not."
 ---
 
-In this tutorial, we will see a Java program to check if two multidimensional  arrays are equal or not.
+In this tutorial, we will see a Java program to check whether two multidimensional  arrays are equal or not.
 
-To check if two multidimensional  arrays are equal or not, we can use the `Arrays.deepEquals()` method.
+To check whether two multidimensional  arrays are equal or not, we can use the `Arrays.deepEquals()` method.
 
 **Java Program**
 

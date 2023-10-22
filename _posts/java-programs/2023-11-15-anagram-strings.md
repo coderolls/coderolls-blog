@@ -7,7 +7,7 @@ toc: true
 description: "In this tutorial, we will see a Java program to check if two strings are anagram."
 ---
 
-In this tutorial, we will see a Java program to check if two strings are anagram.
+Here, we will see a Java program to check if two strings are anagram.
 
 If two Strings have same set of characters, then these are anagram Strings.
 
