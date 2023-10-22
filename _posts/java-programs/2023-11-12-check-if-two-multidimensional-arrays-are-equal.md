@@ -13,6 +13,8 @@ To check whether two multidimensional  arrays are equal or not, we can use the `
 
 **Java Program**
 
+{% raw %}
+
 ```java
 import java.util.Arrays;
 /**
@@ -38,6 +40,8 @@ public class MultidimensionalArraysEquals {
     }
 }
 ```
+
+{% endraw %}
 
 **Output**
 
