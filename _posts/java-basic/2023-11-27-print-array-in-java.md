@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "Java Program To Print an Array."  
+title: "Java Program To Print An Array."  
 author: gaurav  
 categories: [Java Programs, Array]  
 toc: true
@@ -101,6 +101,8 @@ To print a multi-dimensional array we can use the ready made `Arrays.deepToStrin
 
 **Java Program**
 
+{% raw %}
+
 ```java
 import java.util.Arrays;
 
@@ -119,6 +121,8 @@ public class PrintArray3 {
     }
 }
 ```
+
+{% endraw %}
 
 **Output**
 
