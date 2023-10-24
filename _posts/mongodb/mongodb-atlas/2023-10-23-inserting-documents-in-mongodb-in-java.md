@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "How Insert A Document in MongoDB Collection in Java Applications?"  
+title: "How To Insert A Document in MongoDB Collection in Java Applications?"  
 author: gaurav  
 categories: [Java, MongoDB, MongoDB Atlas]  
 toc: true
@@ -9,7 +9,7 @@ description: "In this tutorial, we will see how to insert a document in MongoDB 
 
 In this tutorial, we will see how to insert a document in MongoDB in Java applications.
 
-To insert a document in MongoDB collection, first we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](2023-10-19-connecting-to-mongodb-atlas-cluster-in-java-application)
+To insert a document in MongoDB collection, first we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](/connecting-to-mongodb-atlas-cluster-in-java-application)
 
 ```java
 String connectionString = "mongodb+srv://user123:password123@cluster0.example.mongodb.net/?retryWrites=true&w=majority";
