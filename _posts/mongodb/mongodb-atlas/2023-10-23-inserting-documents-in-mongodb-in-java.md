@@ -2,7 +2,7 @@
 layout: post  
 title: "How To Insert A Document in MongoDB Collection in Java Applications?"  
 author: gaurav  
-categories: [Java, MongoDB, MongoDB Atlas]  
+categories: [Java, MongoDB, MongoDB CRUD Operations]  
 toc: true
 description: "In this tutorial, we will see how to insert a document in MongoDB in Java applications."
 ---
