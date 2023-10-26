@@ -5,28 +5,30 @@ author: gaurav
 image: assets/images/2021-03-02/double-to-int-in-java.webp
 categories: [ Java, Core Java, String]
 toc: true
-description: "In this article you are going to learn how can we convert a double value to an integer value."
+description: "In this article, we will see, how to convert a double value to an integer value in Java programming language."
 ---
 
+In this article, we will see, how to convert a double value to an integer value in Java programming language.
 
-In this article, we will see how we can convert a double to an int.
 
-In java programming, you will have a double primitive value (ex 82.14), but to do the further operations you need an int value (ex. 82) so let's see how to convert double to int in java.
+Let's say, you have a double primitive value (ex `82.14`), but you need an int value (ex. `82`) for further operations. So, let's see how to convert double to int in java.
 
-There are three ways you can convert double to int. I will list them all below and, then we will see them one by one.
+There are three ways you can convert double to int. I have listed the three ways below.
 
 1. convert double to int - using typecasting
 2. convert double to int - using `Math.round()`
 3. convert double to int - using `Double.IntValue()`
+
+Let's see the these ways one by one.
 
 > You may like to visit:
 > [How To Convert An Integer To String In Java](https://coderolls.com/convert-int-to-string/)
 
 ## 1. convert double to int - using typecasting
 
-We know  `double` is a 64-bit primitive value, and int is a 32-bit primitive value. So, to convert double to int, we can downcast the double value to int.
+We know  `double` is a 64-bit primitive value, and int is a 32-bit primitive value. So, to convert double to int, we can **downcast the double value to int**.
 
-I have given a simple example below that shows to convert double to int using typecasting.
+I have given a simple example below that shows how to convert double to int using typecasting.
 
 ```java
 /**
@@ -54,7 +56,7 @@ doubleValue: 82.14
 intValue: 82
 ```
 
-The problem with the typecasting is that it will truncate the value after the decimal point. It will not round it.
+The problem with the typecasting is that it will **truncate the value after the decimal point**. It will not round it.
 
 In the case of 82.14, we will get an int value of 82, which looks ok. But when we have a double value like 82.99, we will get only 82 and loss the 0.99 that is ~1.
 
@@ -66,9 +68,9 @@ It is not possible with typecasting, but our next solution can achieve it.
 
 ## 2. convert double to int  - using [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)
 
-[`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method will round the floating-point value to the nearest long value. Then we can typecast it to the int.
+[`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method will **round the floating-point value to the nearest long value**. Then we can typecast it to the int.
 
-I have given a simple java program below that shows how to convert double to int using the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method.
+I have given a simple java program below that shows how to convert double to int using the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method.
 
 ```java
 /** 
@@ -163,18 +165,18 @@ We can convert double to int in java using the three ways given below.
 
 **1. convert double to int - using typecasting**
 
-In this method we typecast the double value to int as give below,
+In this method we **typecast the double value to int** as give below,
 ```java
 int intValue = (int) doubleValue;
 ```
-But in this way, we will lose the value after the decimal point. It will not do the rounding before converting double to int.
+But in this way, we will **lose the value after the decimal point**. It will not do the rounding before converting double to int.
    
 **2. convert double to int - using [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) **
 
 
 In this way, we use the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method for the rounding purpose. 
 
-[`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method round the double value to the nearest long, and then we can typecast long to the int as given below.
+[`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-)  method **round the double value to the nearest long**, and then we can typecast long to the int as given below.
 ```java
 int nextIntValue = (int) Math.round(nextDoubleValue);
 ```
@@ -189,7 +191,7 @@ Double doubleValueObject = new Double(doubleValue);
 //typecase double to int
 int intValue = doubleValueObject.intValue(); 
 ```
-In this way also we will lose the digits after the decimal points.
+In this way also we will **lose the digits after the decimal points**.
 
 So this is how we do convert a double to int in java. You can check all three ([DoubleToIntUsingTypecasting.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingTypecasting.java), [DoubleToIntUsingRoundMethod.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingRoundMethod.java), [DoubleToIntUsingIntValueMethod.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingIntValueMethod.java)) programs on GitHub 
 
