@@ -28,9 +28,11 @@ The `find()` method accepts a query filter and returns documents that matches th
 
 In the following code we will try to find all the students who has dues greater than 250 and status as checking.
 
+**Java Code to Find Documents in a collection**
+
 ```java
-MongoDatabase database = mongoClient.getDatabase("bank");
-MongoCollection<Document> collection = database.getCollection("accounts");
+MongoDatabase database = mongoClient.getDatabase("texas_school");
+MongoCollection<Document> collection = database.getCollection("students");
 
 try(MongoCursor<Document> cursor = collection.find(
     and(gte("due", 250),eq("status","checking")))
@@ -48,9 +50,11 @@ The ``find().first()`` method accepts a query filter and returns the first docum
 
 In the following code we will try to find the first student who has dues greater than 250 and status as checking.
 
+**Java Code to Find a Single Documents in a collection**
+
 ```java
-MongoDatabase database = mongoClient.getDatabase("bank");
-MongoCollection<Document> collection = database.getCollection("accounts");
+MongoDatabase database = mongoClient.getDatabase("texas_school");
+MongoCollection<Document> collection = database.getCollection("students");
 
 Document doc = collection.find(Filters.and(
     gte("due", 1000), Filters.eq("status", "checking"))).first();
