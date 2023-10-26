@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "For-each loop in Java or Enhanced For loop in Java"
 author: gaurav
@@ -12,11 +12,11 @@ In this article, we will see the for-each loop in java i.e. Enhanced for loop
 
 For-each loop is introduced in Java 1.5.
 
-It provides a better approach to traverse the array or collection.
+It provides a better approach to traversing the array or collection.
 
 In a simple for loop, we initialize the variable and write the condition for that variable. But in for each loop, we do not have to initialize a variable or write any condition for that.
 
-For-each loop is always used to traverse over the array or any collection.
+The foreach loop is always used to traverse over the array or any collection.
 
 The for-each loop i.e. enhanced for loop will automatically traverse for each element of the array or collection.
 
@@ -24,17 +24,17 @@ I have given the syntax for the for-each loop below.
 
 ```java
 for(DataType item : Array | Collection){
-	// we have item with us to operate
+	//We have the item with us to operate
 }
 ``` 
 
 ## Examples
 
-I have given a simple java program to traverse over an array using the for-each loop i.e. enhanced for loop.
+I have given a simple Java program to traverse over an array using the for-each loop i.e. enhanced for loop.
 
 ```java
 /**
- * A java program to traverse the array using the 
+ * A Java program to traverse the array using the 
  * for-each loop i.e. enhanced for loop
  * 
  * @author Guarav Kukade at coderolls.com
@@ -44,7 +44,7 @@ public class ArrayForEachExample {
 
 	public static void main(String[] args) {
 		
-		// create an array of marks
+		//Create an array of marks
 		int[] numbers = { 88, 95, 65, 76, 78, 45, 95, 96, 56};
 		
 		// traversing the array using for-each loop
@@ -69,14 +69,14 @@ The number is 56
 ```
 
 
-Also, I have given a java program below to traverse a collection using the for-each loop i.e. enhanced for loop.
+Also, I have given a Java program below to traverse a collection using the for-each loop i.e. enhanced for loop.
 
 ```java
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A java program to traverse the collection using
+ * A Java program to traverse the collection using
  * the for-each loop i.e. enhanced for loop
  * 
  * @author Gaurav Kukade at coderolls.com
@@ -86,7 +86,7 @@ public class ArrayListForEachExample {
 
 	public static void main(String[] args) {
 		
-		// create an empty arraylist of Integer
+		//Create an empty ArrayList of Integer
 		List<Integer> numbers = new ArrayList<Integer>();
 		
 		//add number to the list
@@ -126,6 +126,6 @@ For-each loop i.e. enhanced for loop can be used to traverse over the array or c
 
 It provides a more readable syntax as compared to the simple for loop.
 
-The example java program used in the above article can be found at [this GitHub repository.](https://github.com/coderolls/blogpost-coding-examples/tree/main/java-basic/for-each-loop)
+The example Java program used in the above article can be found at [this GitHub repository.](https://github.com/coderolls/blogpost-coding-examples/tree/main/java-basic/for-each-loop)
 
 Please write down your thoughts in the comment section below.
