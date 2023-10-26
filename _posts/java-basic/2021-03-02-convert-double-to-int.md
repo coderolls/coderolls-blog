@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Convert double To int In Java?"
 author: gaurav
@@ -11,7 +11,7 @@ description: "In this article, we will see, how to convert a double value to an 
 In this article, we will see, how to convert a double value to an integer value in Java programming language.
 
 
-Let's say, you have a double primitive value (ex `82.14`), but you need an int value (ex. `82`) for further operations. So, let's see how to convert double to int in java.
+Let's say, you have a double primitive value (ex `82.14`), but you need an int value (ex. `82`) for further operations. So, let's see how to convert double to int in Java.
 
 There are three ways you can convert double to int. I have listed the three ways below.
 
@@ -19,12 +19,12 @@ There are three ways you can convert double to int. I have listed the three ways
 2. convert double to int - using `Math.round()`
 3. convert double to int - using `Double.IntValue()`
 
-Let's see the these ways one by one.
+Let's see these ways one by one.
 
 > You may like to visit:
 > [How To Convert An Integer To String In Java](https://coderolls.com/convert-int-to-string/)
 
-## 1. convert double to int - using typecasting
+## 1. Convert double to int - using typecasting
 
 We know  `double` is a 64-bit primitive value, and int is a 32-bit primitive value. So, to convert double to int, we can **downcast the double value to int**.
 
@@ -32,7 +32,7 @@ I have given a simple example below that shows how to convert double to int usin
 
 ```java
 /**
- * A java program to convert double to int using typecasting 
+ * A Java program to convert double to int using typecasting 
  * @author Gaurav Kukade at coderolls.com
  **/
 public class DoubleToIntUsingTypecasting{
@@ -70,11 +70,11 @@ It is not possible with typecasting, but our next solution can achieve it.
 
 [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method will **round the floating-point value to the nearest long value**. Then we can typecast it to the int.
 
-I have given a simple java program below that shows how to convert double to int using the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method.
+I have given a simple Java program below that shows how to convert double to int using the [`Math.round()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#round-double-) method.
 
 ```java
 /** 
- * A java program to convert double to int using 
+ * A Java program to convert double to int using 
  * Math.round() method 
  * @author Gaurav Kukade at coderolls.com
  **/
@@ -185,15 +185,15 @@ int nextIntValue = (int) Math.round(nextDoubleValue);
 In this way, we convert the `double` value to the `Double` wrapper class, and then we use the [`Double.IntValue()`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#intValue--) method to get the int value.
 
 ```java
-//create Double wrapper object
+//create a Double wrapper object
 Double doubleValueObject = new Double(doubleValue);
         
 //typecase double to int
 int intValue = doubleValueObject.intValue(); 
 ```
-In this way also we will **lose the digits after the decimal points**.
+In this way we will **lose the digits after the decimal points**.
 
-So this is how we do convert a double to int in java. You can check all three ([DoubleToIntUsingTypecasting.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingTypecasting.java), [DoubleToIntUsingRoundMethod.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingRoundMethod.java), [DoubleToIntUsingIntValueMethod.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingIntValueMethod.java)) programs on GitHub 
+So this is how we convert a double to int in Java. You can check all three ([DoubleToIntUsingTypecasting.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingTypecasting.java), [DoubleToIntUsingRoundMethod.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingRoundMethod.java), [DoubleToIntUsingIntValueMethod.java](https://github.com/coderolls/blogpost-coding-examples/blob/main/java-basic/DoubleToIntUsingIntValueMethod.java)) programs on GitHub 
 
 You can read more about [string to int](https://coderolls.com/convert-int-to-string/) and [int to string](https://coderolls.com/convert-string-to-int/) conversion.
 
