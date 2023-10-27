@@ -40,7 +40,7 @@ import java.util.List;
  * A Java program to check if the ArrayList 
  * contains the specified element.
  * 
- * @author Gaurav Kukade a coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListContainsMethodExample {
