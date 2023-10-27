@@ -1,10 +1,10 @@
-﻿---  
+---  
 layout: post  
 title: "ArrayList removeIf() method"  
 author: gaurav  
 categories: [Collections, ArrayList]
 toc: true  
-description: "In this tutorial, we will see the removeIf(Predicate filter) method of the Arraylist class in Java."  
+description: "In this tutorial, we will see the removeIf(Predicate filter) method of the ArrayList class in Java."  
 ---
 In this tutorial, we will see the `removeIf(Predicate filter)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method removes all of the elements of this collection that satisfy the given predicate.
 
@@ -32,11 +32,11 @@ public boolean removeIf(Predicate<? super E> filter)
 
 As shown in the method signature, this method accepts only one parameter `filter`. It is an instance of the Predicate Functional Interface. 
 
-Predicate is a predefined functional Interface and used to test the conditions.
+A predicate is a predefined functional Interface used to test the conditions.
 
-This method returns a `boolean` value. This method returns `true`, if any elements from the ArrayList is removed. Otherwise it returns `false`. 
+This method returns a `boolean` value. This method returns `true` if any elements from the ArrayList are removed. Otherwise, it returns `false`. 
 
-Let's see an example java program for the ArrayList `removeIf()` method.
+Let's see an example Java program for the ArrayList `removeIf()` method.
 
 ```java
 import java.util.ArrayList;
@@ -44,35 +44,34 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * A java program showing an example for the removeIf()
+ * A Java program showing an example for the removeIf()
  * method of the ArrayList class in Java.
  * 
- * @author gaurav
+ * @author coderolls.com
  */
 public class ArrayListRemoveIfExample {
 
-	public static void main(String[] args) {
-
-		// create an empty arraylist object 'states'
-		List<String> states = new ArrayList<String>();
-
-		// add state in the arraylist, Florida multiple times
-		states.add("California");
-		states.add("Texas");
-		states.add("Florida");
-		states.add("Florida");
-		states.add("New Jersey");
-		states.add("Washington");
-		states.add("Florida");
-
-		System.out.println("The states list before the removeIf() call: \n" + states);
-
-		// a predicate for the condition
-		Predicate p = s -> s.equals("Florida");
-		states.removeIf(p); // removes all elements which satisfy the predicate p
-
-		System.out.println("\nThe states list after the removeIf() call: \n" + states);
-	}
+  public static void main(String[] args) {
+    // create an empty ArrayList object 'states'
+    List<String> states = new ArrayList<String>();
+    
+    // add state in the ArrayList, Florida multiple times
+    states.add("California");
+    states.add("Texas");
+    states.add("Florida");
+    states.add("Florida");
+    states.add("New Jersey");
+    states.add("Washington");
+    states.add("Florida");
+    
+    System.out.println("The states list before the removeIf() call: \n" + states);
+    
+    // a predicate for the condition
+    Predicate p = s -> s.equals("Florida");
+    states.removeIf(p); // removes all elements which satisfy the predicate p
+    
+    System.out.println("\nThe states list after the removeIf() call: \n" + states);
+  }
 }
 ```
 
@@ -94,6 +93,6 @@ public boolean removeIf(Predicate<? super E> filter)
 ```
 ---
 
-The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-removeif-method).  
+The example Java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-removeif-method).  
 
 Please write your thoughts in the comment section below.
