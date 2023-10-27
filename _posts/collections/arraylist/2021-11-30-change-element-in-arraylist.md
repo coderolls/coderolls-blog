@@ -42,7 +42,7 @@ import java.util.ArrayList;
  */
 public class ArrayListSetExample {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
     ArrayList<String> arrayList = new ArrayList<String>();
     
     //adding elements to the arrayList using the normal add() method
@@ -56,7 +56,7 @@ public class ArrayListSetExample {
     arrayList.set(1, "Saurav");
     
     System.out.println(arrayList); // [Gaurav, Saurav, Pradnya]
-	}
+  }
 }
 ```
 Output:
