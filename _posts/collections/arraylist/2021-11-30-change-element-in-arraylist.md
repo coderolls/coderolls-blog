@@ -37,7 +37,7 @@ import java.util.ArrayList;
  * We can use 'public E set(int index, E element)' method
  * to change an element.
  * 
- * @author Guarav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListSetExample {
