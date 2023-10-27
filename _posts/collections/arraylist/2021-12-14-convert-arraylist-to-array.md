@@ -46,7 +46,7 @@ I have given an example Java program to convert an ArrayList to an Array. It con
  * 
  * toArray() method returns Object[]
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListToArray {
@@ -116,7 +116,7 @@ import java.util.ArrayList;
  * 
  * toArray(T[] a) method returns T[]
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListToArray2 {
