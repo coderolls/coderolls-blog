@@ -1,16 +1,15 @@
-﻿---
+---
 layout: post
 title: "Your Guide To UUID In Java"
 author: gaurav
 image: assets/images/2020-12-19/uuid.webp
 categories: [ Java, Core Java, String]
-description: In this article you will learn what is UUID and about the Java UUID class.
+description: In this article, you will learn what is UUID and about the Java UUID class.
 toc: true
 featured: false
-
 ---
 
-In this article we will see, 
+In this article, we will see, 
 - What is UUID?
 - Java UUID class
 
@@ -38,13 +37,13 @@ There are 4 types of UUID variant
 -   **6:**  It is reserved for Microsoft backward compatibility
 -   **7:**  It is reserved for future definition.
 
-Mostly the variant 2 is used.
+Mostly variant 2 is used.
 
 UUID can be used in the following cases
  
- -  As a primary key of database table
--   To create session id for web application
--   To represent as transaction id
+ -  As a primary key of the database table
+-   To create a session ID for a web application
+-   To represent as transaction ID
 -   To create a random file name
 
 ### Example UUID
@@ -74,21 +73,21 @@ The above method creates a UUID from the string standard representation as descr
 ```java
 UUID.nameUUIDFromBytes(byte[] name) 
 ```
-This method is used to create a version 3 (name based) UUID based on the specified byte array.
+This method is used to create a version 3 (name-based) UUID based on the specified byte array.
 
 ```java
 UUID.randomUUID()
 ```
-This method is used to create a version 4 (pseudo randomly generated) UUID.
+This method is used to create a version 4 (pseudo-randomly generated) UUID.
 
 ### Instance methods
 
-Also there are a few instance methods of a UUID class.
+Also, there are a few instance methods of a UUID class.
 
 ```java 
 clockSequence()
 ```
-This method is used to get the the clock sequence value associated with this UUID.
+This method is used to get the clock sequence value associated with this UUID.
 
 This method returns the clock sequence value as `int`.
 
@@ -102,7 +101,7 @@ This method returns -1, 0 or 1 as this `UUID` is less than, equal to, or greater
 ```java
 equals(Object obj)
 ```
-This method simply compares this object to the specified object. It return the result in `boolean`
+This method simply compares this object to the specified object. It returns the result in `boolean`
 
 ```java
 node()
