@@ -1,15 +1,15 @@
-﻿---
+---
 layout: post
 title: "How To Create UUID in Java?"
 author: gaurav
 image: assets/images/2020-12-23/create-uuid-in-java.webp
 categories: [Java, Core Java, String]
-description: "In this article you will see, how to create UUID in Java."
+description: "In this article, you will see, how to create UUID in Java."
 toc: true
 hidden: false
 ---
 
-In this article you will see, how to create UUID in Java.
+In this article, you will see, how to create UUID in Java.
 
 ## Introduction
 
@@ -29,7 +29,7 @@ df6fdea1-10c3-474c-ae62-e63def80de0b
 
 Creating a Randomly Generated UUID (version 4) is really easy in Java.
 
-UUID Class is present in  `java.util` package. And it has the static method `randomUUID()` which returns the randomly generated UUID.
+UUID Class is present in  the `java.util` package. And it has the static method `randomUUID()` which returns the randomly generated UUID.
 
 The example is given below.
 
@@ -43,16 +43,14 @@ import java.util.UUID;
  */
 public class CreateUUID {
 
-	public static void main(String[] args) {
-		
-		// creating random uuid i.e. version 4 UUID
-		UUID uuid = UUID.randomUUID();
-		
-		System.out.println("Printing the randomly generated UUID value......\n");
-		
-		System.out.println("uuid: "+uuid);
-		
-	}
+  public static void main(String[] args) {
+    // creating random uuid i.e. version 4 UUID
+    UUID uuid = UUID.randomUUID();
+    
+    System.out.println("Printing the randomly generated UUID value......\n");
+    
+    System.out.println("uuid: "+uuid);
+  }
 
 }
 
