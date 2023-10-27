@@ -4,9 +4,9 @@ title: "For-each loop in Java or Enhanced For loop in Java"
 author: gaurav
 categories: [Java, Control Flow Statements]
 toc: true
-description: "In this article, we will see the for-each loop in java i.e. Enhanced for loop"
+description: "In this article, we will see the for-each loop in Java i.e. Enhanced for loop"
 ---
-In this article, we will see the for-each loop in java i.e. Enhanced for loop
+In this article, we will see the for-each loop in Java i.e. Enhanced for-loop
 
 ## Introduction
 
@@ -14,7 +14,7 @@ For-each loop is introduced in Java 1.5.
 
 It provides a better approach to traversing the array or collection.
 
-In a simple for loop, we initialize the variable and write the condition for that variable. But in for each loop, we do not have to initialize a variable or write any condition for that.
+In a simple for loop, we initialize the variable and write the condition for that variable. But in the enhanced loop, we do not have to initialize a variable or write any condition for that.
 
 The foreach loop is always used to traverse over the array or any collection.
 
@@ -42,17 +42,15 @@ I have given a simple Java program to traverse over an array using the for-each 
  */
 public class ArrayForEachExample {
 
-	public static void main(String[] args) {
-		
-		//Create an array of marks
-		int[] numbers = { 88, 95, 65, 76, 78, 45, 95, 96, 56};
-		
-		// traversing the array using for-each loop
-		for(int number: numbers) {
-			
-			System.out.println("The number is "+ number);
-		}
-	}
+  public static void main(String[] args) {
+    //Create an array of marks
+    int[] numbers = { 88, 95, 65, 76, 78, 45, 95, 96, 56};
+    
+    // traversing the array using for-each loop
+    for(int number: numbers) {
+      System.out.println("The number is "+ number);
+    }
+  }
 }
 ```
 Output:
