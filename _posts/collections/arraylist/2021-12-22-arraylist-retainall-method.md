@@ -1,4 +1,4 @@
-﻿---  
+---  
 layout: post  
 title: "ArrayList retainAll() method"  
 author: gaurav  
@@ -9,7 +9,7 @@ description: "Let's see the retainAll() method of the Arraylist class in Java."
 
 Let's see the `retainAll()` method of the [ArrayList class in Java](https://coderolls.com/arraylist-in-java/).
   
-This method is used to retains all the elements in of the collection in the list.
+This method is used to retain all the elements in of the collection in the list.
 
 ## Introduction  
 ArrayList is a widely used class to store and retrieve data in a collection framework.  
@@ -25,9 +25,9 @@ Today we will see the `retainAll()` method.
 
 The `retainAll()` method retains all the elements of the collections passed as a parameter in the list.
 
-That means it will remove all elements from the list other than the ones which are present in the collection that is passed as parameter.
+That means it will remove all elements from the list other than the ones that are present in the collection that is passed as a parameter.
 
-The method is signature is given below.
+The method signature is given below.
 
 ```java
 public boolean retainAll(Collection<?> c)
@@ -37,55 +37,54 @@ As shown in the method signature, it accepts only one parameter i.e. `Collection
 
 Also, the `retainAll()` method has a return type as a `boolean`. It returns `true` only if the list is changed as a result of the method call otherwise `false`. 
 
-Let's see the java program for better understanding.
+Let's see the Java program for a better understanding.
 
 ```java
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A java program to to eplain the retainAll() method of the Arraylist class.
+ * A Java program to explain the retainAll() method of the ArrayList class.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListRetainAllExample {
 
-	public static void main(String[] args) {
-
-		//create an empty arraylist of Integer to retain elements
-		List<Integer> numbers1 = new ArrayList<Integer>();
-
-		//add number to the list
-		numbers1.add(4);
-		numbers1.add(5);
-		numbers1.add(6);
-		
-		//create an empty arraylist of Integer
-		List<Integer> numbers2 = new ArrayList<Integer>();
-
-		// add number to the list
-		numbers2.add(1);
-		numbers2.add(2);
-		numbers2.add(3);
-		numbers2.add(4);
-		numbers2.add(5);
-		numbers2.add(6);
-		numbers2.add(7);
-		numbers2.add(8);
-		numbers2.add(9);
-
-		System.out.println("Lists before the method call");
-		System.out.println("numbers1: "+ numbers1);
-		System.out.println("numbers2: "+ numbers2);
-		
-		//retain all the elements of numbers1 in the list numbers2
-		numbers2.retainAll(numbers1);
-		
-		System.out.println("\nLists after the method call");
-		System.out.println("numbers1: "+ numbers1);
-		System.out.println("numbers2: "+ numbers2);	
-	}
+  public static void main(String[] args) {
+    //create an empty ArrayList of Integer to retain elements
+    List<Integer> numbers1 = new ArrayList<Integer>();
+    
+    //add number to the list
+    numbers1.add(4);
+    numbers1.add(5);
+    numbers1.add(6);
+    
+    //create an empty ArrayList of Integer
+    List<Integer> numbers2 = new ArrayList<Integer>();
+    
+    // add the number to the list
+    numbers2.add(1);
+    numbers2.add(2);
+    numbers2.add(3);
+    numbers2.add(4);
+    numbers2.add(5);
+    numbers2.add(6);
+    numbers2.add(7);
+    numbers2.add(8);
+    numbers2.add(9);
+    
+    System.out.println("Lists before the method call");
+    System.out.println("numbers1: "+ numbers1);
+    System.out.println("numbers2: "+ numbers2);
+    
+    //retain all the elements of numbers1 in the list numbers2
+    numbers2.retainAll(numbers1);
+    
+    System.out.println("\nLists after the method call");
+    System.out.println("numbers1: "+ numbers1);
+    System.out.println("numbers2: "+ numbers2);	
+  }
 }
 ```  
 
@@ -109,45 +108,44 @@ This method may throw the `ClassCastException`, if the class of an element of th
 #### `NullPointerException`
 This method may throw the `NullPointerException`, if this list contains a null element and the specified collection does not permit null elements (optional) or if the specified collection is null.
 
-The java example for the  `NullPointerException` is given below.
+The Java example for the  `NullPointerException` is given below.
 
 ```java
 import java.util.ArrayList;
 import java.util.List;
 /**
- * A java program to show the NullPointerException in retainAll() method
- * of the arrayList class.
+ * A Java program to show the NullPointerException in retainAll() method
+ * of the ArrayList class.
  *  
- * @author gaurav
+ * @author coderolls.com
  *
  */
 public class RetainAllNullPointerExceptionExample {
 
-	public static void main(String[] args) {
-		
-		//create an empty arraylist of Integer to retain elements
-		List<String> numbers1 = null;
-
-		//create an empty arraylist of Integer
-		List<Integer> numbers2 = new ArrayList<Integer>();
-
-		// add number to the list
-		numbers2.add(1);
-		numbers2.add(2);
-		numbers2.add(3);
-		numbers2.add(4);
-
-		System.out.println("Lists before the method call");
-		System.out.println("numbers1: "+ numbers1);
-		System.out.println("numbers2: "+ numbers2);
-		
-		//retain all the elements of numbers1 in the list numbers2
-		numbers2.retainAll(numbers1);
-		
-		System.out.println("\nLists after the method call");
-		System.out.println("numbers1: "+ numbers1);
-		System.out.println("numbers2: "+ numbers2);	
-	}
+  public static void main(String[] args) {
+    //create an empty ArrayList of Integer to retain elements
+    List<String> numbers1 = null;
+    
+    //create an empty ArrayList of Integer
+    List<Integer> numbers2 = new ArrayList<Integer>();
+    
+    //Add the number to the list
+    numbers2.add(1);
+    numbers2.add(2);
+    numbers2.add(3);
+    numbers2.add(4);
+    
+    System.out.println("Lists before the method call");
+    System.out.println("numbers1: "+ numbers1);
+    System.out.println("numbers2: "+ numbers2);
+    
+    //retain all the elements of numbers1 in the list numbers2
+    numbers2.retainAll(numbers1);
+    
+    System.out.println("\nLists after the method call");
+    System.out.println("numbers1: "+ numbers1);
+    System.out.println("numbers2: "+ numbers2);	
+  }
 }
 ```
 
@@ -169,10 +167,10 @@ The `retainAll(Collection c)` method retains all the elements of the collection 
 public boolean retainAll(Collection<?> c)
 ```
 
-This method return `true` if the list is changed otherwise `false`.
+This method returns `true` if the list is changed otherwise `false`.
 
 ---
 
-The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-retainall-method).  
+The example Java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-retainall-method).  
 
 Please write your thoughts in the comment section below.
