@@ -42,7 +42,7 @@ import java.util.List;
  * A Java program to remove all the elements 
  * of ArrayList using the clear() method.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListClearMethodExample {
