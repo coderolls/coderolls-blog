@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "ArrayList In Java"
 author: gaurav
@@ -24,7 +24,7 @@ The default initial capacity is 10.
 
 Load factor = 0.75 * 10 = 7
 
-So when we try to add the 7th element to the ArrayList, it will create a new array double of the size of the old array i.e. 20 and copy the old array in the new array and then add the element in a new array.
+So when we try to add the 7th element to the ArrayList, it will create a new array double the size of the old array i.e. 20. Also, it will copy the old array in the new array and then add the element in a new array.
 
 ## Constructors in the ArrayList
 
@@ -57,7 +57,7 @@ This constructor constructs a list containing the elements of the specified coll
 ArrayList<String> anotherCollection = new ArrayList<String>();
 anotherCollection.add("example");
 
-// 2nd constructor exaqmple is the below line of code
+// 2nd constructor example is the below line of code
 ArrayList<String> arrayList = new ArrayList<String>(anotherCollection);
 ```
 
@@ -75,7 +75,7 @@ Above, I am creating an empty array list object with it's initial capacity as 20
 ```java
 ArrayList<String> arrayList = new ArrayList<String>(20);
 ```
-In the above code the `<String>` represents Generics and I am creating an `arrayList` object which will be storing String type of objects only. It will give us a compile-time error if we try to add any other type of object the `arrayList`.
+In the above code the `<String>` represents Generics and I am creating an `arrayList` object which will be storing String type of objects only. It will give us a compile-time error if we try to add any other type of object to the `arrayList`.
 
 By default, Collections are heterogeneous i.e. they can save all types of objects in one collection. By using Generics I am making it homogeneous i.e. it will store only specified types of objects in that particular collection.
 
@@ -101,8 +101,8 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 |[`contains()`](http://coderolls.com/arraylist-contains-method/)|This method is used for checking if the specified element exists in the given list or not.|
 |[`toArray()`](http://coderolls.com/convert-arraylist-to-array/)|This method returns an array containing all of the elements in this ArrayList in proper sequence.|
 |[`toArray(T[] a)`](http://coderolls.com/convert-arraylist-to-array/)|This method returns `T []` i.e. An array of the specified type `T` can be returned.|
-|[`removeRange(int fromIndex, int toIndex)`](http://coderolls.com/arraylist-removerange-method/)|This method is used for removing the range of ekements from the subclasses of the ArrayList class. The [`removeRange(int fromIndex, int toIndex)` method](http://coderolls.com/arraylist-removerange-method/) is a protected method.|
-|[`retainAll(Collection c)`](http://coderolls.com/arraylist-retainall-method/)|This method method retains all the elements of the collection passed as a parameter in the list.|
+|[`removeRange(int fromIndex, int toIndex)`](http://coderolls.com/arraylist-removerange-method/)|This method is used for removing the range of elements from the subclasses of the ArrayList class. The [`removeRange(int fromIndex, int toIndex)` method](http://coderolls.com/arraylist-removerange-method/) is a protected method.|
+|[`retainAll(Collection c)`](http://coderolls.com/arraylist-retainall-method/)|This method retains all the elements of the collection passed as a parameter in the list.|
 |[`trimToSize()`](http://coderolls.com/arraylist-trimtosize-method/)|This method trims the capacity of this ArrayList instance to be the list's current size.|
 |[`indexOf(Object o)`](http://coderolls.com/arraylist-indexof-method/)|This method returns the index of the first occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
 |[`lastIndexOf(Object o)`](http://coderolls.com/arraylist-lastIndexof-method/)|This method returns the index of the last occurrences of the object specified. It returns -1 if the specified object `o` is not present in the list.|
@@ -115,13 +115,13 @@ By default, Collections are heterogeneous i.e. they can save all types of object
 
 ### 1. ArrayList maintains the insertion order.
 
-I have given a simple java program below that shows, ArrayList maintains the insertion order.
+I have given a simple Java program below that shows, ArrayList maintains the insertion order.
 
 ```java
 import java.util.ArrayList;
 
 /**
- * A Java program showing arraylist maintains the insertion order.
+ * A Java program showing an arraylist maintains the insertion order.
  * 
  * @author gaurav
  *
@@ -149,13 +149,13 @@ public class ArrayListExample {
 
 #### Explanation
 
-1. In the above program, I have created an `arrayList` object with a type one constructor. So default initial capacity of arrayList is 10.
+1. In the above program, I have created an `arrayList` object with a type one constructor. So the default initial capacity of arrayList is 10.
 2. I have added 5 string objects using the `add()` method one by one.
 3. I have printed the `arrayList` object using a sysout statement. Here we can observe that all the strings are in the same order that they are inserted in the code. So we can say that the `ArrayList` maintains the insertion order. 
 
-### 2. ArrayList allow the duplicate elements.
+### 2. ArrayList allows the duplicate elements.
 
-I have given a simple java program below that shows, ArrayList allow the duplicate elements.
+I have given a simple Java program below that shows, that ArrayList allows duplicate elements.
 
 ```java
 import java.util.ArrayList;
@@ -184,11 +184,11 @@ public class ArrayListDuplicate {
 ```
 #### Explanation
 
-1. In the above program, I have created an `arrayList` object with a type one constructor. So default initial capacity of arrayList is 10.
+1. In the above program, I have created an `arrayList` object with a type one constructor. So the default initial capacity of arrayList is 10.
 2. I have added 6 string objects using the `add()` method one by one. You can observe the 5th and 6th String objects are the same. i.e duplicate (`"Rina"` ) 
 3. On printing the `arrayList`, we can see the 5th as well as 6th String object (`"Rina"` ) on the console. That means `ArrayList` will allow the duplicate elements.
 
-## Comon Operations on ArrayList
+## Common Operations on ArrayList
 
 ### 1. Adding an element in the ArrayList
 
@@ -198,7 +198,7 @@ Read more and check example Java programs about adding an element to the ArrayLi
 
 ### 2. Changing an element of the ArrayList
 
-When you create an ArrayList objects and add elements to it, some you need to change the element at particular index. You can do it using the `set(int index, E element)`.
+When you create an ArrayList object and add elements to it, sometimes you need to change the element at a particular index. You can do it using the `set(int index, E element)`.
 
 Read more and check example Java programs about changing the element of ArrayList in this blogpost: [How To Change An Element In ArrayList?](https://coderolls.com/change-element-in-arraylist/)
 
@@ -206,7 +206,7 @@ Read more and check example Java programs about changing the element of ArrayLis
 
 If you want to remove the element from the ArrayList, you can use the remove(Object o) method or remove(int index) method.
 
-Read more and check example Java program about removing an element from the ArrayList on this blogpost: [How To Remove An Element From An ArrayList?](http://coderolls.com/remove-element-from-arraylist/)
+Read more and check an example Java program about removing an element from the ArrayList on this blogpost: [How To Remove An Element From An ArrayList?](http://coderolls.com/remove-element-from-arraylist/)
 
 ### 4. Iterating over an ArrayList
 
@@ -216,6 +216,6 @@ I have covered all the ways of iterating the ArrayList in Java with all the exam
 
 ---
 
-The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-in-java).
+The example Java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-in-java).
 
-Let me know you thoughts or suggestions in comment section below.
+Let me know your thoughts or suggestions in the comment section below.
