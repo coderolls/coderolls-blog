@@ -4,15 +4,15 @@ title: "How To Create A Maven Project In Eclipse?"
 author: gaurav
 categories: [Eclipse, Maven Project]
 toc: true
-description: "In this tutorial we will see how to create a maven project in eclipse."
+description: "In this tutorial, we will see how to create a maven project in Eclipse."
 hidden: false
 ---
 
-In this short tutorial we will see how to create a maven project in eclipse.
+In this short tutorial, we will see how to create a maven project in Eclipse.
 
 ## Introduction
 
-Maven is most popular build automation tool used to create and manage java projects.
+Maven is the most popular build automation tool used to create and manage Java projects.
 
 Maven helps developers to save time by:
 
@@ -23,7 +23,7 @@ Maven helps developers to save time by:
 
 The Eclipse IDE is the most popular IDE for Java. It provides support for the Maven build.
 
-So, let's check the following step by step guide on how to create a maven project in eclipse.
+So, let's check the following step-by-step guide on how to create a maven project in Eclipse.
 
 ## How To Create Maven Project In Eclipse?
 
@@ -33,7 +33,7 @@ To create a simple maven project in the eclipse, kindly follow the below steps:
 
 Open eclipse.
 
-If you are opening the eclipse for first time in a workspace, you will see a 'Welcome' tab, kindly close it.
+If you are opening the eclipse for the first time in a workspace, you will see a 'Welcome' tab, kindly close it.
 
 Then click on File>New>Project.
 
@@ -47,21 +47,21 @@ Search 'maven' using the search bar given under 'Wizards' and select the 'Maven 
 
 ![Selecting A Maven Project In Eclipse](/assets/images/2022-08-06-eclipse-maven-project/002-maven-project.png)
 
-When you click the 'Next' button on 'New Project' window, you will see the 'New Maven Project' window.
+When you click the 'Next' button on the 'New Project' window, you will see the 'New Maven Project' window.
 
 ### #Step 3:
 
-In #Step 3, we will keep the default workspcae checkbox marked. It will select the default workspace as project workspace.
+In #Step 3, we will keep the default workspace checkbox marked. It will select the default workspace as the project workspace.
 
 If you want to use any specific workspace, please uncheck the default workspace checkbox and browse the location of your workspace.
 
-This window also provides facility to add your project to the existing 'Working Set'. Since we do not have any working set yet, we will keep it as it is. Then click on the 'next' button.
+This window also provides the facility to add your project to the existing 'Working Set'. Since we do not have any working set yet, we will keep it as it is. Then click on the 'next' button.
 
 ![Select An Archetype](/assets/images/2022-08-06-eclipse-maven-project/003-maven-project.png)
 
-The first checkbox is for simple maven project creation. If you check this checkbox , it will skip the maven archetype selection and create a simple maven project for you.
+The first checkbox is for simple maven project creation. If you check this checkbox, it will skip the maven archetype selection and create a simple maven project for you.
 
-To explain the archetype selection in maven project, i am keeping it unchecked.
+To explain the archetype selection in the maven project, I am keeping it unchecked.
 
 ### #Step 4:
 
@@ -77,13 +77,13 @@ In the next part of the 'New Maven Project' window, we need to select the 'Group
 
 
 
-**'Group Id':** A Groupd Id is a unique base name of the company or group that created the project.
+**'Group Id':** A Group ID is a unique base name of the company or group that created the project.
 
 **'Artifact Id':** Artifact Id is a unique name of the project.
 
 
 
-I have entered Group id as 'com.coderolls' and Artifact id as 'SampleProject'. We will keep the 'Version' value as given there.
+I have entered the Group id as 'com.coderolls' and the Artifact id as 'SampleProject'. We will keep the 'Version' value as given there.
 
 Now you can click on the 'Finish' button and Eclipse will create and build the project for you.
 
@@ -95,9 +95,9 @@ The `src/main/java` contains the source code and `src/test/java` contains your u
 
 ![A Simple Maven Project Structure](/assets/images/2022-08-06-eclipse-maven-project/006-maven-project.png)
 
-In maven projects you can manage your dependencies using the pom.xml file.
+In Maven projects, you can manage your dependencies using the pom.xml file.
 
-The pom.xml at the begining looks like the one given below.
+The pom.xml at the beginning looks like the one given below.
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -126,7 +126,5 @@ The pom.xml at the begining looks like the one given below.
   </dependencies>
 </project>
 ```
-
-
 
 This is how you have created your simple maven project step by step in Eclipse IDE.
