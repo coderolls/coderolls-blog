@@ -1,11 +1,10 @@
-﻿---
+---
 layout: post  
 title: "ArrayList ensureCapacity() method in Java"  
 author: gaurav  
 categories: [Collections, ArrayList]  
 toc: true
-description: "In this short tutorial, we will see the ensureCapacity(int minCapacity) method of the Arraylist class in Java." 
-
+description: "In this short tutorial, we will see the ensureCapacity(int minCapacity) method of the ArrayList class in Java." 
 ---
 
 In this tutorial, we will see the `ensureCapacity(int minCapacity)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). 
@@ -13,7 +12,7 @@ In this tutorial, we will see the `ensureCapacity(int minCapacity)` method of th
 ## Introduction  
 ArrayList is a widely used class to store and retrieve data in a collection framework.
 
-Unlike an array, ArrayList can dynamically grow in the size.
+Unlike an array, ArrayList can dynamically grow in size.
 
 In previous articles, we have various methods to perform operations on the ArrayList.
 
@@ -42,47 +41,46 @@ This method accepts only one parameter, i.e. `minCapacity` of type `int`
 
 - **`minCapacity`** - the desired minimum capacity
 
-This method has a return type as a `void` that means it will not return anything.
+This method has a return type as a `void` which means it will not return anything.
 
-Let's see a java program where I will invoke the `ensureCapacity(int minCapacity)` method on the ArrayList object.
+Let's see a Java program where I will invoke the `ensureCapacity(int minCapacity)` method on the ArrayList object.
 
 In ArrayList, class we do not have any method which gives us the current capacity, so I will be not able to show the increased capacity on the console, but since we are invoking the `ensureCapacity()` method, the capacity will be surely increased.
 
 ```java
 /**
- * An example java program for ensureCapacity(int MinCapacity) method 
- * of the ArrayList class in java.
+ * An example Java program for ensureCapacity(int MinCapacity) method 
+ * of the ArrayList class in Java.
  * @author Gaurav at coderolls.com
  *
  */
 public class ArrayListEnsureCapacityExample {
 
-	public static void main(String[] args) {
-		
-		// create an empty arraylist object 'states'
-		ArrayList<String> states = new ArrayList<>();
-
-		// add state in the arraylist
-		states.add("California");
-		states.add("Texas");
-		states.add("Montana");
-		states.add("Arizona");
-		states.add("Florida");
-		states.add("Michigan");
-		states.add("New Jersey");
-		states.add("Washington");
-		states.add("Ohio");
-		states.add("Minnesota");
-		states.add("Colorado");
-		states.add("Missouri");
-		states.add("Nevada");
-		System.out.println("ArrayList Elements are: \n"+ states);
-		//We need to add more states, so we will ensure 
-		//that arraylist should hold 50 elements
-		 states.ensureCapacity(50);
-		 
-		 System.out.println("\nWe ensured that the arraylist should hold 50 elements.");
-	}
+  public static void main(String[] args) {
+    // create an empty ArrayList object 'states'
+    ArrayList<String> states = new ArrayList<>();
+    
+    //Add state in the ArrayList
+    states.add("California");
+    states.add("Texas");
+    states.add("Montana");
+    states.add("Arizona");
+    states.add("Florida");
+    states.add("Michigan");
+    states.add("New Jersey");
+    states.add("Washington");
+    states.add("Ohio");
+    states.add("Minnesota");
+    states.add("Colorado");
+    states.add("Missouri");
+    states.add("Nevada");
+    System.out.println("ArrayList Elements are: \n"+ states);
+    //We need to add more states, so we will ensure 
+    //that ArrayList should hold 50 element
+    states.ensureCapacity(50);
+    
+    System.out.println("\nWe ensured that the arraylist should hold 50 elements.");
+  }
 }
 ```
 
@@ -91,7 +89,7 @@ Output:
 ArrayList Elements are: 
 [California, Texas, Montana, Arizona, Florida, Michigan, New Jersey, Washington, Ohio, Minnesota, Colorado, Missouri, Nevada]
 
-We ensured that the arraylist should hold 50 elements.
+We ensured that the ArrayList should hold 50 elements.
 ```
 
 ## Conclusion  
