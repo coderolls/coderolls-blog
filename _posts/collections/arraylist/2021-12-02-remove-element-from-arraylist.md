@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Remove An Element From An ArrayList?"
 author: gaurav
@@ -13,15 +13,15 @@ We have seen [how we can add an element to an ArrayList](http://coderolls.com/ad
 
 To remove an element from an ArrayList, we use the `remove()` method.
 
-Using the`remove(Object o)` method, we can remove the specified object from an ArrayList.
+Using the ' Remove (Object o)` method, we can remove the specified object from an ArrayList.
 
 Using the `remove(int index)` method, we can remove the object at the specified index from an ArrayList.
 
-Let's see both the method one by one.
+Let's see both methods one by one.
 
 ## 1. Remove an element from an ArrayList using the `remove(Object o)` method
 
-`remove(Object o)` method removes the first occurrences  of the specified object from the ArrayList.
+The `remove(Object o)` method removes the first occurrences  of the specified object from the ArrayList.
 
 If the specified object `o` is not present in the ArrayList, the ArrayList remains unchanged.
 
@@ -29,7 +29,7 @@ The method signature is as `public boolean remove(Object o)`
 
 The `remove(Object o)` method has a return type as a `boolean`. It returns `true` if it found an occurrence of the specified object and if it removes. Otherwise, it returns `false`.
 
-We will see a java program to remove an element from the ArrayList using the `remove(Object o)` method.
+We will see a Java program to remove an element from the ArrayList using the `remove(Object o)` method.
 
 ### Example 1
 
@@ -45,22 +45,22 @@ import java.util.ArrayList;
  */
 public class ArrayListRemoveExample {
 
-	public static void main(String[] args) {
-		
-		ArrayList<String> arrayList = new ArrayList<String>();
-		
-		//adding elements to the arrayList using normal add method
-		arrayList.add("Red");
-		arrayList.add("Green");
-		arrayList.add("Pink");
-		
-		System.out.println("ArrayList before removing an element"+ arrayList); // ArrayList before removing an element[Red, Green, Pink]
-		
-		//Remove "Pink" from the arrayList
-		arrayList.remove("Pink");
-		
-		System.out.println("ArrayList after removing an element"+ arrayList);// ArrayList after removing an element[Red, Green]
-	}
+  public static void main(String[] args) {
+  
+    ArrayList<String> arrayList = new ArrayList<String>();
+    
+    //adding elements to the arrayList using the normal add() method
+    arrayList.add("Red");
+    arrayList.add("Green");
+    arrayList.add("Pink");
+    
+    System.out.println("ArrayList before removing an element"+ arrayList); // ArrayList before removing an element[Red, Green, Pink]
+    
+    //Remove "Pink" from the arrayList
+    arrayList.remove("Pink");
+    
+    System.out.println("ArrayList after removing an element"+ arrayList);// ArrayList after removing an element[Red, Green]
+  }
 }
 ```
 Output:
@@ -70,7 +70,7 @@ ArrayList after removing an element[Red, Green]
 ```
 ### Example 2
 
-In the above example we have remove the string object. In this example we will take an employee object. The Employee.java will look like given below
+In the above example, we have removed the string object. In this example, we will take an employee object. The Employee.java will look like the given below
 
 ```java
 /**
@@ -80,54 +80,54 @@ In the above example we have remove the string object. In this example we will t
  */
 public class Employee {
 	
-	private int id;
-	
-	private String name;
-	
-	private int salary;
-	
-	// a constructor will all the fields
-	public Employee(int id, String name, int salary) {
-		this.id = id;
-		this.name = name;
-		this.salary = salary;
-	}
-	
-	// getters and setters for the variables
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getSalary() {
-		return salary;
-	}
-
-	public void setSalary(int salary) {
-		this.salary = salary;
-	}
-	
-	// Override to string method to print student objects
-	@Override
-	public String toString() {
-		return "{"+this.getId()+", "+ this.getName()+ ", "+this.getSalary()+"}";
-	}
+  private int id;
+  
+  private String name;
+  
+  private int salary;
+  
+  // a constructor will all the fields
+  public Employee(int id, String name, int salary) {
+    this.id = id;
+    this.name = name;
+    this.salary = salary;
+  }
+  
+  // getters and setters for the variables
+  public int getId() {
+    return id;
+  }
+  
+  public void setId(int id) {
+    this.id = id;
+  }
+  
+  public String getName() {
+    return name;
+  }
+  
+  public void setName(String name) {
+    this.name = name;
+  }
+  
+  public int getSalary() {
+    return salary;
+  }
+  
+  public void setSalary(int salary) {
+    this.salary = salary;
+  }
+  
+  // Override to string method to print student objects
+  @Override
+  public String toString() {
+    return "{"+this.getId()+", "+ this.getName()+ ", "+this.getSalary()+"}";
+  }
 }
 
 ```
 
-Now, we will create an arraylist of the above employee objects and try remove them from the arraylist using `remove(Object o)`.
+Now, we will create an arraylist of the above employee objects and try to remove them from the arraylist using `remove(Object o)`.
 
 ```java
 import java.util.ArrayList;
@@ -149,7 +149,7 @@ public class ArrayListRemoveObjectExample {
 		Employee nathasha = new Employee(101, "Natasha Putin", 28000);
 		Employee remo = new Employee(102, "Remo Smith", 40000);
 		
-		//adding employee objects to the arrayList using normal add method
+		//adding employee objects to the arrayList using the normal add method
 		arrayList.add(john);
 		arrayList.add(nathasha);
 		arrayList.add(remo);
@@ -175,15 +175,15 @@ ArrayList after removing an employee Object:
 
 ## 2. Remove an element from an ArrayList using the `remove(int index)` method
 
-`remove(int index)` remove an element at the specified position from the ArrayList.
+The `remove(int index)` removes an element at the specified position from the ArrayList.
 
 The method signature is as `public E remove(int index)`
 
-Once we remove an element from the ArrayList using the `remove(int index)` method, the remaining elements from after the specified index get shifted left and it's indices are updated.
+Once we remove an element from the ArrayList using the `remove(int index)` method, the remaining elements after the specified index get shifted left and its indices are updated.
 
-The return type is a `E`. It returns the element that was removed from the list.
+The return type is an `E`. It returns the element that was removed from the list.
 
-We will see a java program to remove an element from the ArrayList by passing its index as an argument to `remove(int index)` method.
+We will see a Java program to remove an element from the ArrayList by passing its index as an argument to the `remove(int index)` method.
 
 ### Example 1
 
@@ -199,26 +199,26 @@ import java.util.ArrayList;
  */
 public class ArrayListRemoveExample2 {
 
-	public static void main(String[] args) {
-		
-		ArrayList<String> arrayList = new ArrayList<String>();
-		
-		//adding elements to the arrayList using normal add method
-		arrayList.add("Apple");
-		arrayList.add("Orange");
-		arrayList.add("Guava");
-		arrayList.add("Banana");
-		
-		System.out.println("ArrayList before removing an element"+ arrayList);
-		// ArrayList before removing an element[Apple, Orange, Guava, Banana]
-		
-		//Remove the element at the specified index i.e. 2
-		//Remove "Guava" from the arrayList
-		arrayList.remove(2);
-		
-		System.out.println("ArrayList after removing an element"+ arrayList);
-		// ArrayList after removing an element[Apple, Orange, Banana]
-	}
+  public static void main(String[] args) {
+  
+    ArrayList<String> arrayList = new ArrayList<String>();
+    
+    //adding elements to the arrayList using normal add method
+    arrayList.add("Apple");
+    arrayList.add("Orange");
+    arrayList.add("Guava");
+    arrayList.add("Banana");
+    
+    System.out.println("ArrayList before removing an element"+ arrayList);
+    // ArrayList before removing an element[Apple, Orange, Guava, Banana]
+    
+    //Remove the element at the specified index i.e. 2
+    //Remove "Guava" from the arrayList
+    arrayList.remove(2);
+    
+    System.out.println("ArrayList after removing an element"+ arrayList);
+    // ArrayList after removing an element[Apple, Orange, Banana]
+  }
 }
 ```
 Output:
@@ -229,7 +229,7 @@ ArrayList after removing an element[Apple, Orange, Banana]
 
 ### Example 2
 
-In the above example we have remove the string object. In this example we will take an employee object. The Employee.java will look like given below
+In the above example, we have removed the string object. In this example, we will take an employee object. The Employee.java will look like the given below
 
 ```java
 /**
@@ -239,54 +239,54 @@ In the above example we have remove the string object. In this example we will t
  */
 public class Employee {
 	
-	private int id;
-	
-	private String name;
-	
-	private int salary;
-	
-	// a constructor will all the fields
-	public Employee(int id, String name, int salary) {
-		this.id = id;
-		this.name = name;
-		this.salary = salary;
-	}
-	
-	// getters and setters for the variables
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getSalary() {
-		return salary;
-	}
-
-	public void setSalary(int salary) {
-		this.salary = salary;
-	}
-	
-	// Override to string method to print student objects
-	@Override
-	public String toString() {
-		return "{"+this.getId()+", "+ this.getName()+ ", "+this.getSalary()+"}";
-	}
+  private int id;
+  
+  private String name;
+  
+  private int salary;
+  
+  // a constructor will all the fields
+  public Employee(int id, String name, int salary) {
+    this.id = id;
+    this.name = name;
+    this.salary = salary;
+  }
+  
+  // getters and setters for the variables
+  public int getId() {
+    return id;
+  }
+  
+  public void setId(int id) {
+    this.id = id;
+  }
+  
+  public String getName() {
+    return name;
+  }
+  
+  public void setName(String name) {
+    this.name = name;
+  }
+  
+  public int getSalary() {
+    return salary;
+  }
+  
+  public void setSalary(int salary) {
+    this.salary = salary;
+  }
+  
+  // Override to string method to print student objects
+  @Override
+  public String toString() {
+    return "{"+this.getId()+", "+ this.getName()+ ", "+this.getSalary()+"}";
+  }
 }
 
 ```
 
-Now, we will create an arraylist of the above employee objects and try remove them from the arraylist using `remove(int index)`.
+Now, we will create an arraylist of the above employee objects and try to remove them from the arraylist using `remove(int index)`.
 ```java
 import java.util.ArrayList;
 
@@ -299,28 +299,28 @@ import java.util.ArrayList;
  */
 public class ArrayListRemoveObjectExample2 {
 
-	public static void main(String[] args) {
-		
-		ArrayList<Employee> arrayList = new ArrayList<Employee>();
-		
-		//create Employee objects
-		Employee john = new Employee(100, "John Doe", 20000);
-		Employee nathasha = new Employee(101, "Natasha Putin", 28000);
-		Employee remo = new Employee(102, "Remo Smith", 40000);
-		
-		//adding employee objects to the arrayList using normal add method
-		arrayList.add(john);
-		arrayList.add(nathasha);
-		arrayList.add(remo);
-		
-		System.out.println("ArrayList before removing an employee Object:\n"+ arrayList); 
-		
-		//Remove object using the remove(int index) method 
-		//Remove employee nathasha from the arrayList, so pass natasha's index
-		arrayList.remove(1);
-		
-		System.out.println("\nArrayList after removing an employee Object:\n"+ arrayList);
-	}
+  public static void main(String[] args) {
+  
+    ArrayList<Employee> arrayList = new ArrayList<Employee>();
+    
+    //create Employee objects
+    Employee john = new Employee(100, "John Doe", 20000);
+    Employee nathasha = new Employee(101, "Natasha Putin", 28000);
+    Employee remo = new Employee(102, "Remo Smith", 40000);
+    
+    //adding employee objects to the arrayList using the normal add method
+    arrayList.add(john);
+    arrayList.add(nathasha);
+    arrayList.add(remo);
+    
+    System.out.println("ArrayList before removing an employee Object:\n"+ arrayList); 
+    
+    //Remove object using the remove(int index) method 
+    //Remove employee nathasha from the arrayList, so pass Natasha's index
+    arrayList.remove(1);
+    
+    System.out.println("\nArrayList after removing an employee Object:\n"+ arrayList);
+  }
 }
 ```
 Output:
