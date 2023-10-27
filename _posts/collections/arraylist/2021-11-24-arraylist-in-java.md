@@ -4,13 +4,13 @@ title: "ArrayList In Java"
 author: gaurav
 categories: [Collections, ArrayList]
 toc: true
-description: "In this article, we will see ArrayList in Java. How to create an ArrayList? Its various type of constructors for creating an ArrayList object. Also, some important features with an example."
+description: "In this article, we will see ArrayList in Java. How to create an ArrayList? Its various types of constructors for creating an ArrayList object. Also, some important features with an example."
 ---
-In this article, we will see ArrayList in Java. How to create an ArrayList? Its various type of constructors for creating an ArrayList object. Also, some important features with an example.
+In this article, we will see ArrayList in Java. How to create an ArrayList? Its various types of constructors for creating an ArrayList object. Also, some important features with an example.
 
 ## Introduction
 
-ArrayList is a class in Collections Framework. It is present in `java.util` package.
+ArrayList is a class in the Collections Framework. It is present in `java.util` package.
 
 The **ArrayList internally uses a dynamic array** for storing the elements. So ArrayList is more flexible than the array.
 
