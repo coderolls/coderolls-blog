@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Delete A Git Branch (Local or Remote)"
 author: gaurav
@@ -11,12 +11,12 @@ In this article, we will see how to delete a GIT branch both locally or remotely
 Short Snippet
 
 
-Delete local branch, if you finished working on branch, and merged
+Delete the local branch, if you finished working on a branch, and merged
 
 ```git
 git branch -d <the-local-branch>
 ```
-Delete local branch without checking merged status
+Delete the local branch without checking the merged status
 
 ```git
 git branch -D <the-local-branch>
@@ -36,11 +36,11 @@ git push origin :<the-remote-branch>
 
 GIT is one of the most used software for version control. In GIT, branches are part of the day-to-day development process. A Git branch represents an independent line of development.
 
-If you are beginner I would recommend you to have a look at <a target="_blank" href="https://coderolls.com/basic-git-commands/">8 Basic GIT Commands Every Newbie Developer Must Know</a>.
+If you are a beginner I would recommend you to have a look at <a target="_blank" href="https://coderolls.com/basic-git-commands/">8 Basic GIT Commands Every Newbie Developer Must Know</a>.
 
 Usually, all repositories have a `main/master` branch for the main code and team members create a feature or bug fix branches from the `main/master` branch.
 
-You add your feature or adds a bug-fix to your branch and commit the changes and push it to the remote branch. You will create a pull request and your team lead will review your code and merged it to the `main/master` .
+You add your feature or add a bug-fix to your branch commit the changes and push it to the remote branch. You will create a pull request and your team lead will review your code and merge it to the `main/master`.
 
 Since you have finished working on your branch you can choose to delete it.
 
@@ -76,7 +76,7 @@ If you are using the GIT v1.7.0 and above, hit the following command to delete t
 
 **Note:** In most of the case the `<remote_name>` is `origin`.
 
-**For example** If I want to delete my remote `feature/add-profile` branch, i will hit the following command.
+**For example** If I want to delete my remote `feature/add-profile` branch, I will hit the following command.
 
 ```
 git push origin --delete feature/add-profile
@@ -97,7 +97,7 @@ $ git push -d <remote_name> <branch_name>
 ```
 In most of the cases `<remote_name` is `origin`.
 
-That's it for now, we will see more GIT related articles in the future.
+That's it for now, we will see more GIT-related articles in the future.
 
 You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w)
 
