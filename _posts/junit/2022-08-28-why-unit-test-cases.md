@@ -4,10 +4,10 @@ title: "Why We Write JUnit Test Cases?"
 author: gaurav  
 categories: [Unit Testing in Java, JUnit]  
 toc: true
-description: "In this article we will see why unit testing is important in Java. This is the first article of JUnit Tutorial Series."
+description: "In this article, we will see why unit testing is important in Java. This is the first article of the JUnit Tutorial Series."
 ---
 
-In this article we will see why unit testing is important in Java. This is the first article of JUnit Tutorial Series.
+In this article, we will see why unit testing is important in Java. This is the first article of the JUnit Tutorial Series.
 
 ## Why We Write JUnit Test Cases?
 
@@ -19,7 +19,7 @@ As a developer, we are used to changing the code as per changes in business requ
 
 To make this testing part efficient, we can write unit test cases for our code.
 
-**Unit test cases are the code written to test all the happy path, edge, and corner cases of the feature or functionality. Basically, by writing a JUnit Test cases, we are testing a unit of code on its own.**
+**Unit test cases are the code written to test all the happy path, edge, and corner cases of the feature or functionality. Basically, by writing a JUnit Test case, we are testing a unit of code on its own.**
 
 We can run a JUnit Test case in milliseconds to check if the code is working as expected. If the JUnit test case passes that means the feature or functionality is working as expected.
 
