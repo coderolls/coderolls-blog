@@ -43,19 +43,19 @@ import java.util.ArrayList;
 public class ArrayListSetExample {
 
 	public static void main(String[] args) {
-ArrayList<String> arrayList = new ArrayList<String>();
-		
-		//adding elements to the arrayList using the normal add() method
-		arrayList.add("Gaurav");
-		arrayList.add("Shyam");
-		arrayList.add("Pradnya");
-		
-		System.out.println(arrayList);// [Gaurav, Shyam, Pradnya]
-		
-		// change an element at index 1
-		arrayList.set(1, "Saurav");
-		
-		System.out.println(arrayList); // [Gaurav, Saurav, Pradnya]
+    ArrayList<String> arrayList = new ArrayList<String>();
+    
+    //adding elements to the arrayList using the normal add() method
+    arrayList.add("Gaurav");
+    arrayList.add("Shyam");
+    arrayList.add("Pradnya");
+    
+    System.out.println(arrayList);// [Gaurav, Shyam, Pradnya]
+    
+    // change an element at index 1
+    arrayList.set(1, "Saurav");
+    
+    System.out.println(arrayList); // [Gaurav, Saurav, Pradnya]
 	}
 }
 ```
