@@ -40,7 +40,7 @@ import java.util.ArrayList;
  * A Java program to remove an element from ArrayList
  * using the remove(Object o) method.
  * 
- * @author Gaurav Kuakde at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListRemoveExample {
@@ -49,14 +49,14 @@ public class ArrayListRemoveExample {
   
     ArrayList<String> arrayList = new ArrayList<String>();
     
-    //adding elements to the arrayList using the normal add() method
+    //adding elements to the ArrayList using the normal add() method
     arrayList.add("Red");
     arrayList.add("Green");
     arrayList.add("Pink");
     
     System.out.println("ArrayList before removing an element"+ arrayList); // ArrayList before removing an element[Red, Green, Pink]
     
-    //Remove "Pink" from the arrayList
+    //Remove "Pink" from the ArrayList
     arrayList.remove("Pink");
     
     System.out.println("ArrayList after removing an element"+ arrayList);// ArrayList after removing an element[Red, Green]
@@ -75,7 +75,7 @@ In the above example, we have removed the string object. In this example, we wil
 ```java
 /**
  * An employee class for ArrayList remove example
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class Employee {
@@ -127,7 +127,7 @@ public class Employee {
 
 ```
 
-Now, we will create an arraylist of the above employee objects and try to remove them from the arraylist using `remove(Object o)`.
+Now, we will create an ArrayList of the above employee objects and try to remove them from the arraylist using `remove(Object o)`.
 
 ```java
 import java.util.ArrayList;
@@ -135,7 +135,7 @@ import java.util.ArrayList;
  * A Java program to remove an object from ArrayList
  * using the remove(int index) method.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListRemoveObjectExample {
@@ -194,7 +194,7 @@ import java.util.ArrayList;
  * A Java program to remove an element from ArrayList
  * using the remove(int index) method.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListRemoveExample2 {
@@ -234,7 +234,7 @@ In the above example, we have removed the string object. In this example, we wil
 ```java
 /**
  * An employee class for ArrayList remove example
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class Employee {
@@ -294,7 +294,7 @@ import java.util.ArrayList;
  * A Java program to remove an object from ArrayList
  * using the remove(int index) method.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListRemoveObjectExample2 {
@@ -341,6 +341,6 @@ We can remove an element from the ArrayList in two ways.
 
 ---
 
-The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/remove-element-from-arraylist).
+The example Java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/remove-element-from-arraylist).
 
 If you know any other way, please comment below.
