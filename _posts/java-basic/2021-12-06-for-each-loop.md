@@ -84,27 +84,26 @@ import java.util.List;
  */
 public class ArrayListForEachExample {
 
-	public static void main(String[] args) {
-		
-		//Create an empty ArrayList of Integer
-		List<Integer> numbers = new ArrayList<Integer>();
-		
-		//add number to the list
-		numbers.add(1);
-		numbers.add(8);
-		numbers.add(8);
-		numbers.add(5);
-		numbers.add(4);
-		numbers.add(6);
-		numbers.add(3);
-		numbers.add(2);
-		numbers.add(9);
-		
-		//traversing the collection using for-each loop
-		for(Integer number: numbers) {
-			System.out.println("The number is "+ number);
-		}
-	}
+  public static void main(String[] args) {
+    //Create an empty ArrayList of Integer
+    List<Integer> numbers = new ArrayList<Integer>();
+    
+    //add number to the list
+    numbers.add(1);
+    numbers.add(8);
+    numbers.add(8);
+    numbers.add(5);
+    numbers.add(4);
+    numbers.add(6);
+    numbers.add(3);
+    numbers.add(2);
+    numbers.add(9);
+    
+    //traversing the collection using for-each loop
+    for(Integer number: numbers) {
+      System.out.println("The number is "+ number);
+    }
+  }
 }
 ```
 Output:
