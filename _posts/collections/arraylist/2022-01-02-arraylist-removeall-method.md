@@ -1,12 +1,12 @@
-﻿---  
+---  
 layout: post  
 title: "ArrayList removeAll() method"  
 author: gaurav  
 categories: [Collections, ArrayList]
 toc: true 
-description: "In this tutorial, we will see the removeAll(Collection c) method of the Arraylist class in Java."  
+description: "In this tutorial, we will see the removeAll(Collection c) method of the ArrayList class in Java."  
 ---
-In this tutorial, we will see the `removeAll(Collection c)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method removes from this list all of its elements that are contained in the specified collection..
+In this tutorial, we will see the `removeAll(Collection c)` method of the  [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). This method removes from this list all of its elements that are contained in the specified collection.
 
 ## Introduction  
 ArrayList is a widely used class to store and retrieve data in a collection framework.
@@ -20,7 +20,7 @@ Today we will see the ` removeAll(Collection c)` method.
 
 ## ArrayList ` removeAll(Collection c)` method  
 
-The ` removeAll(Collection c)` method reemoves from this list all of its elements that are contained in the specified collection.
+The ` removeAll(Collection c)` method removes from this list all of its elements that are contained in the specified collection.
 
 The method signature is given below
 
@@ -30,9 +30,9 @@ public boolean removeAll(Collection<?> c)
 
 As shown in the method signature, this method accepts only one parameter i.e. Collection `c`. 
 
-This method returns a `boolean` value. This method returns `true`, if the ArrayList got changed as a method call. Otherwise it returns `false`. 
+This method returns a `boolean` value. This method returns `true` if the ArrayList got changed as a method call. Otherwise, it returns `false`. 
 
-Let's see an example java program for the ArrayList `removeIf()` method.
+Let's see an example Java program for the ArrayList `removeAll()` method.
 
 ```java
 import java.util.ArrayList;
@@ -40,47 +40,46 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * A java program showing an example for the removeAll()
+ * A Java program showing an example for the removeAll()
  * method of the ArrayList class in Java.
  * 
- * @author gaurav
+ * @author coderolls.com
  */
 public class ArrayListRemoveAllExample {
 
-	public static void main(String[] args) {
-
-		// create an empty arraylist object 'states'
-		List<String> states = new ArrayList<String>();
-
-		// add state in the arraylist, Florida multiple times
-		states.add("California");
-		states.add("Texas");
-		states.add("Montana");
-		states.add("Arizona");
-		states.add("Florida");
-		states.add("Michigan");
-		states.add("New Jersey");
-		states.add("Washington");
-		states.add("Ohio");
-		states.add("Minnesota");
-		states.add("Colorado");
-		states.add("Missouri");
-		states.add("Nevada");		
-		
-		// create another ArrayList for items to be removed
-		List<String> statesToBeRemoved = new ArrayList<String>();
-		statesToBeRemoved.add("Minnesota");
-		statesToBeRemoved.add("Missouri");
-		statesToBeRemoved.add("Montana");
-		statesToBeRemoved.add("Michigan");
-		
-		System.out.println("The states list before the removeAll() method call: \n" + states);
-		
-		// removes all elements specified in the ArrayList statesToBeRemoved 
-		states.removeAll(statesToBeRemoved); 
-		
-		System.out.println("\nThe states list after the removeAll() method call: \n" + states);
-	}
+  public static void main(String[] args) {
+    // create an empty ArrayList object 'states'
+    List<String> states = new ArrayList<String>();
+    
+    // add state in the ArrayList, Florida multiple times
+    states.add("California");
+    states.add("Texas");
+    states.add("Montana");
+    states.add("Arizona");
+    states.add("Florida");
+    states.add("Michigan");
+    states.add("New Jersey");
+    states.add("Washington");
+    states.add("Ohio");
+    states.add("Minnesota");
+    states.add("Colorado");
+    states.add("Missouri");
+    states.add("Nevada");		
+    
+    //Create another ArrayList for items to be removed
+    List<String> statesToBeRemoved = new ArrayList<String>();
+    statesToBeRemoved.add("Minnesota");
+    statesToBeRemoved.add("Missouri");
+    statesToBeRemoved.add("Montana");
+    statesToBeRemoved.add("Michigan");
+    
+    System.out.println("The states list before the removeAll() method call: \n" + states);
+    
+    // removes all elements specified in the ArrayList statesToBeRemoved 
+    states.removeAll(statesToBeRemoved); 
+    
+    System.out.println("\nThe states list after the removeAll() method call: \n" + states);
+  }
 }
 ```
 
@@ -107,7 +106,7 @@ If this list contains a null element and the specified collection does not permi
 
 Or if the specified collection is null, we will surely get the `NullPointerException`.
 
-Let's see an example java program to show the case of `NullPointerException` while invoking the `removeAll()` method.
+Let's see an example Java program to show the case of `NullPointerException` while invoking the `removeAll()` method.
 
 ```java
 import java.util.ArrayList;
@@ -115,44 +114,43 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * A java program showing a NullPointerException case 
+ * A Java program showing a NullPointerException case 
  * for the removeAll() method of the ArrayList class in Java.
  * 
- * @author gaurav
+ * @author coderolls.com
  */
 public class ArrayListRemoveAllNullPointerException {
 
-	public static void main(String[] args) {
-
-		// create an empty arraylist object 'states'
-		List<String> states = new ArrayList<String>();
-
-		// add state in the arraylist, Florida multiple times
-		states.add("California");
-		states.add("Texas");
-		states.add("Montana");
-		states.add("Arizona");
-		states.add("Florida");
-		states.add("Michigan");
-		states.add("New Jersey");
-		states.add("Washington");
-		states.add("Ohio");
-		states.add("Minnesota");
-		states.add("Colorado");
-		states.add("Missouri");
-		states.add("Nevada");		
-		
-		// create another ArrayList with null value, 
-		//so that removeAll will throw NullPointerException
-		List<String> statesToBeRemoved =null;
-
-		System.out.println("The states list before the removeAll() method call: \n" + states);
-		
-		// removes all elements specified in the ArrayList statesToBeRemoved 
-		states.removeAll(statesToBeRemoved); 
-		
-		System.out.println("\nThe states list after the removeAll() method call: \n" + states);
-	}
+  public static void main(String[] args) {
+    // create an empty ArrayList object 'states'
+    List<String> states = new ArrayList<String>();
+    
+    // add state in the ArrayList, Florida multiple times
+    states.add("California");
+    states.add("Texas");
+    states.add("Montana");
+    states.add("Arizona");
+    states.add("Florida");
+    states.add("Michigan");
+    states.add("New Jersey");
+    states.add("Washington");
+    states.add("Ohio");
+    states.add("Minnesota");
+    states.add("Colorado");
+    states.add("Missouri");
+    states.add("Nevada");		
+    
+    //Create another ArrayList with a null value, 
+    //so that removeAll will throw NullPointerException
+    List<String> statesToBeRemoved =null;
+    
+    System.out.println("The states list before the removeAll() method call: \n" + states);
+    
+    // removes all elements specified in the ArrayList statesToBeRemoved 
+    states.removeAll(statesToBeRemoved); 
+    
+    System.out.println("\nThe states list after the removeAll() method call: \n" + states);
+  }
 }
 ```
 Output:
@@ -173,6 +171,6 @@ public boolean removeAll(Collection<?> c)
 ```
 ---
 
-The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-removeall-method).  
+The example Java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-removeall-method).  
 
 Please write your thoughts in the comment section below.
