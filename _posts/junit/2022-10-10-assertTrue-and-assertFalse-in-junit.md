@@ -4,7 +4,7 @@ title: "assertTrue() and assertFalse() in JUnit With Example"
 author: gaurav  
 categories: [Unit Testing in Java, JUnit]  
 toc: true
-description: "In This tutoril, we will see the assertTrue() and assertFalse() assertion methods from the JUnit with various examples."
+description: "In This tutorial, we will see the assertTrue() and assertFalse() assertion methods from the JUnit with various examples."
 ---
 
 In this tutorial, we will see the `assertTrue()` and `assertFalse()` assertion methods from the JUnit with various examples.
@@ -26,17 +26,17 @@ package com.coderolls.SampleProject;
 
 public class NumberHelper {
 	
-	public boolean isEven(int num) {
-		
-		if(num%2==0) {
-			return true;
-		}
-		return false;
-	}
+  public boolean isEven(int num) {
+  
+    if(num%2==0) {
+      return true;
+    }
+    return false;
+  }
 }
 ```
 
-To test the `isEven()` method of `NumberHelper.java` class we will create `NumberHelperTest.java` under `src\test\java` in [our maven project](/maven-project/).
+To test the `isEven()` method of the `NumberHelper.java` class we will create `NumberHelperTest.java` under `src\test\java` in [our maven project](/maven-project/).
 
 In `NumberHelperTest.java` we will create a test method `testIsEven()` method to test the `isEven()` method.
 
@@ -44,28 +44,26 @@ In `NumberHelperTest.java` we will create a test method `testIsEven()` method to
 package com.coderolls.SampleProject;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class NumberHelperTest {
 
-	@Test
-	public void testIsEven() {
-		
-		int sampleNum = 2;
-		
-		NumberHelper numberHelper = new NumberHelper();
-		assertTrue(numberHelper.isEven(sampleNum)); 
-	}
+  @Test
+  public void testIsEven() {
+    int sampleNum = 2;
+    
+    NumberHelper numberHelper = new NumberHelper();
+    assertTrue(numberHelper.isEven(sampleNum)); 
+  }
 
 }
 ```
 
 As shown in the code, I have taken a sample even number 2.
 
-We know that 2 is an even number so the `isEven()` method must return a `true` value. That's why we are using `assertTrue()` to assert the behavior of `isEven()` method.
+We know that 2 is an even number so the `isEven()` method must return a `true` value. That's why we are using `assertTrue()` to assert the behaviour of the `isEven()` method.
 
-Once you run it as JUnit test case (right-click in the unit test editor, Run as > JUnit Test) you can see the test is passed.
+Once you run it as a JUnit test case (right-click in the unit test editor, Run as > JUnit Test) you can see the test is passed.
 
 ## assertFalse(boolean condition)
 
@@ -73,13 +71,13 @@ Once you run it as JUnit test case (right-click in the unit test editor, Run as 
 
 Example:
 
-We will take the same class and method (`NumberHelper.java`  and `isEven()` method) for `assertFalse(boolean condition)` example.
+We will take the same class and method (`NumberHelper.java`  and `isEven()` method) for the `assertFalse(boolean condition)` example.
 
-We will add an addition test method in the `NumberHelperTest.java` as `testIsEven_FalseCondition()`.
+We will add an additional test method in the `NumberHelperTest.java` as `testIsEven_FalseCondition()`.
 
 Here we will take a `sampleNum` as `3`.
 
-We know 3 is not an even number, so `isEven()` method must return `false`. To check it we can use `assertFalse()`.
+We know 3 is not an even number, so the `isEven()` method must return `false`. To check it we can use `assertFalse()`.
 
 ```java
 @Test
@@ -100,6 +98,6 @@ I have attached a screenshot below. It shows the test code with the `assertTrue(
 
 ---
 
-The example java programs used in the above article can be found at this GitHub repository, [coderolls/junit-tutorial](https://github.com/coderolls/junit-tutorial).  
+The example Java programs used in the above article can be found at this GitHub repository, [coderolls/junit-tutorial](https://github.com/coderolls/junit-tutorial).  
 
 Please write your thoughts in the comment section below.
