@@ -1,10 +1,10 @@
-﻿---
+---
 layout: post
 title: "Hello World In Groovy"
 author: gaurav
 image: assets/images/2020-12-31/groovy-logo.webp
 categories: [Groovy]
-description: "In this article you will say 'Hello' to Groovy. We will see the installation and 'the' most important 'Hello World!' program."
+description: "In this article, you will say 'Hello' to Groovy. We will see the installation and 'the' most important 'Hello World!' program."
 featured: false
 toc: true
 ---
@@ -22,11 +22,11 @@ Currently, I am using Windows so we will be using a Windows installer, which is 
 
 Here is a [link for Windows Installer for Groovy 3.0.7](https://bintray.com/groovy/Distributions/download_file?file_path=groovy-3.0.7.msi).
 
-Once you download the .msi file ( i.e. installer) simply double click on it and you will see the installation screen.
+Once you download the .msi file ( i.e. installer) simply double-click on it and you will see the installation screen.
 
 ![Groovy Installation Screen](/assets/images/2020-12-31/groovy-installation-screen.webp)
 
-The installation is pretty simple and straight-forward. Click on next and go with the default setting.
+The installation is pretty simple and straightforward. Click on Next and go with the default setting.
 
 **Note:** If you are **using Mac OS** and you have Homebrew, you can install Groovy by the following command.
 
@@ -58,9 +58,9 @@ println "Hello World!"
 ```
 ![Groovy Hello World Program In the Groovy Console](/assets/images/2020-12-31/groovy-hello-world-program-and-run-option.webp)
 
-To run your program right click on the console and choose the 'Run' option.
+To run your program right-click on the console and choose the 'Run' option.
 
-You can also use the shortcut `Ctrl+R` to run any groovy program.
+You can also use the shortcut `Ctrl+R` to run any Groovy program.
 
 Boom!! 🎉
 
