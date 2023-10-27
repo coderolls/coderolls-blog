@@ -7,7 +7,7 @@ toc: true
 description: "A cheat sheet for GIT, a free and open source software for distributed version control."
 ---
 
-A cheat sheet for [GIT](https://git-scm.com/), a free and open source software for distributed version control.
+A cheat sheet for [GIT](https://git-scm.com/), a free and open-source software for distributed version control.
 
 ## Create Repository
 
@@ -27,7 +27,7 @@ git init
 
 ## Local Changes
 
-See changed files in your working directory
+See the changed files in your working directory
 
 ```bash
 git diff
@@ -41,13 +41,13 @@ git diff <complete-file-path>
 
 ### Stage Changes
 
-Add local changes of a file to next commit (Stage changes from a file)
+Add local changes of a file to the next commit (Stage changes from a file)
 
 ```bash
 git add <complete-file-path>
 ```
 
-Add all local changes to next commit (Stage all changes from all files)
+Add all local changes to the next commit (Stage all changes from all files)
 
 ```bash
 git add .
@@ -61,9 +61,9 @@ Commit (commit previously staged changes)
 git commit
 ```
 
-Above command will open a vim prompt to add a commit message title and commit message description. 
+The above command will open a Vim prompt to add a commit message title and commit message description. 
 
-If you want to commit without entering the vim prompt, use below command.
+If you want to commit without entering the vim prompt, use the below command.
 
 ```bash
 git commit -m "<commit-messaege-title>"
@@ -75,7 +75,7 @@ How to commit all local changes ( even if they are not staged)
 git commit -a
 ```
 
-How to make changes in last commit
+How to make changes in the last commit
 
 ```bash
 git commit --amend
@@ -119,13 +119,13 @@ git stash apply stash@{2}
 
 > `stash@{2}` is stash identifier
 
-Reapply the latest stashed changes and removes it from your stashes
+Reapply the latest stashed changes and remove it from your stashes
 
 ```bash
 git stash pop
 ```
 
-Reapply a particular stash and removes it from your stashes
+Reapply a particular stash and remove it from your stashes
 
 ```bash
 git stash pop stash@{2}
@@ -149,7 +149,7 @@ git stash clear
 
 ## Commit History
 
-Show all commits of a repository , newest first
+Show all commits of a repository, the newest first
 
 ```bash
 git log
@@ -315,15 +315,15 @@ Use your configured merge tool to solve conflicts
 git mergetool
 ```
 
-Use your editor to manually solve conflicts and (after resolving) mark file as resolved
+Use your editor to manually solve conflicts and (after resolving) mark the file as resolved
 
-In case of adding file
+In case of adding a file
 
 ```bash
 git add <resolved-file>
 ```
 
-In case of removing file
+In case of removing the file
 ```bash
 git rm <resolved-file>
 ```
