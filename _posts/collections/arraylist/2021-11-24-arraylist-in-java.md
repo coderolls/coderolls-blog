@@ -121,9 +121,9 @@ I have given a simple Java program below that shows, ArrayList maintains the ins
 import java.util.ArrayList;
 
 /**
- * A Java program showing an arraylist maintains the insertion order.
+ * A Java program showing an ArrayList maintains the insertion order.
  * 
- * @author gaurav
+ * @author coderoll.com
  *
  */
 public class ArrayListExample {
@@ -162,19 +162,19 @@ import java.util.ArrayList;
 
 public class ArrayListDuplicate {
 
-	public static void main(String[] args) {
-		ArrayList<String> arrayList = new ArrayList<String>();
-		
-		arrayList.add("Gaurav");
-		arrayList.add("Shyam");
-		arrayList.add("Saurav");
-		arrayList.add("Samiksha");
-		arrayList.add("Rina");
-		arrayList.add("Rina"); //adding a duplicate string object 
-		
-		System.out.println(arrayList);
-
-	}
+  public static void main(String[] args) {
+    ArrayList<String> arrayList = new ArrayList<String>();
+    
+    arrayList.add("Gaurav");
+    arrayList.add("Shyam");
+    arrayList.add("Saurav");
+    arrayList.add("Samiksha");
+    arrayList.add("Rina");
+    arrayList.add("Rina"); //adding a duplicate string object 
+    
+    System.out.println(arrayList);
+  
+  }
 }
 ```
 **Output**
