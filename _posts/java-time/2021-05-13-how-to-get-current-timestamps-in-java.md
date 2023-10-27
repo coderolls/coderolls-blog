@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Get Current Timestamp In Java?"
 author: gaurav
@@ -14,7 +14,7 @@ We check both [`java.time.Instant`](https://docs.oracle.com/javase/8/docs/api/ja
 
 ## 1. Using  `java.time.Instant` ( for Java 8)
 As per the [javadoc](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html),
-> This class models a single instantaneous point on the time-line. This might be used to record event time-stamps in the application. 
+> This class models a single instantaneous point on the timeline. This might be used to record event timestamps in the application. 
 
 I have given an example below that shows how to get the current timestamp using `java.time.Instant`  
 
@@ -24,47 +24,40 @@ import java.time.Instant;
 import java.util.Date;
 
 /**
- * A Java Program to get current timestamp using using the java.time.Instant
- * 
- * @author Gaurav Kukade at coderolls.com
- *
+ * A Java Program to get the current timestamp using the java.time.Instant
+ * @author coderolls.com
  */
-public class InstantExample {
-	
-	public static void main(String[] args) {
-	    
-		Instant instant = Instant.now();
-	    System.out.println("1. instant: "+ instant);    // 2021-05-13T15:05:18.734Z
-	    
-
-	    //convert date object to instant
-	    Date date = new Date();
-	    Instant instantFromDate = date.toInstant();
-	    
-	    System.out.println("2. instantFromDate: " +instantFromDate);  // 2021-05-13T15:05:18.873Z
-	    
-	    
-	    //get instnat from the java.sql.Timestamp
-	    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-	    Instant instantFromTimestamp = timestamp.toInstant();
-	    
-	    System.out.println("3. instantFromTimestamp: "+ instantFromTimestamp);  // 2021-05-13T15:05:18.874Z 
-	    
-	    //get the epoch timestamp in milliseconds 
-	    //epoch timestamp is number of milliseconds since January 1, 1970, 00:00:00 GMT
-	    Instant instant2 = Instant.now();  
-	    long timeStampMillis = instant2.toEpochMilli();
-	    
-	    System.out.println("4. timeStampMillis: "+ timeStampMillis);   // 1620918318874
-	    
-	    //get the epoch timestamp in seconds
-	    Instant instant3 = Instant.now();
-	    long timeStampSeconds = instant3.getEpochSecond();
-	    
-	    System.out.println("5. timeStampSeconds: "+ timeStampSeconds);   // 1620918318
-
-	}
-
+  public class InstantExample {
+  
+  public static void main(String[] args) {
+    Instant instant = Instant.now();
+    System.out.println("1. instant: "+ instant);    // 2021-05-13T15:05:18.734Z
+    
+    //convert date object to instant
+    Date date = new Date();
+    Instant instantFromDate = date.toInstant();
+    
+    System.out.println("2. instantFromDate: " +instantFromDate);  // 2021-05-13T15:05:18.873Z
+    
+    //get instant from the java.sql.Timestamp
+    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+    Instant instantFromTimestamp = timestamp.toInstant();
+    
+    System.out.println("3. instantFromTimestamp: "+ instantFromTimestamp);  // 2021-05-13T15:05:18.874Z 
+    
+    //get the epoch timestamp in milliseconds 
+    //epoch timestamp is the number of milliseconds since January 1, 1970, 00:00:00 GMT
+    Instant instant2 = Instant.now();  
+    long timeStampMillis = instant2.toEpochMilli();
+    
+    System.out.println("4. timeStampMillis: "+ timeStampMillis);   // 1620918318874
+    
+    //get the epoch timestamp in seconds
+    Instant instant3 = Instant.now();
+    long timeStampSeconds = instant3.getEpochSecond();
+    
+    System.out.println("5. timeStampSeconds: "+ timeStampSeconds);   // 1620918318
+  }
 }
 ```
 Output:
@@ -75,7 +68,7 @@ Output:
 4. timeStampMillis: 1620919459988
 5. timeStampSeconds: 1620919459
 ```
-See above code as [GitHub Gist](https://gist.github.com/gauravkukade/b1ceabac137864efd7258b60610cd9dd)
+See the above code as [GitHub Gist](https://gist.github.com/gauravkukade/b1ceabac137864efd7258b60610cd9dd)
 
 ### Explanation:
 
@@ -93,25 +86,20 @@ import java.util.Date;
 
 /**
  * A Java program to get the current timestamp using java.sql.Timestamp
- * 
- * @author Gaurav Kukade at coderolls.com
- *
+ * @author coderolls.com
  */
 public class TimestampExample {
 
-	public static void main(String[] args) {
-		
-		 //using system time in milliseconds
-	    Timestamp timestampFromSystemTime = new Timestamp(System.currentTimeMillis());
-	    System.out.println("1. timestampFromSystemTime: "+timestampFromSystemTime); // 2021-05-13 20:55:44.179
-	     
-	    //using java.util.Date
-	    Date date = new Date();
-	    Timestamp timestampFromDateObject = new Timestamp(date.getTime());	  
-	    System.out.println("2. timestampFromDateObject: " +timestampFromDateObject); // 2021-05-13 20:55:44.187
-
-	}
-
+  public static void main(String[] args) {
+    //using system time in milliseconds
+    Timestamp timestampFromSystemTime = new Timestamp(System.currentTimeMillis());
+    System.out.println("1. timestampFromSystemTime: "+timestampFromSystemTime); // 2021-05-13 20:55:44.179
+    
+    //using java.util.Date
+    Date date = new Date();
+    Timestamp timestampFromDateObject = new Timestamp(date.getTime());	  
+    System.out.println("2. timestampFromDateObject: " +timestampFromDateObject); // 2021-05-13 20:55:44.187
+  }
 }
 ```
 Output:
@@ -121,12 +109,12 @@ Output:
 2. timestampFromDateObject: 2021-05-13 20:55:44.187
 ```
 
-See above code as [GitHub Gist](https://gist.github.com/gauravkukade/a965f1a078d382ff7366e7ba6d13561c)
+See the above code as [GitHub Gist](https://gist.github.com/gauravkukade/a965f1a078d382ff7366e7ba6d13561c)
 
 ### Explanation:
 
-1. In the first case, we are got the `timestamp` using the system time in milliseconds. We can get the system time in millisecond using the `System.currentTimeMillis()`.
-2. In the second case, we have created a new `date` object, and then we have used the `.getTime()` on the `date` object to get the current time in milliseconds. We have passed the time milliseconds to timestamp constructor to get the current timestamp.
+1. In the first case, we get the `timestamp` using the system time in milliseconds. We can get the system time in milliseconds using the `System.currentTimeMillis()`.
+2. In the second case, we have created a new `date` object, and then we have used the `.getTime()` on the `date` object to get the current time in milliseconds. We have passed the time milliseconds to the timestamp constructor to get the current timestamp.
 
 Sometimes we may need to convert the `java.time.Instant` to `java.sql.Timestamp` or vice versa. So let's see both conversions below.
 
@@ -146,15 +134,12 @@ import java.time.Instant;
  */
 public class InstantToTimestamp {
 
-	public static void main(String[] args) {
-		
-		// get Timestamp from Instant 
-		Instant instant = Instant.now();
-	    Timestamp timestamp = Timestamp.from(instant);
-	    System.out.println("Instant To Timestamp: " +timestamp); // 2021-05-13 21:07:44.381
-
-
-	}
+  public static void main(String[] args) {
+    //Get Timestamp from Instant 
+    Instant instant = Instant.now();
+    Timestamp timestamp = Timestamp.from(instant);
+    System.out.println("Instant To Timestamp: " +timestamp); // 2021-05-13 21:07:44.381
+  }
 
 }
 ```
@@ -163,7 +148,7 @@ Output:
 ```
 Instant To Timestamp: 2021-05-13 21:07:44.381
 ```
-See above code as [GitHub Gist](https://gist.github.com/gauravkukade/ea3bc951f15be0010569d306ccafa975)
+See the above code as [GitHub Gist](https://gist.github.com/gauravkukade/ea3bc951f15be0010569d306ccafa975)
 
 ### Explanation:
 
@@ -190,15 +175,12 @@ import java.time.Instant;
  */
 public class TimestampToInstant {
 
-	public static void main(String[] args) {
-		
-	    //get instnat from the java.sql.Timestamp
-	    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-	    Instant instant = timestamp.toInstant();
-	    System.out.println("Timestamp To Instant: " +instant); // 2021-05-13T15:39:08.046Z
-	    
-	}
-
+  public static void main(String[] args) {
+    //get instant from the java.sql.Timestamp
+    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+    Instant instant = timestamp.toInstant();
+    System.out.println("Timestamp To Instant: " +instant); // 2021-05-13T15:39:08.046Z
+  }
 }
 ```
 
@@ -206,7 +188,7 @@ Output:
 ```
 Timestamp To Instant: 2021-05-13T15:39:08.046Z
 ```
-See above code as [GitHub Gist](https://gist.github.com/gauravkukade/a031b1904d4efaf758a59462ee2dc02e)
+See the above code as [GitHub Gist](https://gist.github.com/gauravkukade/a031b1904d4efaf758a59462ee2dc02e)
 
 ### Explanation:
 
@@ -214,7 +196,7 @@ In the above example, we have used the `.toInstant()` method on the `timestamp` 
 
 ## Conclusion 
 
-We can get the current timestamp in java using the `Instant` and `Timestamp`.
+We can get the current timestamp in Java using the `Instant` and `Timestamp`.
 
 From Java 8, it is recommended to use the timestamp of the Instant class. We can get the current timestamp from `Instant`as is given below,
 
@@ -225,13 +207,13 @@ Instant instant = Instant.now();
 Date date = new Date();
 Instant instantFromDate = date.toInstant();	    
 
-//get instnat from the java.sql.Timestamp
+//get instant from the java.sql.Timestamp
 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 Instant instantFromTimestamp = timestamp.toInstant();
 
 
 //get the epoch timestamp in milliseconds 
-//epoch timestamp is number of milliseconds since January 1, 1970, 00:00:00 GMT
+//epoch timestamp is the number of milliseconds since January 1, 1970, 00:00:00 GMT
 Instant instant2 = Instant.now();  
 long timeStampMillis = instant2.toEpochMilli();
 
@@ -253,7 +235,7 @@ System.out.println(date.getTime());
 Timestamp timestampFromDateObject = new Timestamp(date.getTime());	  
 
 ``` 
-Also we can convert the `java.time.Instant` to `java.sql.Timestamp` or vice versa.
+Also, we can convert the `java.time.Instant` to `java.sql.Timestamp` or vice versa.
 
 
 **Instant To Timestamp**
