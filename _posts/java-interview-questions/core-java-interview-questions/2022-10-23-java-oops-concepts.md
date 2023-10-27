@@ -21,7 +21,7 @@ There are many opps concepts but here we will see the most important 4. I.e Abst
 
 **Hiding internal implementation** and just **hightailing the functionalities offered** is known as abstraction.
 
-**Example:** ATM functions are a practical example of abstraction. They just highlight the functionality i.e withdrawing a money, checking balance or printing the mini statement. It does not show the internal implementation of that functions.
+**Example:** ATM functions are a practical example of abstraction. They just highlight the functionality i.e. withdrawing money, checking balance or printing the mini statement. It does not show the internal implementation of those functions.
 
 **Method in a Java class** is an example of Abstraction.
 
@@ -29,74 +29,74 @@ There are many opps concepts but here we will see the most important 4. I.e Abst
 
 The **process of grouping the data members and corresponding methods in a single unit** is called encapsulation.
 
-**Every java class is the example of encapsulation.** Java bean is the fully encapsulated class because all the data members are private here.
+**Every Java class is an example of encapsulation.** Java bean is the fully encapsulated class because all the data members are private here.
 
 **Example:**
 
 ```java
 public class Student {
 	
-	private int id;
-	
-	private String name;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
+  private int id;
+  
+  private String name;
+  
+  public int getId() {
+    return id;
+  }
+  
+  public void setId(int id) {
+    this.id = id;
+  }
+  
+  public String getName() {
+    return name;
+  }
+  
+  public void setName(String name) {
+    this.name = name;
+  }
 
 }
 ```
 
-In the above code the data members like `id` , `name` and corresponding methods such as `setId()`, `getId` etc. are grouped together in a java class `Student`. So Java class is a good example of *Encapsulation*.
+In the above code, the data members like `id`, `name` and corresponding methods such as `setId()`, `getId` etc. are grouped together in a java class `Student`. So Java class is a good example of *Encapsulation*.
 
 ### 3. Inheritance
 
-***When a child object acquires all the properties and behaviours of a parent object***, it is known as inheritance. It provides code re-usability. It is a `IS-A ` relationship.
+***When a child object acquires all the properties and behaviours of a parent object***, it is known as inheritance. It provides code re-usability. It is an `IS-A ` relationship.
 
 ```java
 public class Animal {
 	
-	private String name;
-	
-	public void run() {
-		
-	}
-	
-	public void feed() {
-		
-	}
+  private String name;
+  
+  public void run() {
+  
+  }
+  
+  public void feed() {
+  
+  }
 
 }
 
 class Dog extends Animal{
 	
-	private String breed;
-	
-	public void bark() {
-		
-	}
+  private String breed;
+  
+  public void bark() {
+  
+  }
 }
 ```
 
-In the above example `Animal` class is a Parent class and `Dog` class is `child` class.
+In the above example, the `Animal` class is a Parent class and the `Dog` class is a `child` class.
 
-Animal can have name, it can run.
+The animal can have a name, it can run.
 
-We have created a child class `Dog` which `extends` the `Animal` class. That means `Dog` class inherits the properties and behaviours of the parent class `Animal`.
+We have created a child class `Dog` which `extends` the `Animal` class. That means the `Dog` class inherits the properties and behaviours of the parent class `Animal`.
 
-Dog can have a name, it can run and in addition it can have it's own property like `breed` and behaviours like `bark()`.
+A dog can have a name, it can run and in addition, it can have its own property like `breed` and behaviours like `bark()`.
 
 ### 4. Polymorphism
 
@@ -115,14 +115,14 @@ Compile-time polymorphism can be achieved by [**overloading the static method**]
 
 ## Conclusion
 
- Abstraction, Encapsulation, Inheritance and Polymorphism are the most important oops concepts in java.
+ Abstraction, Encapsulation, Inheritance and Polymorphism are the most important oops concepts in Java.
 
-1. In Abstraction we **hide the internal implementation** and **highlight the functionalities offered**. Ex. method in java
+1. In Abstraction we **hide the internal implementation** and **highlight the functionalities offered**. Ex. method in Java
 
 2. Encapsulation is the **process of grouping data members and corresponding methods in a single unit**. Ex. Java Class
 
-3. In inheritance, **a child class inherits all the properties and behaviour of parent class**. It can be done by extending the parent class. Ex. `class Dog extends Animal{...}`
-4. **Doing one task in many ways** is called polymorphism. In java, polymorphism can be done using [method overloading](/method-overloading-in-java/) and [method overriding](/method-overriding-in-java/).
+3. In inheritance, **a child class inherits all the properties and behaviour of the parent class**. It can be done by extending the parent class. Ex. `class Dog extends Animal{...}`
+4. **Doing one task in many ways** is called polymorphism. In Java, polymorphism can be done using [method overloading](/method-overloading-in-java/) and [method overriding](/method-overriding-in-java/).
 
 ---
 
