@@ -39,9 +39,9 @@ import java.util.ArrayList;
  * A Java program to add an element to the list.
  * 
  * The add(E e) method will add an element to 
- * the end of the arrayList.
+ * the end of the ArrayList.
  * 
- * @author Guarav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListExample {
@@ -94,7 +94,7 @@ import java.util.ArrayList;
  * The add(int index, E element) method will add 
  * an element at the specified index in ArrayList.
  * 
- * @author Guarav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListAddExample {
