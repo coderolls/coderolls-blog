@@ -7,11 +7,11 @@ toc: true
 description: "In this article, we will see how we can get GMT time in Java."
 ---
 
-In Java Programming, sometimes we need date in GMT format. In this quick tutorial, we will see how we can get GMT time in Java.
+In Java Programming, sometimes we need the date in GMT format. In this quick tutorial, we will see how we can get GMT time in Java.
 
 We will be using the `ZonedDateTime` class to get the GMT. We can get any zone time using the `ZonedDateTime` class. You can <a target="_blank" href="https://coderolls.com/get-current-date-time-in-java/">see this article</a> to learn more about it.
 
-I have given a java program below, it has the `getGMTTime()` method. This method receives the Date object (java.util.Date) and returns a GMT string.
+I have given a Java program below, it has the `getGMTTime()` method. This method receives the Date object (java.util.Date) and returns a GMT string.
 
 ```java
 package com.coderolls.examples;
