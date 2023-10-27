@@ -21,13 +21,13 @@ For example `add(int a, int b)` or `add(int a, int b, int c)` or `add(double a, 
 
 > **What Is Method Signature In Java?**
 >
-> In Java, method signature contains method name and type of arguments.
+> In Java, the method signature contains the method name and type of arguments.
 >
 > method-name(argument-type-1, argument-type-2...)
 >
 > Ex. `getData(int, String)`
 >
-> **Note:** In java, the method signature does not include the name of parameter, it only includes it's datatype.
+> **Note:** In Java, the method signature does not include the name of the parameter, it only includes its datatype.
 
 ---
 
@@ -35,10 +35,10 @@ Compile-time polymorphism can be achieved by Method overloading.
 
 In Java, there are two ways to overload the method.
 
-1. By changing number of arguments
+1. By changing the number of arguments
 2. By changing the data type of arguments
 
-## 1. By changing number of arguments
+## 1. By changing the number of arguments
 
 We can overload a method **by changing the number of arguments i.e parameters it receives**.
 
@@ -47,13 +47,13 @@ As shown in the example from the introduction, we can overload the method `add(i
 ```java
 public class Operation{
     
-    public static int add(int a, int b){
-        return a+b;
-    }
-    
-    public static int add(int a, int b, int c){
-        return a+b+c;
-    }
+  public static int add(int a, int b){
+    return a+b;
+  }
+  
+  public static int add(int a, int b, int c){
+    return a+b+c;
+  }
     
 }
 ```
@@ -67,13 +67,13 @@ As shown in the example from the introduction, we can overload the method `add(i
 ```java
 public class Operation{
     
-    public static int add(int a, int b){
-        return a+b;
-    }
-    
-    public static double add(double a, double b){
-        return a+b;
-    }
+  public static int add(int a, int b){
+    return a+b;
+  }
+  
+  public static double add(double a, double b){
+    return a+b;
+  }
     
 }
 ```
