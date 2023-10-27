@@ -35,10 +35,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A Java program to iterate through arraylist 
+ * A Java program to iterate through ArrayList 
  * using the basic for loop.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListIterateExample1 {
@@ -100,10 +100,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A Java program to iterate through an arraylist 
+ * A Java program to iterate through an ArrayList 
  * using enhanced for loop i.e. For-each loop.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListIterateExample2 {
@@ -161,10 +161,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A Java program to iterate through an arraylist 
+ * A Java program to iterate through an ArrayList 
  * using a while loop.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListIterateExample3 {
@@ -225,11 +225,11 @@ If we want to iterate over an ArrayList using an iterator, we should invoke the 
 // list is an ArrayList object
 Iterator iterator = list.iterator();
 ```
-Iterator has three important methods. They are as given below.
+Iterator has three important methods. They are given below.
 
 `hasNext()` - This method checks if the collection has any object available next, if found it will return true else false
 
-`next()` - This method returns the next object from the ArrayList .
+`next()` - This method returns the next object from the ArrayList.
 
 `remove()` - This method removes the object from the ArrayList
 
@@ -240,10 +240,10 @@ import java.util.Iterator;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * A Java program to iterate through an arraylist 
+ * A Java program to iterate through an ArrayList 
  * using the Iterator interface.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListIterateExample4 {
@@ -314,10 +314,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A java program to iterate through an arraylist 
+ * A Java program to iterate through an ArrayList 
  * using forEach method and lambda expression.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class ArrayListIterateExample4 {
@@ -372,6 +372,6 @@ We can iterate over ArrayList using the following ways.
 
 ---
 
-The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/iterating-the-arraylist-in-java).
+The example Java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/iterating-the-arraylist-in-java).
 
 If you know any other way to iterate through ArrayList, please write it down in the comment section below.
