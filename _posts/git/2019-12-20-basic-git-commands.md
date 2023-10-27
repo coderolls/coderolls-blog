@@ -4,13 +4,13 @@ title: 8 Basic GIT Commands Every Newbie Developer Must Know
 author: gaurav
 image: assets/images/2019-12-20-basic-git-commands/blog-cover.jpg
 categories: [GIT, GIT Basic]
-description: GIT is one of the most important parts of the developer's day to day work. So learning GIT is a must for a newbie developer. In this article, you are going to learn the 8 most important basic GIT commands.
+description: GIT is one of the most important parts of the developer's day-to-day work. So learning GIT is a must for a newbie developer. In this article, you are going to learn the 8 most important basic GIT commands.
 featured: false
-hidden: flase
+hidden: false
 toc: true
 ---
 
-GIT is one of the most important parts of the developer's day to day work. So learning GIT is a must for a newbie developer. In this article, you are going to learn the 8 most important basic GIT commands.
+GIT is one of the most important parts of the developer's day-to-day work. So learning GIT is a must for a newbie developer. In this article, you are going to learn the 8 most important basic GIT commands.
 
 Below, I have listed down all the 8 commands and then, we will have a look at them one by one.
 
@@ -24,9 +24,9 @@ Below, I have listed down all the 8 commands and then, we will have a look at th
 8. [`git push`](#git-push)
 
 ## 1. `git init`
-`git init` command initializes brand new GIT repository (locally) and begins tracking the existing directory.
+`git init` command initializes a brand new GIT repository (locally) and begins tracking the existing directory.
 
-When you hit the `git init` command, git adds a subfolder withing an existing directory that manages all required files for version controlling.
+When you hit the `git init` command, git adds a subfolder within an existing directory that manages all required files for version controlling.
 
 ```
 HP@Gaurav MINGW64 /e/example
@@ -37,9 +37,9 @@ HP@Gaurav MINGW64 /e/example (master)
 $
 ```
 
-You are hitting `git init` means you want to initialize the current directory as GIT repository.
+You are hitting `git init` means you want to initialize the current directory as a GIT repository.
 
-The following GIF show initializing a new repository and a hidden subfolder containing all data structure required for version control. 
+The following GIF shows initializing a new repository and a hidden subfolder containing all data structures required for version control. 
 
 ![GIF showing git init command](/assets/images/2019-12-20-basic-git-commands/git-init.gif)
 
@@ -64,7 +64,7 @@ HP@Gaurav MINGW64 /e/directory
 $
 ```
 
-You can clone any public repository from the platforms like GitHub,  BitBucket, GitLab, and other GIT hosting platforms.
+You can clone any public repository from platforms like GitHub,  BitBucket, GitLab, and other GIT hosting platforms.
 
 The following GIF shows the `git clone` command
 
@@ -74,7 +74,7 @@ The following GIF shows the `git clone` command
 
 `git add` stages a change.
 
-If you are done with changes in your code then its necessary to stage that changes and take a snapshot of it to include it in the repository's history.
+If you are done with changes in your code then it's necessary to stage those changes and take a snapshot of it to include it in the repository's history.
 
 `git add` does the first step, it stages a change.
 
@@ -90,20 +90,20 @@ If you want to stage all the files, then write '.' (dot) after `git add`
 ```
 $ git add .
 ```
-Any staged changes will become the part of the next snapshot and a part of the repository's history.
+Any staged changes will become part of the next snapshot and a part of the repository's history.
 
-You can stage and take a snapshot of the current changes in a single command also but is not recommended.
+You can stage and take a snapshot of the current changes in a single command but is not recommended.
 
-Staging your changes first and then taking snapshot gives you complete control over the repository's history. 
+Staging your changes first and then taking a snapshot gives you complete control over the repository's history. 
 
 The following GIF shows the `git add` command
 
 ![GIF showing git add command](/assets/images/2019-12-20-basic-git-commands/git-add.gif)
 
 ## 4. `git commit`
- `git commit` save the snapshot to the repository's history.
+ `git commit` saves the snapshot to the repository's history.
 
-`git add` does the first step i.e. staging the changes and `git commit` does the final step i.e. it saves the snapshot to the repository's history. In GIT these two-step completes the changes tracking process.
+`git add` does the first step i.e. staging the changes and `git commit` does the final step i.e. it saves the snapshot to the repository's history. In GIT these two steps complete the changes tracking process.
 
 ```
 $ git commit -m "<meaningful-git-commit-message>
@@ -117,7 +117,7 @@ The following GIF shows the `git commit` command
 
 ![GIF showing git commit command](/assets/images/2019-12-20-basic-git-commands/git-commit.gif)
 
-It is the simple way to write the commit message but there is a more in-depth way to write a commit message with title and description. We will see that in a separate blogpost.
+It is the simple way to write the commit message but there is a more in-depth way to write a commit message with title and description. We will see that in a separate blog post.
 
 ## 5. `git status`
 
@@ -148,7 +148,7 @@ The following GIF shows the `git status` command
 ![GIF showing git status command](/assets/images/2019-12-20-basic-git-commands/git-status.gif)
 
 ## 6. `git branch`
-`git branch` list the existing branches from the local repository. The current branch will be highlighted in green and marked with an asterisk.
+`git branch` lists the existing branches from the local repository. The current branch will be highlighted in green and marked with an asterisk.
 
 ```
 HP@Gaurav MINGW64 /e/directory/example (master)
@@ -165,7 +165,7 @@ The following GIF shows the `git branch` command
 
 ## 7. `git pull`
 
-`git pull` update the local repository with updates from its remote counterpart. i.e. remote repository.
+`git pull` updates the local repository with updates from its remote counterpart. i.e. remote repository.
 ```
 HP@Gaurav MINGW64 /e/directory/example (master)
 $ git pull
