@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Groovy: How To Determine The Datatype Of An Object?"
 author: gaurav
@@ -13,7 +13,7 @@ In this quick tutorial, we will see how we can determine the datatype of an obje
 
 When you are writing a Groovy code, sometimes you need to check the datatype of an object.  Also, not following the proper naming convention may lead to object datatype confusion.
 
-We will see the best way to check the datatype of an object in groovy so that you can use it correctly in the code.
+We will see the best way to check the datatype of an object in Groovy so that you can use it correctly in the code.
 
 ## How To Determine The Datatype Of An Object In Groovy?
 
@@ -23,7 +23,7 @@ An example is given below.
 ```groovy
 anObject.getClass()
 ```
-let check the above line program.
+let's check the above-line program.
 
 ```groovy
 def names = ['Gaurav', 'Shubham', 'Nayan', 'Sudeep'];
@@ -49,7 +49,7 @@ In the above program, we can see that the `names` is an `ArrayList`  and `blogna
 
 When we call the `getClass()` method on these objects it prints its respective datatype.
 
-In most of the cases you can use the `anObject.getClass()` as `anObject.class`. But if `anObject` is `Map` it will try to retrieve the value with key 'class'.  Because of this it is always recommended to use `anObject.getClass()` instead of `anObject.class`.
+In most of the cases, you can use the `anObject.getClass()` as `anObject.class`. But if `anObject` is `Map` it will try to retrieve the value with key 'class'.  Because of this, it is always recommended to use `anObject.getClass()` instead of `anObject.class`.
 
 If you want to check if an object implements a particular interface or extends a particular class (e.g. String, ArrayList, etc), you can use the `instanceof` keyword.
 
@@ -59,7 +59,7 @@ For example,
 (anObject instanceof String)
 ```
 
-Let's check above code in an example program
+Let's check the above code in an example program
 
 ```groovy
 def blogname = '''coderolls''';
@@ -71,7 +71,7 @@ Output:
 true
 false
 ```
-See above code as [GitHub Gist](https://gist.github.com/gauravkukade/eafc65547cd3cd54877ca5d54eec8acc)
+See the above code as [GitHub Gist](https://gist.github.com/gauravkukade/eafc65547cd3cd54877ca5d54eec8acc)
 
 In the above program, I have defined one String `blogname`. I have used the `instanceof` keyword to check if the `blogname` implements the `String` class and it prints `true`. It means the `blogname` is an instance of the `String` class.
 
