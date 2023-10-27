@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Change An Element In ArrayList?"
 author: gaurav
@@ -7,11 +7,11 @@ toc: true
 description: "In this article, we will see how to change an element in ArrayList."
 ---
 
-In this article, we will see how to change an element in [ArrayList](https://coderolls.com/arraylist-in-java/).
+This article will show how to change an element in [ArrayList](https://coderolls.com/arraylist-in-java/).
 
 ## Introduction
 
-In the previous tutorial, we have seen [how we can add an element to the ArrayList](https://coderolls.com/add-element-in-arraylist/). But, if we wish to change an element from the ArrayList, we can change it using the `set()` method.
+In the previous tutorial, we have seen [how we can add an element to the ArrayList](https://coderolls.com/add-element-in-arraylist/). But, if we wish to change an element from the ArrayList, we can use the `set()` method.
 
 We know that `ArrayList` is an indexed collection. So we can access any particular element by its index and change it.
 
@@ -19,11 +19,11 @@ We know that `ArrayList` is an indexed collection. So we can access any particul
 
 The `set()` method has a signature as `public E set(int index, E element)`.
 
-This method accepts the index as `int` and an element that need to be set at that particular index.
+This method accepts the index as `int` and an element that needs to be set at that particular index.
 
-The `set()` method has a return type as `E` that means it will return an element. **The `set()` method returns the element previously at the specified position.**
+The `set()` method has a return type as `E` which means it will return an element. **The `set()` method returns the element previously at the specified position.**
 
-Below, we will see a java program to change (set) an element in `ArrayList`.
+Below, we will see a Java program to change (set) an element in `ArrayList`.
 
 ```java
 package com.gaurav.ExProject.ArrayList;
@@ -31,7 +31,7 @@ package com.gaurav.ExProject.ArrayList;
 import java.util.ArrayList;
 
 /**
- * A java program to change an element at 
+ * A Java program to change an element at 
  * particular index in ArrayList.
  * 
  * We can use 'public E set(int index, E element)' method
@@ -45,7 +45,7 @@ public class ArrayListSetExample {
 	public static void main(String[] args) {
 ArrayList<String> arrayList = new ArrayList<String>();
 		
-		//adding elements to the arrayList using normal add method
+		//adding elements to the arrayList using the normal add() method
 		arrayList.add("Gaurav");
 		arrayList.add("Shyam");
 		arrayList.add("Pradnya");
@@ -73,7 +73,7 @@ Output:
 
 ## Conclusion
 
-So we can change the element in [ArrayList](https://coderolls.com/arraylist-in-java/) at particular index bu using the `set()` method.
+So we can change the element in [ArrayList](https://coderolls.com/arraylist-in-java/) at a particular index by using the `set()` method.
 
 The set method signature is as follows
 ```
@@ -86,4 +86,4 @@ So, we have seen [how to add an element](https://coderolls.com/add-element-in-ar
 
 ---
 
-The example java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/change-element-in-arraylist).
+The example Java programs given in the above tutorial can be found at [this GitHub Repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/change-element-in-arraylist).
