@@ -46,23 +46,23 @@ import java.util.ArrayList;
  */
 public class ArrayListExample {
 
-	public static void main(String[] args) {
-		
-		ArrayList<String> arrayList = new ArrayList<String>();
-		
-		//adding elements to the arrayList
-		arrayList.add("Gaurav");
-		arrayList.add("Shyam");
-		
-		System.out.println(arrayList);// [Gaurav, Shyam]
-		
-		// adding an element to  the arrayList
-		// element will be added to the end of the arrayList
-		arrayList.add("Saurav");
-		
-		System.out.println(arrayList); // [Gaurav, Shyam, Saurav]
-
-	}
+  public static void main(String[] args) {
+  
+    ArrayList<String> arrayList = new ArrayList<String>();
+    
+    //adding elements to the arrayList
+    arrayList.add("Gaurav");
+    arrayList.add("Shyam");
+    
+    System.out.println(arrayList);// [Gaurav, Shyam]
+    
+    // adding an element to  the arrayList
+    // element will be added to the end of the arrayList
+    arrayList.add("Saurav");
+    
+    System.out.println(arrayList); // [Gaurav, Shyam, Saurav]
+  
+  }
 }
 ```
 Output:
@@ -99,21 +99,21 @@ import java.util.ArrayList;
  */
 public class ArrayListAddExample {
 
-	public static void main(String[] args) {
-		
-		ArrayList<String> arrayList = new ArrayList<String>();
-		
-		//adding elements to the arrayList using the normal add method
-		arrayList.add("Gaurav");
-		arrayList.add("Shyam");
-		
-		System.out.println(arrayList);// [Gaurav, Shyam]
-		
-		// adding an element to  the arrayList at index 1
-		arrayList.add(1, "Saurav");
-		
-		System.out.println(arrayList); // [Gaurav, Saurav, Shyam]
-	}
+  public static void main(String[] args) {
+  
+    ArrayList<String> arrayList = new ArrayList<String>();
+    
+    //adding elements to the arrayList using the normal add method
+    arrayList.add("Gaurav");
+    arrayList.add("Shyam");
+    
+    System.out.println(arrayList);// [Gaurav, Shyam]
+    
+    // adding an element to  the arrayList at index 1
+    arrayList.add(1, "Saurav");
+    
+    System.out.println(arrayList); // [Gaurav, Saurav, Shyam]
+  }
 }
 ```
 Output:
