@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "ArrayList contains() method in Java"
 author: gaurav
@@ -10,11 +10,11 @@ In this article, we will see the `contains()` method of [ArrayList class in Java
 
 ## Introduction
 
-[ArrayList](https://coderolls.com/arraylist-in-java/)  is an ordered collection and it allows duplicate elements. It is widely used to store and retrieve the data.
+[ArrayList](https://coderolls.com/arraylist-in-java/)  is an ordered collection and it allows duplicate elements. It is widely used to store and retrieve data.
 
 We have seen a few methods of the ArrayList class before like [`add()`](https://coderolls.com/add-element-in-arraylist/), [`addAll()`](http://https://coderolls.com/arraylist-addall-method-in-java/), [`remove()`](https://coderolls.com/remove-element-from-arraylist/), [`set()`](https://coderolls.com/change-element-in-arraylist/), [`iterate()`](http://coderolls.com/iterating-the-arraylist-in-java/) and [`clear()`](http://coderolls.com/arraylist-clear-method-in-java/). Today we will see the `contains()` method.
 
-If we need to check if any element present in the list or not, we can use the `contains()` method from the ArrayList class in java.
+If we need to check if any element is present in the list or not, we can use the `contains()` method from the ArrayList class in Java.
 
 ## ArrayList `contains()` method
 
@@ -31,13 +31,13 @@ This method accepts a single parameter of type `Object`
 
 This method has a return type as a `boolean`. It returns `true` if the list contains the specified element. Otherwise, it returns `false`.
 
-I have given a java program to check if the list contains the specified element using the ArrayList `contains()` method.
+I have given a Java program to check if the list contains the specified element using the ArrayList `contains()` method.
 
 ```java
 import java.util.ArrayList;
 import java.util.List;
 /**
- * A java program to check if the ArrayList 
+ * A Java program to check if the ArrayList 
  * contains the specified element.
  * 
  * @author Gaurav Kukade a coderolls.com
@@ -45,26 +45,26 @@ import java.util.List;
  */
 public class ArrayListContainsMethodExample {
 
-	public static void main(String[] args) {
-		
-		//create an empty arraylist object 'states'
-		List<String> states = new ArrayList<String>();
-		
-		//add state in the arraylist 
-		states.add("California");
-		states.add("Texas");
-		states.add("Florida");
-		states.add("New Jersey");
-		states.add("Washington");
-		
-		//check if states contains florida
-		boolean isPresent1 = states.contains("Florida");
-		System.out.println("Is Florida present in the list: "+ isPresent1);
-		
-		//check if states contains alaska
-		boolean isPresent2 =states.contains("Alaska");
-		System.out.println("\nIs Alaska present in the list: "+ isPresent2);
-	}
+  public static void main(String[] args) {
+  
+    //create an empty ArrayList object 'states'
+    List<String> states = new ArrayList<String>();
+    
+    //add state in the ArrayList 
+    states.add("California");
+    states.add("Texas");
+    states.add("Florida");
+    states.add("New Jersey");
+    states.add("Washington");
+    
+    //check if states contain Florida
+    boolean isPresent1 = states.contains("Florida");
+    System.out.println("Is Florida present in the list: "+ isPresent1);
+    
+    //check if states contain Alaska
+    boolean isPresent2 =states.contains("Alaska");
+    System.out.println("\nIs Alaska present in the list: "+ isPresent2);
+  }
 }
 ```
 Output:
@@ -78,7 +78,7 @@ Is Alaska present in the list: false
 2. I have added a few String objects in the `states`.
 3. I have checked if the list `states` contains the `Florida` string object using the `contains()` method. Since `Florida` is present in the `states` list, it returns `true`.
 4. I have captured the return value for the first `contains()` method in the `isPresent1` boolean variable. When we print the `isPresent1`, it has a value `true`.
-5. Next time, I have checked if the `states` list contains the `Alaska` using the `contains()` method. Since `Alaska` is not present in the `states` list, it returns `false`
+5. Next time, I checked if the `states` list contains the `Alaska` using the `contains()` method. Since `Alaska` is not present in the `states` list, it returns `false`
 6.  I have captured the return value for the second `contains()` method in the `isPresent2` boolean variable. When we print the `isPresent2`, it has a value `false`. 
 
 
@@ -90,6 +90,6 @@ This method returns `true` if the specified element is present in the list. Othe
 
 ---
 
-The example java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-contains-method).
+The example Java program used in the above article can be found at [this GitHub repository](https://github.com/coderolls/blogpost-coding-examples/tree/main/collections/arraylist/arraylist-contains-method).
 
 If you know anything other than this, kindly write in the comment section below.
