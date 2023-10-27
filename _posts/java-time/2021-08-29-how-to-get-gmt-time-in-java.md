@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "How To Get GMT Time In Java?"
 author: gaurav
@@ -28,34 +28,29 @@ import java.util.Date;
  *
  */
 public class GMTTimeExample {
-
-	public static void main(String[] args) {
-		
-		Date date = new Date();
-		String gmtTime = getGMTTime(date);
-		System.out.println("Print time in GMT: "+gmtTime);
-
-	}
+  public static void main(String[] args) {
+    Date date = new Date();
+    String gmtTime = getGMTTime(date);
+    System.out.println("Print time in GMT: "+gmtTime);
+  }
 	
 	/**
-	 * A method to return GMT time string
+	 * A method to return the GMT time string
 	 * @param date
 	 * @return
 	 */
-	public static String getGMTTime(Date date) {
-		
-		DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss O");
-		Instant instant = date.toInstant();
-		ZonedDateTime zonedDateTime = instant.atZone(ZoneOffset.UTC);
-		return customFormatter.format(zonedDateTime);
-		
-	}
+  public static String getGMTTime(Date date) {
+    DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss O");
+    Instant instant = date.toInstant();
+    ZonedDateTime zonedDateTime = instant.atZone(ZoneOffset.UTC);
+    return customFormatter.format(zonedDateTime);
+  }
 }
 ```
 
 In the above program, we have used the <a target="_blank" href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html">DateTimeFormatter</a>. You can check its various patterns in the <a target="_blank" href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html">documentation</a>.
 
-If you are looking to get the current timestamp in java, you can visit this article <a target="_blank" href="https://coderolls.com/how-to-get-current-timestamps-in-java/">How To Get Current Timestamp In Java?</a>.
+If you are looking to get the current timestamp in Java, you can visit this article <a target="_blank" href="https://coderolls.com/how-to-get-current-timestamps-in-java/">How To Get Current Timestamp In Java?</a>.
 
 You can check my YouTube channel [here](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w).
 
