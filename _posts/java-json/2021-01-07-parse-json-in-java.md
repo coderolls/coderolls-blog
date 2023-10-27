@@ -1,14 +1,14 @@
-﻿---
+---
 layout: post
 title: "How To Parse JSON In Java?"
 author: gaurav
 image: assets/images/2021-01-07/parse-json-in-java.png
 categories: [JSON, Java]
 toc: true
-description: "In this article we will see, how to parse JSON in java. We will be using the JSON Libraries like JSON-java, GSON and json simple"
+description: "In this article, we will see, how to parse JSON in Java. We will be using JSON Libraries like JSON-java, GSON and JSON simple"
 featured: true
 ---
-In this article we will see, how to parse JSON in java. We will be using the JSON Libraries like JSON-java, GSON and json-simple
+In this article, we will see, how to parse JSON in Java. We will be using the JSON Libraries like JSON-java, GSON and json-simple
 
 **JSON** stands for JavaScript Object Notation. It is easy to use and lightweight open standard file format for storing and transporting data.
 
@@ -42,25 +42,25 @@ Example JSON:
   ]
 }
 ```
-In the above JSON, `name` is key and `coderolls` is it's value. For `address` key, value is another JSON object which contains key and values.
+In the above JSON, `name` is the key and `coderolls` is its value. For the `address` key, the value is another JSON object which contains the key and values.
 
-For `employees` key, it's value is array of JSON objects.
+For the `employees` key, its value is an array of JSON objects.
 
-Today we will see three json libraries in java to parse a JSON string. These are listed below,
+Today we will see three JSON libraries in Java to parse a JSON string. These are listed below,
 
 1. JSON-Java
 2. GSON
 4. json-simple
 
-Now we will see one by one example of all three libraries  for parsing a JSON in java.
+Now we will see one by one examples of all three libraries  for parsing a JSON in Java.
 
 ## How to parse JOSN in Java using JSON-Java
 
-JSON-java is one of the most simple JSON library for Java.
+JSON-java is one of the most simple JSON libraries for Java.
 
 Here, we will be using the `JSONObject` class of the JSON-java library.
 
-`JSONObject` [has a constructor which accepts string](https://stleary.github.io/JSON-java/index.html). We will be using ths constructor to parse a JSON string.
+`JSONObject` [has a constructor which accepts string](https://stleary.github.io/JSON-java/index.html). We will be using this constructor to parse a JSON string.
 
 ```
 public JSONObject(String source) throws JSONException
@@ -100,7 +100,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
- * A program to parse JSON strin in Java using JSON-Java
+ * A program to parse JSON string in Java using JSON-Java
  * @author Gaurav Kukade at coderolls.com
  */
 
@@ -132,7 +132,7 @@ public class ParseJSONUsingJSONJava {
 				+ "  ]"
 				+ "}";
 		
-		System.out.println("Parsing the json string in java using JSON-Java......\n");
+		System.out.println("Parsing the JSON string in Java using JSON-Java......\n");
 
 		//add jsonString to the constructor
 		JSONObject coderollsJSONObject = new JSONObject(jsonString);
@@ -149,11 +149,11 @@ public class ParseJSONUsingJSONJava {
 		System.out.println("Street: "+street+"\n");
 		
 		
-		//we can get the json array present as value of any key in the parent JSON
+		//we can get the JSON array present as the value of any key in the parent JSON
 		JSONArray employeesJSONArray = coderollsJSONObject.getJSONArray("employees");
-		System.out.println("Printing the employess json array: \n"+employeesJSONArray.toString()+"\n");
+		System.out.println("Printing the employees JSON array: \n"+employeesJSONArray.toString()+"\n");
 		
-		//we can get individual json object at an index from the employeesJSONArray
+		//we can get individual JSON objects at an index from the employeesJSONArray
 		JSONObject employeeJSONObject = employeesJSONArray.getJSONObject(0);
 		String firstName = employeeJSONObject.getString("firstName");
 		System.out.println("First Name of the employee at index 0: "+firstName);
@@ -165,13 +165,13 @@ Get the code for [ParseJSONUsingJSON.Java](https://github.com/coderolls/blogpost
 
 Output:
 ```java
-Parsing the json string in java using JSON-Java......
+Parsing the JSON string in Java using JSON-Java......
 
 Name: coderolls
 
 Street: 1600 Pennsylvania Avenue NW
 
-Printing the employess json array: 
+Printing the employee's JSON array: 
 [{"firstName":"John","lastName":"Doe"},{"firstName":"Anna","lastName":"Smith"},{"firstName":"Peter","lastName":"Jones"}]
 
 First Name of the employee at index 0: John
@@ -184,7 +184,7 @@ So we can use it to convert a JSON string to an equivalent Java object.
 
 Here, we will be using the `JsonObject` class of the Gson library.
 
-You can refer the [docs of JsonObject](https://www.javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/com/google/gson/JsonObject.html).
+You can refer to the [docs of JsonObject](https://www.javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/com/google/gson/JsonObject.html).
 
 Maven: 
 ```
@@ -208,7 +208,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 /**
- * A program to parse JSON strin in Java using Gson
+ * A program to parse JSON string in Java using Gson
  * @author Gaurav Kukade at coderolls.com
  */
 
@@ -216,7 +216,7 @@ public class ParseJSONUsingGSON {
 
 	public static void main(String[] args) {
 
-		//take json as string
+		//Take JSON as a string
 		String jsonString = "{"
 				+ "  \"name\": \"coderolls\","
 				+ "  \"type\": \"blog\","
@@ -244,14 +244,14 @@ public class ParseJSONUsingGSON {
 
 		Gson gson = new Gson();
 		
-		//get json object from the json string
+		//get JSON object from the JSON string
 		JsonObject coderollsJsonObject = gson.fromJson(jsonString, JsonObject.class);
 		
 		//now we can access the values 
 		String name = coderollsJsonObject.get("name").getAsString();
 		System.out.println("Name: "+name+"\n");
 		
-		//we can get the JSON object present as value of any key in the parent JSON
+		//we can get the JSON object present as the value of any key in the parent JSON
 		JsonObject addressJsonObject = coderollsJsonObject.get("address").getAsJsonObject();
 		
 		//access the values of the addressJSONObject 
@@ -259,11 +259,11 @@ public class ParseJSONUsingGSON {
 		System.out.println("Street: "+street+"\n");
 		
 		
-		//we can get the json array present as value of any key in the parent JSON
+		//we can get the JSON array present as the value of any key in the parent JSON
 		JsonArray employeesJsonArray = coderollsJsonObject.get("employees").getAsJsonArray();
 		System.out.println("Printing the employess json array: \n"+employeesJsonArray.toString()+"\n");
 		
-		//we can get individual json object at an index from the employeesJSONArray
+		//we can get individual JSON object at an index from the employeesJSONArray
 		JsonObject employeeJsonObject = employeesJsonArray.get(0).getAsJsonObject();
 		String firstName = employeeJsonObject.get("firstName").getAsString();
 		System.out.println("First Name of the employee at index 0: "+firstName);
@@ -317,14 +317,14 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 /**
- * A program to parse JSON strin in Java using json-simple
+ * A program to parse JSON string in Java using json-simple
  * @author Gaurav Kukade at coderolls.com
  */
 
 public class ParseJSONUsingJsonSimple {
 
 	public static void main(String[] args) {
-		//take json as string
+		//Take JSON as string
 		String jsonString = "{"
 						+ "  \"name\": \"coderolls\","
 						+ "  \"type\": \"blog\","
@@ -363,7 +363,7 @@ public class ParseJSONUsingJsonSimple {
 		String name = (String) coderollsJSONObject.get("name");
 		System.out.println("Name: "+name+"\n");
 		
-		//we can get the JSON object present as value of any key in the parent JSON
+		//we can get the JSON object present as the value of any key in the parent JSON
 		JSONObject addressJSONObject = (JSONObject) coderollsJSONObject.get("address");
 		
 		//access the values of the addressJSONObject 
@@ -371,11 +371,11 @@ public class ParseJSONUsingJsonSimple {
 		System.out.println("Street: "+street+"\n");
 		
 		
-		//we can get the json array present as value of any key in the parent JSON
+		//we can get the JSON array present as the value of any key in the parent JSON
 		JSONArray employeesJSONArray = (JSONArray) coderollsJSONObject.get("employees");
 		System.out.println("Printing the employess json array: \n"+employeesJSONArray.toString()+"\n");
 		
-		//we can get individual json object at an index from the employeesJSONArray
+		//we can get individual JSON objects at an index from the employeesJSONArray
 		JSONObject employeeJSONObject = (JSONObject) employeesJSONArray.get(0);
 		String firstName = (String) employeeJSONObject.get("firstName");
 		System.out.println("First Name of the employee at index 0: "+firstName);
@@ -401,7 +401,7 @@ First Name of the employee at index 0: John
 
 ## Conclusion
 
-All three libraries allow you create a JSON object from the json string but I found the JSON-Java is easy to use.
+All three libraries allow you to create a JSON object from the JSON string but I found the JSON-Java is easy to use.
 
 You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w?view_as=subscriber?sub_confirmation=1) to find more video tutorials.
 
