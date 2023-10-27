@@ -37,17 +37,16 @@ I have given a simple example below that shows how to convert double to int usin
  **/
 public class DoubleToIntUsingTypecasting{
 
-     public static void main(String []args){
-        
-        double doubleValue = 82.14; // 82.14
-        
-        System.out.println("doubleValue: "+doubleValue);
-        
-        //typecase double to int
-        int intValue = (int) doubleValue; // 82
-        
-        System.out.println("intValue: "+intValue);
-     }
+  public static void main(String []args){
+    double doubleValue = 82.14; // 82.14
+    
+    System.out.println("doubleValue: "+doubleValue);
+    
+    //typecase double to int
+    int intValue = (int) doubleValue; // 82
+    
+    System.out.println("intValue: "+intValue);
+  }
 }
 ```
 Output:
@@ -76,36 +75,34 @@ I have given a simple Java program below that shows how to convert double to int
 /** 
  * A Java program to convert double to int using 
  * Math.round() method 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  **/
 public class DoubleToIntUsingRoundMethod{
 
-     public static void main(String []args){
-        
-        // case 1
-        double doubleValue = 82.14; // 82.14
-        
-        System.out.println("doubleValue: "+doubleValue);
-        
-        //typecase double to int
-        int intValue = (int) Math.round(doubleValue); // 82
-        
-        System.out.println("intValue: "+intValue);
-        
-        System.out.println();
-        
-        // case 2
-        double nextDoubleValue = 82.99; // 
-
-        
-        System.out.println("nextDoubleValue: "+nextDoubleValue);
-        
-        // Math.round(nextDoubleValue) returns long value
-        //typecase long to int
-        int nextIntValue = (int) Math.round(nextDoubleValue); // 83
-        
-        System.out.println("nextIntValue: "+nextIntValue);              
-     }
+  public static void main(String []args){
+    // case 1
+    double doubleValue = 82.14; // 82.14
+    
+    System.out.println("doubleValue: "+doubleValue);
+    
+    //typecase double to int
+    int intValue = (int) Math.round(doubleValue); // 82
+    
+    System.out.println("intValue: "+intValue);
+    
+    System.out.println();
+    
+    // case 2
+    double nextDoubleValue = 82.99; // 
+    
+    System.out.println("nextDoubleValue: "+nextDoubleValue);
+    
+    // Math.round(nextDoubleValue) returns long value
+    //typecase long to int
+    int nextIntValue = (int) Math.round(nextDoubleValue); // 83
+    
+    System.out.println("nextIntValue: "+nextIntValue);              
+  }
 }
 ```
 Output:
@@ -129,28 +126,27 @@ I have given a simple java program below that shows how to convert double to int
 ```java
 /**
  * 
- * A java program to convert double to int using 
+ * A Java program to convert double to int using 
  * Double.intValue() method  
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  * 
  **/
 public class DoubleToIntUsingIntValueMethod{
 
-     public static void main(String []args){
-
-        double doubleValue = 82.14; // 82.14
-        
-        System.out.println("doubleValue: "+doubleValue);
-        
-        //create Double wrapper object
-        Double doubleValueObject = new Double(doubleValue);
-        
-        
-        //typecase double to int
-        int intValue = doubleValueObject.intValue(); // 82
-        
-        System.out.println("intValue: "+intValue);
-     }
+  public static void main(String []args){
+    double doubleValue = 82.14; // 82.14
+    
+    System.out.println("doubleValue: "+doubleValue);
+    
+    //create a Double wrapper object
+    Double doubleValueObject = new Double(doubleValue);
+    
+    
+    //typecase double to int
+    int intValue = doubleValueObject.intValue(); // 82
+    
+    System.out.println("intValue: "+intValue);
+  }
 }
 ```
 
@@ -165,7 +161,7 @@ We can convert double to int in java using the three ways given below.
 
 **1. convert double to int - using typecasting**
 
-In this method we **typecast the double value to int** as give below,
+In this method we **typecast the double value to int** as given below,
 ```java
 int intValue = (int) doubleValue;
 ```
