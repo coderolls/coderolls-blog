@@ -1,13 +1,13 @@
-﻿---  
+---  
 layout: post  
 title: "ArrayList removeRange() method in Java"  
 author: gaurav  
 categories: [Collections, ArrayList]
 toc: true  
-description: "In this article, we will see removeRange() method of ArrayList class in Java. This method is used to remove a range of elements from the ArrayList."  
+description: "In this article, we will see the removeRange() method of the ArrayList class in Java. This method is used to remove a range of elements from the ArrayList."  
 ---
 
-In this article, we will see `removeRange()` method of [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). ArrayList class in Java. This method is used to remove a range of elements from the ArrayList.
+In this article, we will see the `removeRange()` method of [ArrayList class in Java](https://coderolls.com/arraylist-in-java/). ArrayList class in Java. This method is used to remove a range of elements from the ArrayList.
   
 
 ## Introduction  
@@ -24,32 +24,32 @@ Today we will see the `removeRange()` method.
 
 ## ArrayList `removeRange(int fromIndex,int toIndex)` method  
   
-The `removeRange(int fromIndex, int toIndex)` method is **protected method** in ArrayList. A protected method is accessed in class, subclasses and in a package, but not public.
+The `removeRange(int fromIndex, int toIndex)` method is a **protected method** in ArrayList. A protected method is accessed in class, subclasses and in a package, but not public.
 
-The `removeRange(int fromIndex,int toIndex)` method is used **to remove the range of elements from the subclass of ArrayList**.  It remove all the elements from index  `fromIndex` , inclusive, to `toIndex` exclusive.
+The `removeRange(int fromIndex, int toIndex)` method is used **to remove the range of elements from the subclass of ArrayList**.  It removes all the elements from index  `fromIndex`, inclusive, to `toIndex` exclusive.
 
-The method signature is as given below.  
+The method signature is given below.  
 
 ```java  
 protected void removeRange(int fromIndex, int toIndex)  
 ```
-As shown in the above method signature, it accepts two parameter.
+As shown in the above method signature, it accepts two parameters.
 
-{:class="table table-bordered"}
+{:class=" table table-bordered"}
 |Parameter|Description|
 |:------------|:-------|
-|`fromIndex`|index of first element to be removed|
-|`toIndex`|index after last element to be removed|
+|`fromIndex`|index of the first element to be removed|
+|`toIndex`|index after the last element to be removed|
   
-The method has return type as a `void`. It means it does not return anything.
+The method has a return type as a `void`. It means it does not return anything.
 
-I have given an example java program to remove a range of elements from the subclass that extends ArrayList in Java using the `removeRange()` method.
+I have given an example Java program to remove a range of elements from the subclass that extends ArrayList in Java using the `removeRange()` method.
 
-Before starting the example, please remember **the parameter `fromIndex` is inclusive**. It means, the method will start removing the elements from `fromIndex`th element.
+Before starting the example, please remember that **the parameter `fromIndex` is inclusive**. It means the method will start removing the elements from the `fromIndex`th element.
 
-And **the parameter `toIndex` is exclusive**. It means, the method will remove elements till the `toIndex`index. It will not remove the element at `toIndex`th index.
+And **the parameter `toIndex` is exclusive**. It means the method will remove elements till the `toIndex` index. It will not remove the element at the `toIndex`th index.
 
-Let's see the java program for better understanding.
+Let's see the Java program for a better understanding.
 
 ```java
 package com.gaurav.ExProject.ArrayList;
@@ -58,7 +58,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A java program to remove the range of elements from 
+ * A Java program to remove the range of elements from 
  * the MyArraylist (a class which extends the ArrayList)
  * using the removeRange() method.
  * 
@@ -70,40 +70,40 @@ import java.util.List;
  */
 public class MyArrayList extends ArrayList<String> {
 
-	public static void main(String[] args) {
-		
-		MyArrayList myArrayList = new MyArrayList();
-        
-		myArrayList.add("Monday");
-		myArrayList.add("Tuesday");
-		myArrayList.add("Wednesday");
-		myArrayList.add("Thursday");
-		myArrayList.add("Friday");
-		myArrayList.add("Saturday");
-		myArrayList.add("Sunday");
-        
-        System.out.println("Arraylist before removing range of elments:\n"+ myArrayList);
+  public static void main(String[] args) {
   
-        myArrayList.removeRange(2, 4);
-        
-        System.out.println("\nArraylist after removing range of elments:\n"+ myArrayList); 
-	}
+    MyArrayList myArrayList = new MyArrayList();
+    
+    myArrayList.add("Monday");
+    myArrayList.add("Tuesday");
+    myArrayList.add("Wednesday");
+    myArrayList.add("Thursday");
+    myArrayList.add("Friday");
+    myArrayList.add("Saturday");
+    myArrayList.add("Sunday");
+    
+    System.out.println("ArrayList before removing a range of elements:\n"+ myArrayList);
+    
+    myArrayList.removeRange(2, 4);
+    
+    System.out.println("\nArrayList after removing a range of elements:\n"+ myArrayList); 
+  }
 }
 ```  
 
 Output:  
 
 ```
-Arraylist before removing range of elments:
+ArrayList before removing a range of elements:
 [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
 
-Arraylist after removing range of elments:
+Arraylist after removing a range of elements:
 [Monday, Tuesday, Friday, Saturday, Sunday]
 ```
   
 ## Conclusion  
 
-We can use the `removeRange(int fromIndex, int toIndex)` method **to remove the range of elements from the subclass of ArrayList.** This range will start from the element at index `fromIndex` to the element before `toIndex` index.
+We can use the `removeRange(int fromIndex, int toIndex)` method **to remove the range of elements from the subclass of ArrayList.** This range will start from the element at index `fromIndex` to the element before the `toIndex` index.
  
  **The parameter `fromIndex` is inclusive and `toIndex` is exclusive.**
 
