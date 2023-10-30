@@ -13,11 +13,11 @@ In this tutorial, we will see how to find the largest element in an array.
 
 We will take an array of integers `arr` and write a program to find the largest number from `arr`. Please note that `arr` is not a sorted array.  ex. `{2, 5, 9, 8, 11}`
 
-## Java Program to find largest element in an array
+## Java Program to find the largest element in an array
 
 ### 1. Using for loop iteration
 
-In this way, we are iterating over an array using for loop to find the largest number.
+In this way, we are iterating over an array using a for loop to find the largest number.
 
 ```java
 /**
@@ -28,47 +28,47 @@ In this way, we are iterating over an array using for loop to find the largest n
  *
  */
 public class LargestElementInArray {
-
-	public static void main(String[] args) {
-		int[] arr = {2, 5, 9, 8, 11};
-		
-		int largestElement = getLargest(arr);
-		System.out.println("Largest element in an array 'arr' is :"+ largestElement);
-	}
-
-	private static int getLargest(int[] arr) {
-		int n = arr.length;
-		int largest = arr[0];
-		
-		for(int i=0; i<n; i++) {
-			// if number at  index i is bigger than the current largest number,
-			// copy it to 'largest' int variable
-			if(arr[i]>arr[0]) {
-				largest = arr[i];
-			}
-		}
-		return largest;
-	}
+  
+  public static void main(String[] args) {
+    int[] arr = {2, 5, 9, 8, 11};
+    
+    int largestElement = getLargest(arr);
+    System.out.println("The largest element in an array 'arr' is: "+ largestElement);
+  }
+  
+  private static int getLargest(int[] arr) {
+    int n = arr.length;
+    int largest = arr[0];
+    
+    for(int i=0; i<n; i++) {
+      //If the number at  index i is bigger than the current largest number,
+      // copy it to 'largest' int variable
+      if(arr[i]>arr[0]) {
+        largest = arr[i];
+      }
+    }
+    return largest;
+  }
 }
 ```
 
 Output:
 
 ```
-Largest element in an array 'arr' is :11
+The largest element in an array 'arr' is: 11
 ```
 
 #### Explanation:
 
-1. In the main method, we have taken a sample array `arr = {2, 5, 9, 8, 11};` and passed it as a parameter to `getLargest()` method to return the largest number in an array `arr`.
-2. In `getLargest()` method we have stored the length of an array `aar` into int variable n using the `arr.length` method and also we have assigned the number at index `0` as the current largest number. So we have stored `arr[0]` to int variable `largest`. 
-3. In a for loop, we are iterating over the array arr and checking if there is a larger number at index `i` than the current largest number. ( We had assigned `arr[0]` as the current largest number to start with in step 2.) 
-4. If the number at index `i` is larger than the current largest number i.e `largest`, we will copy it to largest and continue iterating. OR if the number at index i is smaller or equal to the current largest number i.e `largest` we will ignore and continue iterating.
+1. In the main method, we have taken a sample array `arr = {2, 5, 9, 8, 11};` and passed it as a parameter to the `getLargest()` method to return the largest number in an array `arr`.
+2. In the `getLargest()` method we have stored the length of an array `aar` into int variable n using the `arr.length` method and also we have assigned the number at index `0` as the current largest number. So we have stored `arr[0]` to int variable `largest`. 
+3. In a for loop, we are iterating over the array arr and checking if there is a larger number at index `i` than the current largest number. ( We had assigned `arr[0]` as the current most significant number to start with in step 2.) 
+4. If the number at index `i` is larger than the current largest number i.e. `largest`, we will copy it to largest and continue iterating. OR if the number at index i is smaller or equal to the current largest number i.e `largest` we will ignore and continue iterating.
 5. At the last, we will return the largest, which has the largest number in an array.
 
 ### 2. Using `Arrays.sort()`
 
-As we know the array is not sorted, we can sort it using the `Arrays.sort()` method. So the last element of an array will be the largest element of an array.
+As the array is not sorted, we can sort it using the `Arrays.sort()` method. So the last element of an array will be the largest element of an array.
 
 ```java
 import java.util.Arrays;
@@ -84,31 +84,31 @@ import java.util.Arrays;
  */
 public class LargestElementInArrayUsingArrays {
 
-	public static void main(String[] args) {
-		int[] arr = {2, 5, 9, 8, 11};
-		
-		int largestElement = getLargest(arr);
-		System.out.println("Largest element in an array 'arr' "
-				+ "using Array.sort() is :"+ largestElement);
-	}
-
-	private static int getLargest(int[] arr) {
-		Arrays.sort(arr);
-		return arr[arr.length-1];
-	}
+  public static void main(String[] args) {
+    int[] arr = {2, 5, 9, 8, 11};
+    
+    int largestElement = getLargest(arr);
+    System.out.println("The largest element in an array 'arr' "
+    + "using Array.sort() is: "+ largestElement);
+  }
+  
+  private static int getLargest(int[] arr) {
+    Arrays.sort(arr);
+    return arr[arr.length-1];
+  }
 }
 ```
 
 Output:
 
 ```
-Largest element in an array 'arr' using Array.sort() is :11
+The largest element in an array 'arr' using Array.sort() is:11
 ```
 
 #### Explanation:
 
-1. In the main method, we have taken a sample array `arr = {2, 5, 9, 8, 11};` and passed it as a parameter to `getLargest()` method to return the largest number in an array `arr`.
-2. In `getLargest()` method, we have sorted an array `arr` in natural sorting order using the `Arrays.sort()` method.
+1. In the main method, we have taken a sample array `arr = {2, 5, 9, 8, 11};` and passed it as a parameter to the `getLargest()` method to return the largest number in an array `arr`.
+2. In the `getLargest()` method, we have sorted an array `arr` in natural sorting order using the `Arrays.sort()` method.
 3. Once we sort the array in natural sorting order, we will have the largest number at the end of the array. We can get the last number of an array as `arr[arr.length-1]` to return it.
 
 ### 3. Using Java 8 Streams API
@@ -128,31 +128,31 @@ import java.util.Arrays;
  */
 public class LargestElementInArrayUsingStream {
 
-	public static void main(String[] args) {
-		int[] arr = {2, 5, 9, 8, 11};
-		
-		int largestElement = getLargest(arr);
-		System.out.println("Largest element in an array 'arr'"
-				+ "using Java 8 Streams API is :"+ largestElement);
-	}
-
-	private static int getLargest(int[] arr) {
-		int largest = Arrays.stream(arr).max().getAsInt();
-		return largest;
-	}
+  public static void main(String[] args) {
+    int[] arr = {2, 5, 9, 8, 11};
+    
+    int largestElement = getLargest(arr);
+    System.out.println("The largest element in an array 'arr'"
+    + "using Java 8 Streams API is: "+ largestElement);
+  }
+  
+  private static int getLargest(int[] arr) {
+    int largest = Arrays.stream(arr).max().getAsInt();
+    return largest;
+  }
 }
 ```
 
 Output:
 
 ```
-Largest element in an array 'arr' using Java 8 Streams API is :11
+The largest element in an array 'arr' using Java 8 Streams API is: 11
 ```
 
 #### Explanation:
 
-1. In the main method, we have taken a sample array `arr = {2, 5, 9, 8, 11};` and passed it as a parameter to `getLargest()` method to return the largest number in an array `arr`.
-2. In `getLargest()` method, we have created a Stream of array `arr`. The `max()` returns the maximum element of this stream. We are using the `getAsInt()` method to get the result as `int` and store it in the int variable `largest`.
+1. In the main method, we have taken a sample array `arr = {2, 5, 9, 8, 11};` and passed it as a parameter to the `getLargest()` method to return the largest number in an array `arr`.
+2. In the `getLargest()` method, we have created a Stream of array `arr`. The `max()` returns the maximum element of this stream. We are using the `getAsInt()` method to get the result as `int` and store it in the int variable `largest`.
 3. Return the `largest`.
 
 ## Conclusion:
@@ -165,6 +165,6 @@ We have seen a few Java programs to find the largest element in an array.
 
 ---
 
-The example java programs used in the above article can be found at this GitHub repository, [blogpost-coding-examples/java-programs/largest-element-in-an-array/](https://github.com/coderolls/blogpost-coding-examples/tree/main/java-programs/largest-element-in-an-array).  
+The example Java programs used in the above article can be found at this GitHub repository, [blogpost-coding-examples/java-programs/largest-element-in-an-array/](https://github.com/coderolls/blogpost-coding-examples/tree/main/java-programs/largest-element-in-an-array).  
 
 Please write your thoughts in the comment section below.
