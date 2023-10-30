@@ -49,4 +49,3 @@ public class MultidimensionalArraysEquals {
 Comparing arr and arr2 multidimensional arrays: 
 The multidimensional arrays are equal
 ```
-
