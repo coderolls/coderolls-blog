@@ -4,14 +4,14 @@ title: "Java Program To Check If Two Strings are Anagram"
 author: gaurav  
 categories: [Java Programs, String]  
 toc: true
-description: "In this tutorial, we will see a Java program to check if two strings are anagram."
+description: "In this tutorial, we will see a Java program to check if two strings are anagrams."
 ---
 
-Here, we will see a Java program to check if two strings are anagram.
+Here, we will see a Java program to check if two strings are anagrams.
 
-If two Strings have same set of characters, then these are anagram Strings.
+If two Strings have the same set of characters, then these are anagram Strings.
 
-Let's see a java program to check two Strings are anagram.
+Let's see a Java program to check two Strings are anagrams.
 
 **Java Program**
 
@@ -19,7 +19,7 @@ Let's see a java program to check two Strings are anagram.
 import java.util.Arrays;
 
 /**
- * Java program to check if the two strings are anagram or not
+ * Java program to check if the two strings are anagrams or not
  * By coderolls.com
  */
 public class AnagramStrings {
@@ -39,7 +39,7 @@ public class AnagramStrings {
     }
 
     private static boolean isAnagram(String string1, String string2) {
-        //String with different length can't be anagram string
+        //String with different lengths can't be an anagram string
         if (string1.length() != string2.length()) {
             return false;
         }
@@ -52,8 +52,6 @@ public class AnagramStrings {
 
 }
 ```
-
-
 
 **Output**
 
