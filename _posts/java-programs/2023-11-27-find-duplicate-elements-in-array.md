@@ -18,11 +18,9 @@ We will find duplicate elements from an input array as follows:
 3. Using the HashSet method
 4. Using the Java 8 Streams method
 
-
-
 ## 1. Find duplicate elements in an array using the iterative method
 
-In this method we are iterating over an input array to compare each elements with the remaining input array. 
+In this method, we are iterating over an input array to compare each element with the remaining input array. 
 
 ```java
 private static void printDuplicatesByIterating(int[] arr) {
@@ -44,7 +42,7 @@ private static void printDuplicatesByIterating(int[] arr) {
 
 ## 2. Find duplicate elements in an array using the sorting method
 
-In this method we are sorting the first using the Arrays.sort() method.  And then, we are iterating over an array to check if the next adjacent element is duplicate or not.
+In this method, we are sorting the first using the Arrays.sort() method.  Then, we iterate over an array to check if the next adjacent element is a duplicate or not.
 
 ```java
 private static void printDuplicatesBySorting(int[] arr) {
@@ -68,7 +66,7 @@ private static void printDuplicatesBySorting(int[] arr) {
 
 In this method, we are adding the elements of the input array one by one into HashSet using the set.add() method. 
 
-The Set always contains the unique elements. The `set.add() `method returns `true` if the element is successfully added to the set, and `false` if the element already exist.
+The Set always contains unique elements. The `set.add() `method returns `true` if the element is successfully added to the set, and `false` if the element already exists.
 
 ```java
 private static void printDuplicatesByHashSet(int[] arr) {
