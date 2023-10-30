@@ -4,18 +4,17 @@ title: "Java Program To Calculate Sum Of All Digits Of A Number"
 author: gaurav  
 categories: [Java Programs, Core Java]  
 toc: true
-description: "In this tutorial, we will see a Java program to get sum of all digits of a number in java."
-
+description: "In this tutorial, we will see a Java program to get the sum of all digits of a number in Java."
 ---
 
 To calculate the sum of all digits of a number
 
-1. First, we will get a reminder of input number by modulo operator (%) and add it to the `sum` variable.
-2. Second, we will divide the input number by 10 and assign it again to a input number variable.
-3. We will repeat above process until the input number is not equal to zero.
-4. At the end we will have sum of all the digits of a number in `sum` variable.
+1. First, we will get a reminder of the input number by the modulo operator (%) and add it to the `sum` variable.
+2. Second, we will divide the input number by 10 and assign it again to an input number variable.
+3. We will repeat the above process until the input number is not equal to zero.
+4. At the end we will have the sum of all the digits of a number in the `sum` variable.
 
-Let's a java program to calculate sum of all digits of a number.
+Let's a Java program to calculate the sum of all digits of a number.
 
 **Java Program**
 
@@ -29,7 +28,7 @@ public class SumOfAllDigits {
     public static void main(String[] args) {
         int number = 1256;
         int sum = sumOfAllDigits(number);
-        System.out.println("Sum of all digits of " + number + " is: "+ sum);
+        System.out.println("The sum of all digits of " + number + " is: "+ sum);
     }
 
     private static int sumOfAllDigits(int number) {
@@ -47,6 +46,6 @@ public class SumOfAllDigits {
 **Output**
 
 ```
-Sum of all digits of 1256 is: 14
+The sum of all digits of 1256 is: 14
 ```
 
