@@ -14,13 +14,13 @@ In this tutorial, we will see how to remove all the leading and trailing whitesp
 We can remove all the leading and trailing spaces from the string in two ways,
 
 1. Using the regex expressions with `String.replaceAll()`
-2. Using the ready made `String.trim()` method
+2. Using the ready-made `String.trim()` method
 
 ### 1. Using the regex expressions with `String.replaceAll()`
 
-We can use following regex expressions to remove leading and trailing whitespaces from the given input string.
+We can use the following regex expressions to remove leading and trailing whitespaces from the given input string.
 
-We are simply replacing all leading and trailing whitespaces with empty string.
+We are simply replacing all leading and trailing whitespaces with empty strings.
 
 `^\s+` - remove all leading whitespaces
 
@@ -30,8 +30,8 @@ We are simply replacing all leading and trailing whitespaces with empty string.
 
 ```java
 /**
- * A java program to remove all the leading and trailing
- * whitespaces from the given string using String.replaceAll() method.
+ * A Java program to remove all the leading and trailing
+ * whitespaces from the given string using the String.replaceAll() method.
  * By coderolls.com
  */
 public class RemoveLeadingAndTrailingWhitespaces {
@@ -49,7 +49,7 @@ public class RemoveLeadingAndTrailingWhitespaces {
         //to show leading and trailing spaces
         System.out.println("---" + exampleString + "---");
 
-        // removing all leading whitespace
+        //Removing all leading whitespace
         result = exampleString.replaceAll("^\\s+", "");
 
         // removing all trailing whitespace from stringWithoutLeadingOrTrailingSpaces
@@ -67,31 +67,27 @@ public class RemoveLeadingAndTrailingWhitespaces {
 ```
 (We are printing the example string in between the three hyphens to show leading and trailing spaces)
 
-The example String is as given below: 
+The example String is given below: 
 ---     Let's learn Java   ---
 
 The example String after removing the leading and trailing spaces is as given below: 
 ---Let's learn Java---
 ```
 
-
-
-
-
-### 2. Using the ready made `String.trim()` method
+### 2. Using the ready-made `String.trim()` method
 
 **We can remove all the leading (at the start of the sting ) and trailing (at the end of the string) using the `String.trim()` method.**
 
-It is a simple way as compare to 1st way.
+It is a simple way as compared to 1st way.
 
-Here are using the ready made method and we do not need to remember the regex expression for finding all the leading and trailing spaces.
+Here are using the ready-made method and we do not need to remember the regex expression to find all the leading and trailing spaces.
 
 **Java Program**
 
 ```java
 /**
- * A java program to remove all the leading and trailing
- * whitespaces from the given string using String.trim() method.
+ * A Java program to remove all the leading and trailing
+ * whitespaces from the given string using the String.trim() method.
  * By coderolls.com
  */
 public class TrimMethodExample {
@@ -128,11 +124,9 @@ The example String after removing the leading and trailing spaces is as given be
 ---Let's learn Java---
 ```
 
-
-
 ## Conclusion
 
-We can remove all the leading and trailing whitespaces from the given String as following.
+We can remove all the leading and trailing whitespaces from the given String as follows.
 
 1. replace all the leading and trailing whitespaces with an empty string
    ```java
@@ -140,7 +134,7 @@ We can remove all the leading and trailing whitespaces from the given String as 
    result = result.replaceAll("\\s+$", ""); // then removes trailing whitespaces
    ```
 
-2. Use the ready made `String.trim()` method.
+2. Use the ready-made `String.trim()` method.
    ```java
    String result  = exampleString.trim();
    ```
