@@ -12,24 +12,24 @@ In this tutorial, we will see a Java program to check if two arrays are equal or
 We have x ways to check if the two Arrays are equal or not.
 
 1. Iterating over an array
-2. Using `Arrays.equal()` method
+2. Using the `Arrays.equal()` method
 
 ## 1. Iterating over an array
 
-To check if the two array are equal or not, we can use following strategy.
+To check if the two arrays are equal or not, we can use the following strategy.
 
-If the length of the two array are not same, these arrays are not equal.
+If the lengths of the two arrays are not the same, these arrays are not equal.
 
-If the length is same, we can iterate over an array and check if the elements are equal at the same indices. If yes, these arrays are equal.
+If the length is the same, we can iterate over an array and check if the elements are equal at the same indices. If yes, these arrays are equal.
 
-Let's have a look at following java program for better understanding.
+Let's have a look at the following Java program for better understanding.
 
 **Java Program**
 
 ```java
 /**
  * Java program to check if the two arrays are equal or not
- * by iterating over array
+ * by iterating over an array
  * By coderolls.com
  */
 public class ArrayEqual {
@@ -89,7 +89,7 @@ The arrays are not equal
 
 ## 2. Using `Arrays.equals()` method
 
-To check if the two array are equal or not, we are using the ready made Arrays.equals() method.
+To check if the two arrays are equal or not, we are using the ready-made Arrays.equals() method.
 
 **Java Program**
 
@@ -122,7 +122,7 @@ public class ArrayEquals2 {
 **Output**
 
 ```
-Comparing arr and arr2 usig Arrays.equal() method: 
+Comparing arr and arr2 using Arrays.equal() method: 
 The arrays are equal
 ```
 
