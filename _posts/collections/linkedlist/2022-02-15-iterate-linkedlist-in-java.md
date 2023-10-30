@@ -39,7 +39,7 @@ import java.util.List;
  * A Java program to iterate over LinkedList
  * using the basic for loop.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class LinkedListForLoop {
@@ -103,7 +103,7 @@ import java.util.List;
  * A Java program to iterate over LinkedList
  * using the foreach loop.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class LinkedListForeachLoop {
@@ -152,7 +152,7 @@ I have given a Java program below to iterate over LinkedList using the while loo
  * A Java program to iterate over LinkedList
  * using the while loop.
  * 
- * @author Gaurav Kukade at coderolls.com
+ * @author coderolls.com
  *
  */
 public class LinkedListWhileLoop {
