@@ -13,7 +13,7 @@ In this tutorial, we will see how to get an element from the LinkedList. LinkedL
 
 The LinkedList class is present in the `java.util` package.
 
-[LinkedList](https:/coderolls.com/linkedlist-in-java/) internally uses a doubly linkedlist for storing the variables. That's why LinkedList is preferred when our frequent operation is insertion and deletion.
+[LinkedList](https:/coderolls.com/linkedlist-in-java/) internally uses a doubly Linkedlist for storing the variables. That's why LinkedList is preferred when our frequent operation is insertion and deletion.
 
 LinkedList class provides the following method to an element from the list.
 
@@ -126,8 +126,6 @@ LinkedList:
 
 The first element of the linkedList is: Adidas
 ```
-
-
 
 ## 3. `getLast()`
 
