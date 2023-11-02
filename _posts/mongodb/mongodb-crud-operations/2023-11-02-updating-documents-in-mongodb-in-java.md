@@ -9,7 +9,7 @@ description: "In this tutorial, we will see how to update a document in MongoDB 
 
 In this tutorial, we will see how to update a document in MongoDB in Java applications.
 
-To update a document in MongoDB collection, first we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](/connecting-to-mongodb-atlas-cluster-in-java-application)
+To update a document in the MongoDB collection, first, we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](/connecting-to-mongodb-atlas-cluster-in-java-application)
 
 ```java
 String connectionString = "mongodb+srv://user123:password123@cluster0.example.mongodb.net/?retryWrites=true&w=majority";
@@ -22,15 +22,15 @@ We can update a single or multiple documents in MongoDB Collections.
 
 Let's see how to update a single document in MongoDB.
 
-## Update a Single Document in MongoDB Collection
+## Update a Single Document in the MongoDB Collection
 
 We can use the `updateOne()` method to insert a single document.
 
-The `updateOne()` method accepts a filter that matches the document that we want to update, and an statement with the updates for the matching document.
+The `updateOne()` method accepts a filter that matches the document that we want to update, and a statement with the updates for the matching document.
 
-The `updateOne()` method only updates the only first document that matches the filter. And it returns `UpdateResult`.
+The `updateOne()` method only updates the first document that matches the filter. And it returns `UpdateResult`.
 
-**Java Code to Update a Single Document in a collection**
+**Java Code to Update a Single Document in a Collection**
 
 ```java
 MongoDatabase database = mongoClient.getDatabase("texas_school");
@@ -41,15 +41,15 @@ Bson updates  = Updates.combine(Updates.set("status","ready"),Updates.inc("due",
 UpdateResult updateResult = collection.updateOne(query, updates);
 ```
 
-The above code will update a single document `student` in `students` mongo collection that has `roll_number` as `202306NJ253`. The `status` will be updated to `ready` and the `due` will be decreased by amount `1200`.
+The above code will update a single document `student` in the `students` Mongo collection that has `roll_number` as `202306NJ253`. The `status` will be updated to `ready` and the `due` will be decreased by the amount of `1200`.
 
 ## Update Multiple Documents in MongoDB Collection
 
-We can use the `updateMany()` method to update multiple document.
+We can use the `updateMany()` method to update multiple documents.
 
-The `updateMany()` method accepts a filter that matches the documents that we want to update, and an statement with the updates for the matching document.
+The `updateMany()` method accepts a filter that matches the documents that we want to update, and a statement with the updates for the matching document.
 
-The `updateMany()` method updates all the documents that matches the filter. And it returns `UpdateResult`.
+The `updateMany()` method updates all the documents that match the filter. And it returns `UpdateResult`.
 
 **Java Code To Update Multiple Documents in Collection**
 
@@ -62,4 +62,4 @@ Bson updates  = Updates.combine(Updates.set("due",0));
 UpdateResult upResult = collection.updateMany(query, updates);
 ```
 
-The above code will update al the documents  `students` mongo collection that has `status` as `ready`. It will set `due` for all the matching documents to `0`.
+The above code will update all the documents of the `students` Mongo collection that have `status` as `ready`. It will set `due` for all the matching documents to `0`.

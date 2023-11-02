@@ -9,7 +9,7 @@ description: "In this tutorial, we will see how to find a document in MongoDB in
 
 In this tutorial, we will see how to find a document in MongoDB in Java applications.
 
-To insert a document in MongoDB collection, first we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](/connecting-to-mongodb-atlas-cluster-in-java-application)
+To insert a document in the MongoDB collection, first, we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](/connecting-to-mongodb-atlas-cluster-in-java-application)
 
 ```java
 String connectionString = "mongodb+srv://user123:password123@cluster0.example.mongodb.net/?retryWrites=true&w=majority";
@@ -18,17 +18,17 @@ MongoClient mongoClient = MongoClients.create(connectionString);
 
 The above `connectionString` is just an example, kindly get your valid connection String.
 
-We can find the documents in MongoDB collection using `find()` and `find().first()`methods.
+We can find the documents in MongoDB collection using `find()` and `find().first()` methods.
 
-Let's see how to find a documents in mongodb collection using the `find()` method first.
+Let's see how to find documents in the MongoDB collection using the `find()` method first.
 
-## Finding documents in mongodb collection using the `find()` method
+## Finding documents in MongoDB collection using the `find()` method
 
-The `find()` method accepts a query filter and returns documents that matches the filter.
+The `find()` method accepts a query filter and returns documents that match the filter.
 
-In the following code we will try to find all the students who has dues greater than 250 and status as checking.
+In the following code, we will try to find all the students who have dues greater than 250 and status as checking.
 
-**Java Code to Find Documents in a collection**
+**Java Code to Find Documents in a Collection**
 
 ```java
 MongoDatabase database = mongoClient.getDatabase("texas_school");
@@ -48,9 +48,9 @@ try(MongoCursor<Document> cursor = collection.find(
 
 The ``find().first()`` method accepts a query filter and returns the first document that matches the filter.
 
-In the following code we will try to find the first student who has dues greater than 250 and status as checking.
+In the following code, we will try to find the first student who has dues greater than 250 and status as checking.
 
-**Java Code to Find a Single Documents in a collection**
+**Java Code to Find Single Documents in a Collection**
 
 ```java
 MongoDatabase database = mongoClient.getDatabase("texas_school");
