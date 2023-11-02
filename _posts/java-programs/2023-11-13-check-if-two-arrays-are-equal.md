@@ -14,7 +14,7 @@ We have x ways to check if the two Arrays are equal or not.
 1. Iterating over an array
 2. Using the `Arrays.equal()` method
 
-## 1. Iterating over an array
+## 1. Java Program To Check Two Arrays Are Equal By Iterating over an Array
 
 To check if the two arrays are equal or not, we can use the following strategy.
 
@@ -87,7 +87,7 @@ The arrays are not equal
 
 
 
-## 2. Using `Arrays.equals()` method
+## 2. Java Program To Check Two Arrays Are Equal Using `Arrays.equals()` method
 
 To check if the two arrays are equal or not, we are using the ready-made Arrays.equals() method.
 
