@@ -3,7 +3,7 @@ layout: post
 title: "Java Program To Remove All Whitespaces From The Given String."  
 author: gaurav  
 categories: [String, Java Programs]  
-toc: true
+toc: false
 description: "In this tutorial, we will see how to remove all whitespaces from the given String."
 ---
 
