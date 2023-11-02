@@ -49,7 +49,7 @@ JDK contains the `javac` Java Compiler, debugging tools, JRE and JVM.
 
 Let's see the following diagram to understand the JDK vs JRE vs JVM
 
-![JDK vs JRE vs JVM](J:\code\repos\coderolls-blog\assets\images\2023-11-08\jdk-vs-jre-vs-jvm.png)
+![JDK vs JRE vs JVM](/assets/images/2023-11-08/jdk-vs-jre-vs-jvm.png)
 
 
 
