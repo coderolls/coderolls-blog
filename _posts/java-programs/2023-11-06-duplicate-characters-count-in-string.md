@@ -11,7 +11,7 @@ In this tutorial, we will see how to find duplicate characters and their count i
 
 We will be iterating over the string and then we will be using the HashMap to store characters and their count as a key and value pair.
 
-**Java Program**
+**Java Program To Find Duplicate Characters And Their Count Form The String**
 
 ```java
 import java.util.Map;
