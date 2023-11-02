@@ -8,7 +8,7 @@ toc: true
 description: "In this article, we will learn about Java's platform independence and how Java achieves it."
 ```
 
-In this article, we will learn about Java's platform independence and how Java achieves it.
+In this article, we will learn about [Java's platform](/java-introduction) independence and how Java achieves it.
 
 ## Introduction
 
@@ -18,7 +18,7 @@ But In practicality, there are some limitations to it. Some programming language
 
 But Java is an exception to it.
 
-> Java is a platform-independent programming language.
+> **Java is a platform-independent programming language.**
 >
 > Java achieves platform independence with the help of **bytecode** and **Java Virtual Machine**.
 
