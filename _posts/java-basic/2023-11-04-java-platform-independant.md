@@ -50,7 +50,7 @@ public class HelloWorld {
 }
 ```
 
-![An image showing How Java Achieves Platform Independance.](J:\code\repos\coderolls-blog\assets\images\2023-11-02\java-platform-independent.png)
+![An image showing How Java Achieves Platform Independance.](J:\code\repos\coderolls-blog\assets\images\2023-11-04\java-platform-independent.png)
 
 ## Conclusion
 1. Java Programming language is a platform independent. We can **Write Once Run Anywhere (WORA)**.
