@@ -8,7 +8,7 @@ description: "An index page for all ArrayList tutorials."
 hidden: true
 ---
 
-ArrayList is one of the mostly used collections in Java. Let's learn more about ArrayList using the series of tutorials listed below.
+ArrayList is one of the most used collections in Java. Let's learn more about ArrayList using the series of tutorials listed below.
 
 ## Introduction
 
