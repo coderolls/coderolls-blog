@@ -1,4 +1,4 @@
-﻿```
+---
 layout: post
 title:  "Java: The Platform-Independent Programming Language"
 author: gaurav
@@ -6,7 +6,7 @@ categories: [ Java, Core Java ]
 featured: false
 toc: true
 description: "In this article, we will learn about Java's platform independence and how Java achieves it."
-```
+---
 
 In this article, we will learn about [Java's platform](/java-introduction) independence and how Java achieves it.
 
