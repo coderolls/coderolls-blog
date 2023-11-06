@@ -8,7 +8,7 @@ description: "An index page for all LinkedList tutorials."
 hidden: true
 ---
 
-LinkedList is one of the mostly used collections in Java. Let's learn more about ArrayList using the series of tutorials listed below.
+LinkedList is one of the most used collections in Java. Let's learn more about ArrayList using the series of tutorials listed below.
 
 ## Introduction
 
