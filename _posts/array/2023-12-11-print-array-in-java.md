@@ -43,7 +43,7 @@ public class PrintArray {
 **Output**
 
 ```
-Elements of the array are as give below: 
+Elements of the array are given below: 
 1
 5
 6
@@ -61,7 +61,7 @@ Elements of the array are as give below:
 
 We have a ready-made method to print an array in Java.
 
-`Arrays.toString()` method expects an array to be printed as an input parameter and returns a string of array elements.
+The `Arrays.toString()` method expects an array to be printed as an input parameter and returns a string of array elements.
 
 Input param - array to be  print
 
@@ -132,7 +132,7 @@ Elements of the multi-dimensional array are given below:
 
 ## 4. Print an array using Java 8 Streams 
 
-In Java 8 Streams, we can use the `foreach()` method to print each element of an array.
+In Java 8 Streams, we can use the `forEach()` method to print each element of an array.
 
 **Java Program**
 
@@ -140,7 +140,7 @@ In Java 8 Streams, we can use the `foreach()` method to print each element of an
 import java.util.Arrays;
 
 /**
- * Java program to print an array using Java 8 Streams foreach method
+ * Java program to print an array using Java 8 Streams forEach() method
  * By coderolls.com
  */
 public class PrintArray4 {
@@ -148,7 +148,7 @@ public class PrintArray4 {
   public static void main(String[] args) {
     int[] arr = {1, 5, 8, 7, 2, 6, 9, 6};
     
-    System.out.println("Elements of the array are as given below: ");
+    System.out.println("Elements of the array are given below: ");
     Arrays.stream(arr).forEach(System.out::println);
   }
 }
@@ -157,7 +157,7 @@ public class PrintArray4 {
 **Output**
 
 ```
-Elements of the array are as given below: 
+Elements of the array are given below: 
 1
 5
 8
@@ -167,4 +167,3 @@ Elements of the array are as given below:
 9
 6
 ```
-
