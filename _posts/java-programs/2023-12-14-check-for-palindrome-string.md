@@ -13,7 +13,7 @@ In this tutorial, we will see a Java program to check if the given String is pal
 
 ```java
 /**
- * A java program to check if the gioven string is palindrome or not.
+ * A Java program to check if the given string is palindrome or not.
  * @author coderolls.com
  */
 public class PalindromeString {
@@ -43,4 +43,3 @@ Output
 ```
 The String 'racecar' is a Palindrome String.
 ```
-
