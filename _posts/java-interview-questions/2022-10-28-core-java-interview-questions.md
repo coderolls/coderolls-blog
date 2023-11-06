@@ -9,10 +9,7 @@ hidden: true
 ---
 
 - [Java OOPs Concepts](/java-oops-concepts/)
-
 - [Difference Between Abstract Class and Interface In Java](/difference-between-abstract-class-and-interface/)
-
 - [Method Overloading In Java](/method-overloading-in-java/)
-
 - [Method Overriding In Java](/method-overriding-in-java/)
 
