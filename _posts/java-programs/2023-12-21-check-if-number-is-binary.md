@@ -11,12 +11,12 @@ In this tutorial, we will see a Java program to check if the given number is bin
 
 We can check if the given number is binary or not by the following ways
 
-1. Checking if number contains `1` or `0` digit by the reminder and divide method
+1. Checking if the number contains a `1` or `0` digits by the reminder and divide method
 2. Convert the number to String
 
 ## 1. Java program to check if the given number is binary or not by checking if the number contains `1` or `0` digit by the reminder and divide method
 
-In the below program, we are getting each digits of the given input number one by one using the reminder method.
+In the below program, we are getting each digit of the given input number one by one using the reminder method.
 
 If the digit is any other than the `0` and `1`,  i.e. number is not Binary and it returns `false`. Otherwise, it will return `true`.
 
@@ -55,16 +55,16 @@ public class BinaryChecker {
 101110001 is a binary number.
 ```
 
-## 2.  Java program to check if the given number is binary or not by converting the number to String
+## 2.  Java program to check if the given number is binary or not by converting the number to a String
 
-In the below program we have used regex expression to check if the number has only `0` or `1` digits.
+In the below program, we have used the regex expression to check if the number has only `0` or `1` digits.
 
 We can do it as follows
 
 1. We are converting the given input number to a string
 
 2. Using the regex pattern matcher to check whether the number string i.e. `inputStr` contains only `0` or `1` digits.
-3. If we found any `0` or `1` in the number, the number is binary and it returns `true`, Otherwise it returns `false`
+3. If we find any `0` or `1` in the number, the number is binary and it returns `true`, Otherwise it returns `false`
 
 **Java Program**
 
