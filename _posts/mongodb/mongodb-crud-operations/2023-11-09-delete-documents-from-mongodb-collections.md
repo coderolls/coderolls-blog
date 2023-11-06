@@ -7,7 +7,7 @@ toc: true
 description: "In this tutorial, we will see how to delete documents in MongoDB in Java applications."
 ---
 
-We have seen how to [insert][/inserting-documents-in-mongodb-in-java], [find](/finding-document-in-mongodb-in-java) and [update](/updating-documents-in-mongodb-in-java) documents in mongodb collection. In this tutorial, we will see how to delete documents in MongoDB in Java applications.
+We have seen how to [insert](/inserting-documents-in-mongodb-in-java), [find](/finding-document-in-mongodb-in-java) and [update](/updating-documents-in-mongodb-in-java) documents in mongodb collection. In this tutorial, we will see how to delete documents in MongoDB in Java applications.
 
 To  delete a document in the MongoDB collection, first, we should have a MongoClient. Let's see how to create one. Or You can read more at [How to Connect to a MongoDB Atlas Cluster in a Java Application](/connecting-to-mongodb-atlas-cluster-in-java-application)
 
