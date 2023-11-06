@@ -42,7 +42,7 @@ private static void printDuplicatesByIterating(int[] arr) {
 
 ## 2. Find duplicate elements in an array using the sorting method
 
-In this method, we are sorting the first using the Arrays.sort() method.  Then, we iterate over an array to check if the next adjacent element is a duplicate or not.
+In this method, we are sorting the first using the `Arrays.sort()` method.  Then, we iterate over an array to check if the next adjacent element is a duplicate or not.
 
 ```java
 private static void printDuplicatesBySorting(int[] arr) {
@@ -207,4 +207,3 @@ Duplicate elements in array are :[1, 2, 6, 9]
 Finding duplicate elements using the Java 8 Streams method.
 Duplicate elements in array are :[1, 2, 6, 9]
 ```
-
