@@ -9,7 +9,7 @@ description: "In this tutorial, we will see a Java program to print the Fibonacc
 
 In this tutorial, we will see a Java program to print the Fibonacci series up to a given number of terms.
 
-## What is Fibonacci Series?
+## What is the Fibonacci Series?
 
 Fibonacci Series is the **sequence of numbers in which each number in the sequence is equal to the sum of two numbers before it**.
 
@@ -46,4 +46,3 @@ Output
 Fibonacci Series:
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
 ```
-
