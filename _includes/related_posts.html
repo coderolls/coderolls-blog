@@ -24,9 +24,7 @@
 
     {% if sameTagCount >= minCommonTags %}
       <li>
-      <div>
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5><!-- {{ commonTags }} -->
-      </div>
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p><!-- {{ commonTags }} -->
       </li>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}

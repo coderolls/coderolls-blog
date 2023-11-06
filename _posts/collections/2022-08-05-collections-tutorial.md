@@ -9,6 +9,5 @@ hidden: true
 ---
 
 - [ArrayList Tutorials](/arraylist-tutorials/)
-
 - [LinkedList Tutorials](/linkedlist-tutorials/)
 
