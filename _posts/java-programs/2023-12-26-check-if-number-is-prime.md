@@ -9,7 +9,7 @@ description: "In this tutorial, we will see a Java program to check if the given
 
 In this tutorial, we will see a Java program to check if the given number is prime or not.
 
-## What is Prime Number?
+## What is a Prime Number?
 
 A number that can be divided exactly only by itself and 1.
 
@@ -49,4 +49,3 @@ Output
 ```
 41 is a prime number.
 ```
-
