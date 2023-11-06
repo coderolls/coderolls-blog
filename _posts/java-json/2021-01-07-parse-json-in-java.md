@@ -405,7 +405,3 @@ First Name of the employee at index 0: John
 All three libraries allow you to create a JSON object from the JSON string but I found the JSON-Java is easy to use.
 
 You can visit my [YouTube channel 'coderolls'](https://www.youtube.com/channel/UCl31HHUdQbSHOQfc9L-wo3w?view_as=subscriber?sub_confirmation=1) to find more video tutorials.
-
---------------
-
-You can support me by [giving a cup of Coffee ☕](https://www.paypal.me/GauravKukade)
