@@ -4,7 +4,7 @@ title: "How To Reverse A String In Java (5 ways)"
 author: gaurav
 categories: [ Java, Core Java, String]
 description: "In this article, we will learn how to reverse strings in Java. I have write down 5 diffrent ways to reverse strings. Have a look!"
-featured: false
+featured: true
 toc: true
 ---
 

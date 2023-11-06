@@ -9,6 +9,8 @@ featured: true
 ---
 In this article, we will see, how to parse JSON in Java. We will be using the JSON Libraries like JSON-java, GSON and json-simple
 
+## Introduction
+
 **JSON** stands for JavaScript Object Notation. It is easy to use and lightweight open standard file format for storing and transporting data.
 
 As per the [json.org](https://www.json.org/json-en.html),
