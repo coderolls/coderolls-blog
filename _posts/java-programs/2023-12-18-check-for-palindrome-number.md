@@ -13,7 +13,7 @@ In this tutorial, we will see a Java program to check if the given Number is pal
 
 ```java
 /**
- * A java program to check if the given number is a palindrome or not.
+ * A Java program to check if the given number is a palindrome or not.
  * @author coderolls.com
  */
 public class PalindromeNumber {
@@ -47,4 +47,3 @@ Output
 ```
 The Number '125521' is a Palindrome Number.
 ```
-
