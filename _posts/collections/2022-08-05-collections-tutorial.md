@@ -8,7 +8,7 @@ description: "An index page for all collections tutorial."
 hidden: true
 ---
 
-### - [ArrayList Tutorials](/arraylist-tutorials/)
+- [ArrayList Tutorials](/arraylist-tutorials/)
 
-### - [LinkedList Tutorials](/linkedlist-tutorials/)
+- [LinkedList Tutorials](/linkedlist-tutorials/)
 
