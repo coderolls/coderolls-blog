@@ -2,7 +2,6 @@
 layout: post
 title: "How To Parse JSON In Java?"
 author: gaurav
-image: assets/images/2021-01-07/parse-json-in-java.png
 categories: [JSON, Java]
 toc: true
 description: "In this article, we will see, how to parse JSON in Java. We will be using JSON Libraries like JSON-java, GSON and JSON simple"
