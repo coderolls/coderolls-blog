@@ -3,7 +3,7 @@ layout: post
 title: "Java Program To Check If the given Number Is Palindrome or Not"  
 author: gaurav  
 categories: [Java Programs, Core Java]  
-toc: true
+toc: false
 description: "In this tutorial, we will see a Java program to check if the given Number is palindrome or not."
 ---
 
