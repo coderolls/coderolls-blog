@@ -8,7 +8,7 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 <h3>Who we are</h3>
-<p><a href="/">codeRolls</a> is a blog about Java and related technology. The blog is run by Gaurav Kukade, a Java Developer.</p>
+<p><a href="/">codeRolls</a> is a blog about Java and related technology.</p>
 
 <p>Our website address is: https://coderolls.com. and your are at our privacy page https://coderolls.com/privacy.</p>
 
