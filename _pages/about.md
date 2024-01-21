@@ -13,7 +13,7 @@ let's find out what is coderolls.</p>
 
 <p>coderolls is a blog about coding. Here I do write articles about Java programming language, Spring Framework, Hibernate, SQL, GIT, and many related technologies. </p>
 
-<p>At coderolls, I am trying to write easy-to-understand but in detail tutorials. I am writing few examples in the tutorials which elaborate the concept.</p>
+<p>At coderolls, I am trying to write easy-to-understand but in-detail tutorials. I am writing a few examples in the tutorials which elaborate on the concept.</p>
 
 <p>If you have any questions please feel free to reach us at hello@coderolls.com</p>
 
@@ -29,25 +29,6 @@ let's find out what is coderolls.</p>
 <div class="fb-like" data-href="https://www.facebook.com/coderolls" data-width="" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 
 <p></p>
-<p></p>
-<!--My artticles on the other platform-->
-
-<h4>My Articles on the other platform:</h4>
-
-<ul>
-	<li><a target="_blank" href="https://soshace.com/organize-your-java-code-using-packages/">Organize Your Java Code Using Packages</a>, Soshace</li>
-	<li><a target="_blank" href="https://soshace.com/understanding-the-git-workflow/">Understanding The GIT Workflow</a>, Soshace</li>
-	<li><a target="_blank" href="https://soshace.com/guide-to-control-flow-statements-in-java/">Guide to Control Flow Statements in Java</a>, Soshace</li>
-	<li><a target="_blank" href="https://soshace.com/top-20-java-string-interview-questions-and-answers/">Top 20 Java String Interview Questions And Answers</a>, Soshace</li>
-	<li><a target="_blank" href="https://soshace.com/top-12-string-programs-for-your-next-java-interview/">Top 12 String Programs For Your Next Java Interview</a>, Soshace</li>
-</ul>
-
-
-<h5>Questions or bug reports?</h5>
-
-<p>Get in touch with us at hello@coderolls.com</p>
-
-<p>Or, head over to our <a href="https://github.com/coderolls/coderolls.github.io">Github repository</a>!</p>
 
 </div>
 
