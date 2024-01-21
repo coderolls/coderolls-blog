@@ -8,7 +8,7 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hello 👋🏼 I am Gaurav, 
+<p>Hello 👋🏼, 
 let's find out what is coderolls.</p>
 
 <p>coderolls is a blog about coding. Here I do write articles about Java programming language, Spring Framework, Hibernate, SQL, GIT, and many related technologies. </p>
